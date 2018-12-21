@@ -1,4 +1,4 @@
-kod_server
+pomelo_game_server
 ==========
 
-kod server
+game server
