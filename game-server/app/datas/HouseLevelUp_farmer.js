@@ -1,0 +1,485 @@
+"use strict"
+
+var farmer = []
+module.exports = farmer
+
+farmer[1] = {
+	level:1,
+	wood:180,
+	stone:140,
+	iron:140,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:2,
+	citizen:10
+}
+farmer[2] = {
+	level:2,
+	wood:370,
+	stone:280,
+	iron:280,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:60,
+	citizen:16
+}
+farmer[3] = {
+	level:3,
+	wood:570,
+	stone:430,
+	iron:430,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:120,
+	citizen:22
+}
+farmer[4] = {
+	level:4,
+	wood:780,
+	stone:580,
+	iron:580,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:180,
+	citizen:32
+}
+farmer[5] = {
+	level:5,
+	wood:1090,
+	stone:820,
+	iron:820,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:240,
+	citizen:44
+}
+farmer[6] = {
+	level:6,
+	wood:1350,
+	stone:1010,
+	iron:1010,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:309,
+	citizen:58
+}
+farmer[7] = {
+	level:7,
+	wood:2330,
+	stone:1750,
+	iron:1750,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:362,
+	citizen:76
+}
+farmer[8] = {
+	level:8,
+	wood:4840,
+	stone:3630,
+	iron:3630,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:494,
+	citizen:94
+}
+farmer[9] = {
+	level:9,
+	wood:10800,
+	stone:8100,
+	iron:8100,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:758,
+	citizen:116
+}
+farmer[10] = {
+	level:10,
+	wood:16470,
+	stone:12350,
+	iron:12350,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:1022,
+	citizen:140
+}
+farmer[11] = {
+	level:11,
+	wood:22890,
+	stone:17170,
+	iron:17170,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:1550,
+	citizen:166
+}
+farmer[12] = {
+	level:12,
+	wood:29130,
+	stone:21850,
+	iron:21850,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:1946,
+	citizen:196
+}
+farmer[13] = {
+	level:13,
+	wood:38610,
+	stone:28960,
+	iron:28960,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:2368,
+	citizen:226
+}
+farmer[14] = {
+	level:14,
+	wood:78660,
+	stone:59000,
+	iron:59000,
+	blueprints:0,
+	tools:0,
+	tiles:0,
+	pulley:0,
+	buildTime:4665,
+	citizen:260
+}
+farmer[15] = {
+	level:15,
+	wood:103860,
+	stone:77900,
+	iron:77900,
+	blueprints:1,
+	tools:1,
+	tiles:1,
+	pulley:1,
+	buildTime:7120,
+	citizen:296
+}
+farmer[16] = {
+	level:16,
+	wood:132070,
+	stone:99050,
+	iron:99050,
+	blueprints:2,
+	tools:2,
+	tiles:2,
+	pulley:2,
+	buildTime:9734,
+	citizen:334
+}
+farmer[17] = {
+	level:17,
+	wood:172570,
+	stone:129430,
+	iron:129430,
+	blueprints:4,
+	tools:4,
+	tiles:4,
+	pulley:4,
+	buildTime:12506,
+	citizen:376
+}
+farmer[18] = {
+	level:18,
+	wood:191850,
+	stone:143890,
+	iron:143890,
+	blueprints:6,
+	tools:6,
+	tiles:6,
+	pulley:6,
+	buildTime:15436,
+	citizen:418
+}
+farmer[19] = {
+	level:19,
+	wood:221580,
+	stone:166190,
+	iron:166190,
+	blueprints:8,
+	tools:8,
+	tiles:8,
+	pulley:8,
+	buildTime:18525,
+	citizen:464
+}
+farmer[20] = {
+	level:20,
+	wood:248180,
+	stone:186130,
+	iron:186130,
+	blueprints:10,
+	tools:10,
+	tiles:10,
+	pulley:10,
+	buildTime:21772,
+	citizen:512
+}
+farmer[21] = {
+	level:21,
+	wood:329300,
+	stone:246980,
+	iron:246980,
+	blueprints:14,
+	tools:14,
+	tiles:14,
+	pulley:14,
+	buildTime:25178,
+	citizen:562
+}
+farmer[22] = {
+	level:22,
+	wood:340070,
+	stone:255060,
+	iron:255060,
+	blueprints:18,
+	tools:18,
+	tiles:18,
+	pulley:18,
+	buildTime:28742,
+	citizen:616
+}
+farmer[23] = {
+	level:23,
+	wood:369010,
+	stone:276760,
+	iron:276760,
+	blueprints:22,
+	tools:22,
+	tiles:22,
+	pulley:22,
+	buildTime:31942,
+	citizen:670
+}
+farmer[24] = {
+	level:24,
+	wood:391530,
+	stone:293650,
+	iron:293650,
+	blueprints:26,
+	tools:26,
+	tiles:26,
+	pulley:26,
+	buildTime:35205,
+	citizen:728
+}
+farmer[25] = {
+	level:25,
+	wood:602400,
+	stone:451800,
+	iron:451800,
+	blueprints:32,
+	tools:32,
+	tiles:32,
+	pulley:32,
+	buildTime:38325,
+	citizen:788
+}
+farmer[26] = {
+	level:26,
+	wood:628820,
+	stone:471610,
+	iron:471610,
+	blueprints:38,
+	tools:38,
+	tiles:38,
+	pulley:38,
+	buildTime:41477,
+	citizen:850
+}
+farmer[27] = {
+	level:27,
+	wood:683420,
+	stone:512560,
+	iron:512560,
+	blueprints:44,
+	tools:44,
+	tiles:44,
+	pulley:44,
+	buildTime:44661,
+	citizen:916
+}
+farmer[28] = {
+	level:28,
+	wood:728760,
+	stone:546570,
+	iron:546570,
+	blueprints:50,
+	tools:50,
+	tiles:50,
+	pulley:50,
+	buildTime:47877,
+	citizen:982
+}
+farmer[29] = {
+	level:29,
+	wood:1174980,
+	stone:881240,
+	iron:881240,
+	blueprints:64,
+	tools:64,
+	tiles:64,
+	pulley:64,
+	buildTime:54118,
+	citizen:1052
+}
+farmer[30] = {
+	level:30,
+	wood:1277350,
+	stone:958010,
+	iron:958010,
+	blueprints:78,
+	tools:78,
+	tiles:78,
+	pulley:78,
+	buildTime:60422,
+	citizen:1124
+}
+farmer[31] = {
+	level:31,
+	wood:1438730,
+	stone:1079050,
+	iron:1079050,
+	blueprints:92,
+	tools:92,
+	tiles:92,
+	pulley:92,
+	buildTime:66790,
+	citizen:1198
+}
+farmer[32] = {
+	level:32,
+	wood:1601340,
+	stone:1201010,
+	iron:1201010,
+	blueprints:106,
+	tools:106,
+	tiles:106,
+	pulley:106,
+	buildTime:73221,
+	citizen:1276
+}
+farmer[33] = {
+	level:33,
+	wood:2404930,
+	stone:1803700,
+	iron:1803700,
+	blueprints:134,
+	tools:134,
+	tiles:134,
+	pulley:134,
+	buildTime:79715,
+	citizen:1354
+}
+farmer[34] = {
+	level:34,
+	wood:2482990,
+	stone:1862250,
+	iron:1862250,
+	blueprints:162,
+	tools:162,
+	tiles:162,
+	pulley:162,
+	buildTime:86273,
+	citizen:1436
+}
+farmer[35] = {
+	level:35,
+	wood:2652570,
+	stone:1989430,
+	iron:1989430,
+	blueprints:190,
+	tools:190,
+	tiles:190,
+	pulley:190,
+	buildTime:92894,
+	citizen:1520
+}
+farmer[36] = {
+	level:36,
+	wood:2826970,
+	stone:2120230,
+	iron:2120230,
+	blueprints:218,
+	tools:218,
+	tiles:218,
+	pulley:218,
+	buildTime:99578,
+	citizen:1606
+}
+farmer[37] = {
+	level:37,
+	wood:4361830,
+	stone:3271370,
+	iron:3271370,
+	blueprints:264,
+	tools:264,
+	tiles:264,
+	pulley:264,
+	buildTime:106326,
+	citizen:1696
+}
+farmer[38] = {
+	level:38,
+	wood:4480440,
+	stone:3360330,
+	iron:3360330,
+	blueprints:310,
+	tools:310,
+	tiles:310,
+	pulley:310,
+	buildTime:113138,
+	citizen:1786
+}
+farmer[39] = {
+	level:39,
+	wood:4730680,
+	stone:3548010,
+	iron:3548010,
+	blueprints:356,
+	tools:356,
+	tiles:356,
+	pulley:356,
+	buildTime:120012,
+	citizen:1880
+}
+farmer[40] = {
+	level:40,
+	wood:5003640,
+	stone:3752730,
+	iron:3752730,
+	blueprints:402,
+	tools:402,
+	tiles:402,
+	pulley:402,
+	buildTime:126950,
+	citizen:2000
+}

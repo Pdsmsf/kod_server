@@ -1,0 +1,7805 @@
+"use strict"
+
+var militaryTech = []
+module.exports = militaryTech
+
+militaryTech[0] = {
+	id:0,
+	index:1,
+	name:"infantry_infantry",
+	level:2,
+	wood:575,
+	stone:575,
+	iron:575,
+	food:575,
+	coin:0,
+	gem:0,
+	exp:23
+}
+militaryTech[1] = {
+	id:1,
+	index:2,
+	name:"infantry_infantry",
+	level:4,
+	wood:1325,
+	stone:1325,
+	iron:1325,
+	food:1325,
+	coin:0,
+	gem:0,
+	exp:53
+}
+militaryTech[2] = {
+	id:2,
+	index:3,
+	name:"infantry_infantry",
+	level:6,
+	wood:2088,
+	stone:2088,
+	iron:2088,
+	food:2088,
+	coin:0,
+	gem:0,
+	exp:83
+}
+militaryTech[3] = {
+	id:3,
+	index:4,
+	name:"infantry_infantry",
+	level:8,
+	wood:2863,
+	stone:2863,
+	iron:2863,
+	food:2863,
+	coin:0,
+	gem:0,
+	exp:114
+}
+militaryTech[4] = {
+	id:4,
+	index:5,
+	name:"infantry_infantry",
+	level:10,
+	wood:3681,
+	stone:3681,
+	iron:3681,
+	food:3681,
+	coin:0,
+	gem:0,
+	exp:147
+}
+militaryTech[5] = {
+	id:5,
+	index:6,
+	name:"infantry_infantry",
+	level:12,
+	wood:4531,
+	stone:4531,
+	iron:4531,
+	food:4531,
+	coin:0,
+	gem:0,
+	exp:181
+}
+militaryTech[6] = {
+	id:6,
+	index:7,
+	name:"infantry_infantry",
+	level:14,
+	wood:5413,
+	stone:5413,
+	iron:5413,
+	food:5413,
+	coin:0,
+	gem:0,
+	exp:216
+}
+militaryTech[7] = {
+	id:7,
+	index:8,
+	name:"infantry_infantry",
+	level:16,
+	wood:6450,
+	stone:6450,
+	iron:6450,
+	food:6450,
+	coin:0,
+	gem:0,
+	exp:258
+}
+militaryTech[8] = {
+	id:8,
+	index:9,
+	name:"infantry_infantry",
+	level:18,
+	wood:7606,
+	stone:7606,
+	iron:7606,
+	food:7606,
+	coin:0,
+	gem:0,
+	exp:304
+}
+militaryTech[9] = {
+	id:9,
+	index:10,
+	name:"infantry_infantry",
+	level:20,
+	wood:8800,
+	stone:8800,
+	iron:8800,
+	food:8800,
+	coin:0,
+	gem:0,
+	exp:352
+}
+militaryTech[10] = {
+	id:10,
+	index:11,
+	name:"infantry_infantry",
+	level:22,
+	wood:10131,
+	stone:10131,
+	iron:10131,
+	food:10131,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[11] = {
+	id:11,
+	index:12,
+	name:"infantry_infantry",
+	level:24,
+	wood:12038,
+	stone:12038,
+	iron:12038,
+	food:12038,
+	coin:0,
+	gem:0,
+	exp:481
+}
+militaryTech[12] = {
+	id:12,
+	index:13,
+	name:"infantry_infantry",
+	level:26,
+	wood:14356,
+	stone:14356,
+	iron:14356,
+	food:14356,
+	coin:0,
+	gem:0,
+	exp:574
+}
+militaryTech[13] = {
+	id:13,
+	index:14,
+	name:"infantry_infantry",
+	level:28,
+	wood:16738,
+	stone:16738,
+	iron:16738,
+	food:16738,
+	coin:0,
+	gem:0,
+	exp:669
+}
+militaryTech[14] = {
+	id:14,
+	index:15,
+	name:"infantry_infantry",
+	level:30,
+	wood:19581,
+	stone:19581,
+	iron:19581,
+	food:19581,
+	coin:0,
+	gem:0,
+	exp:783
+}
+militaryTech[15] = {
+	id:15,
+	index:16,
+	name:"infantry_infantry",
+	level:32,
+	wood:24206,
+	stone:24206,
+	iron:24206,
+	food:24206,
+	coin:0,
+	gem:0,
+	exp:968
+}
+militaryTech[16] = {
+	id:16,
+	index:17,
+	name:"infantry_infantry",
+	level:34,
+	wood:30119,
+	stone:30119,
+	iron:30119,
+	food:30119,
+	coin:0,
+	gem:0,
+	exp:1204
+}
+militaryTech[17] = {
+	id:17,
+	index:18,
+	name:"infantry_infantry",
+	level:36,
+	wood:36119,
+	stone:36119,
+	iron:36119,
+	food:36119,
+	coin:0,
+	gem:0,
+	exp:1444
+}
+militaryTech[18] = {
+	id:18,
+	index:19,
+	name:"infantry_infantry",
+	level:38,
+	wood:43544,
+	stone:43544,
+	iron:43544,
+	food:43544,
+	coin:0,
+	gem:0,
+	exp:1741
+}
+militaryTech[19] = {
+	id:19,
+	index:20,
+	name:"infantry_infantry",
+	level:40,
+	wood:56144,
+	stone:56144,
+	iron:56144,
+	food:56144,
+	coin:0,
+	gem:0,
+	exp:2245
+}
+militaryTech[20] = {
+	id:20,
+	index:21,
+	name:"infantry_infantry",
+	level:42,
+	wood:72363,
+	stone:72363,
+	iron:72363,
+	food:72363,
+	coin:0,
+	gem:0,
+	exp:2894
+}
+militaryTech[21] = {
+	id:21,
+	index:22,
+	name:"infantry_infantry",
+	level:44,
+	wood:88888,
+	stone:88888,
+	iron:88888,
+	food:88888,
+	coin:0,
+	gem:0,
+	exp:3555
+}
+militaryTech[22] = {
+	id:22,
+	index:23,
+	name:"infantry_infantry",
+	level:46,
+	wood:109481,
+	stone:109481,
+	iron:109481,
+	food:109481,
+	coin:0,
+	gem:0,
+	exp:4379
+}
+militaryTech[23] = {
+	id:23,
+	index:24,
+	name:"infantry_infantry",
+	level:48,
+	wood:144000,
+	stone:144000,
+	iron:144000,
+	food:144000,
+	coin:0,
+	gem:0,
+	exp:5760
+}
+militaryTech[24] = {
+	id:24,
+	index:25,
+	name:"infantry_infantry",
+	level:50,
+	wood:188313,
+	stone:188313,
+	iron:188313,
+	food:188313,
+	coin:0,
+	gem:0,
+	exp:7532
+}
+militaryTech[25] = {
+	id:25,
+	index:26,
+	name:"infantry_infantry",
+	level:52,
+	wood:233631,
+	stone:233631,
+	iron:233631,
+	food:233631,
+	coin:0,
+	gem:0,
+	exp:9345
+}
+militaryTech[26] = {
+	id:26,
+	index:27,
+	name:"infantry_infantry",
+	level:54,
+	wood:290063,
+	stone:290063,
+	iron:290063,
+	food:290063,
+	coin:0,
+	gem:0,
+	exp:11602
+}
+militaryTech[27] = {
+	id:27,
+	index:28,
+	name:"infantry_infantry",
+	level:56,
+	wood:360250,
+	stone:360250,
+	iron:360250,
+	food:360250,
+	coin:0,
+	gem:0,
+	exp:14410
+}
+militaryTech[28] = {
+	id:28,
+	index:29,
+	name:"infantry_infantry",
+	level:58,
+	wood:447375,
+	stone:447375,
+	iron:447375,
+	food:447375,
+	coin:0,
+	gem:0,
+	exp:17895
+}
+militaryTech[29] = {
+	id:29,
+	index:30,
+	name:"infantry_infantry",
+	level:60,
+	wood:555500,
+	stone:555500,
+	iron:555500,
+	food:555500,
+	coin:0,
+	gem:0,
+	exp:22220
+}
+militaryTech[30] = {
+	id:30,
+	index:1,
+	name:"infantry_archer",
+	level:2,
+	wood:575,
+	stone:575,
+	iron:575,
+	food:575,
+	coin:0,
+	gem:0,
+	exp:23
+}
+militaryTech[31] = {
+	id:31,
+	index:2,
+	name:"infantry_archer",
+	level:4,
+	wood:1325,
+	stone:1325,
+	iron:1325,
+	food:1325,
+	coin:0,
+	gem:0,
+	exp:53
+}
+militaryTech[32] = {
+	id:32,
+	index:3,
+	name:"infantry_archer",
+	level:6,
+	wood:2088,
+	stone:2088,
+	iron:2088,
+	food:2088,
+	coin:0,
+	gem:0,
+	exp:83
+}
+militaryTech[33] = {
+	id:33,
+	index:4,
+	name:"infantry_archer",
+	level:8,
+	wood:2863,
+	stone:2863,
+	iron:2863,
+	food:2863,
+	coin:0,
+	gem:0,
+	exp:114
+}
+militaryTech[34] = {
+	id:34,
+	index:5,
+	name:"infantry_archer",
+	level:10,
+	wood:3681,
+	stone:3681,
+	iron:3681,
+	food:3681,
+	coin:0,
+	gem:0,
+	exp:147
+}
+militaryTech[35] = {
+	id:35,
+	index:6,
+	name:"infantry_archer",
+	level:12,
+	wood:4531,
+	stone:4531,
+	iron:4531,
+	food:4531,
+	coin:0,
+	gem:0,
+	exp:181
+}
+militaryTech[36] = {
+	id:36,
+	index:7,
+	name:"infantry_archer",
+	level:14,
+	wood:5413,
+	stone:5413,
+	iron:5413,
+	food:5413,
+	coin:0,
+	gem:0,
+	exp:216
+}
+militaryTech[37] = {
+	id:37,
+	index:8,
+	name:"infantry_archer",
+	level:16,
+	wood:6450,
+	stone:6450,
+	iron:6450,
+	food:6450,
+	coin:0,
+	gem:0,
+	exp:258
+}
+militaryTech[38] = {
+	id:38,
+	index:9,
+	name:"infantry_archer",
+	level:18,
+	wood:7606,
+	stone:7606,
+	iron:7606,
+	food:7606,
+	coin:0,
+	gem:0,
+	exp:304
+}
+militaryTech[39] = {
+	id:39,
+	index:10,
+	name:"infantry_archer",
+	level:20,
+	wood:8800,
+	stone:8800,
+	iron:8800,
+	food:8800,
+	coin:0,
+	gem:0,
+	exp:352
+}
+militaryTech[40] = {
+	id:40,
+	index:11,
+	name:"infantry_archer",
+	level:22,
+	wood:10131,
+	stone:10131,
+	iron:10131,
+	food:10131,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[41] = {
+	id:41,
+	index:12,
+	name:"infantry_archer",
+	level:24,
+	wood:12038,
+	stone:12038,
+	iron:12038,
+	food:12038,
+	coin:0,
+	gem:0,
+	exp:481
+}
+militaryTech[42] = {
+	id:42,
+	index:13,
+	name:"infantry_archer",
+	level:26,
+	wood:14356,
+	stone:14356,
+	iron:14356,
+	food:14356,
+	coin:0,
+	gem:0,
+	exp:574
+}
+militaryTech[43] = {
+	id:43,
+	index:14,
+	name:"infantry_archer",
+	level:28,
+	wood:16738,
+	stone:16738,
+	iron:16738,
+	food:16738,
+	coin:0,
+	gem:0,
+	exp:669
+}
+militaryTech[44] = {
+	id:44,
+	index:15,
+	name:"infantry_archer",
+	level:30,
+	wood:19581,
+	stone:19581,
+	iron:19581,
+	food:19581,
+	coin:0,
+	gem:0,
+	exp:783
+}
+militaryTech[45] = {
+	id:45,
+	index:16,
+	name:"infantry_archer",
+	level:32,
+	wood:24206,
+	stone:24206,
+	iron:24206,
+	food:24206,
+	coin:0,
+	gem:0,
+	exp:968
+}
+militaryTech[46] = {
+	id:46,
+	index:17,
+	name:"infantry_archer",
+	level:34,
+	wood:30119,
+	stone:30119,
+	iron:30119,
+	food:30119,
+	coin:0,
+	gem:0,
+	exp:1204
+}
+militaryTech[47] = {
+	id:47,
+	index:18,
+	name:"infantry_archer",
+	level:36,
+	wood:36119,
+	stone:36119,
+	iron:36119,
+	food:36119,
+	coin:0,
+	gem:0,
+	exp:1444
+}
+militaryTech[48] = {
+	id:48,
+	index:19,
+	name:"infantry_archer",
+	level:38,
+	wood:43544,
+	stone:43544,
+	iron:43544,
+	food:43544,
+	coin:0,
+	gem:0,
+	exp:1741
+}
+militaryTech[49] = {
+	id:49,
+	index:20,
+	name:"infantry_archer",
+	level:40,
+	wood:56144,
+	stone:56144,
+	iron:56144,
+	food:56144,
+	coin:0,
+	gem:0,
+	exp:2245
+}
+militaryTech[50] = {
+	id:50,
+	index:21,
+	name:"infantry_archer",
+	level:42,
+	wood:72363,
+	stone:72363,
+	iron:72363,
+	food:72363,
+	coin:0,
+	gem:0,
+	exp:2894
+}
+militaryTech[51] = {
+	id:51,
+	index:22,
+	name:"infantry_archer",
+	level:44,
+	wood:88888,
+	stone:88888,
+	iron:88888,
+	food:88888,
+	coin:0,
+	gem:0,
+	exp:3555
+}
+militaryTech[52] = {
+	id:52,
+	index:23,
+	name:"infantry_archer",
+	level:46,
+	wood:109481,
+	stone:109481,
+	iron:109481,
+	food:109481,
+	coin:0,
+	gem:0,
+	exp:4379
+}
+militaryTech[53] = {
+	id:53,
+	index:24,
+	name:"infantry_archer",
+	level:48,
+	wood:144000,
+	stone:144000,
+	iron:144000,
+	food:144000,
+	coin:0,
+	gem:0,
+	exp:5760
+}
+militaryTech[54] = {
+	id:54,
+	index:25,
+	name:"infantry_archer",
+	level:50,
+	wood:188313,
+	stone:188313,
+	iron:188313,
+	food:188313,
+	coin:0,
+	gem:0,
+	exp:7532
+}
+militaryTech[55] = {
+	id:55,
+	index:26,
+	name:"infantry_archer",
+	level:52,
+	wood:233631,
+	stone:233631,
+	iron:233631,
+	food:233631,
+	coin:0,
+	gem:0,
+	exp:9345
+}
+militaryTech[56] = {
+	id:56,
+	index:27,
+	name:"infantry_archer",
+	level:54,
+	wood:290063,
+	stone:290063,
+	iron:290063,
+	food:290063,
+	coin:0,
+	gem:0,
+	exp:11602
+}
+militaryTech[57] = {
+	id:57,
+	index:28,
+	name:"infantry_archer",
+	level:56,
+	wood:360250,
+	stone:360250,
+	iron:360250,
+	food:360250,
+	coin:0,
+	gem:0,
+	exp:14410
+}
+militaryTech[58] = {
+	id:58,
+	index:29,
+	name:"infantry_archer",
+	level:58,
+	wood:447375,
+	stone:447375,
+	iron:447375,
+	food:447375,
+	coin:0,
+	gem:0,
+	exp:17895
+}
+militaryTech[59] = {
+	id:59,
+	index:30,
+	name:"infantry_archer",
+	level:60,
+	wood:555500,
+	stone:555500,
+	iron:555500,
+	food:555500,
+	coin:0,
+	gem:0,
+	exp:22220
+}
+militaryTech[60] = {
+	id:60,
+	index:1,
+	name:"infantry_cavalry",
+	level:2,
+	wood:575,
+	stone:575,
+	iron:575,
+	food:575,
+	coin:0,
+	gem:0,
+	exp:23
+}
+militaryTech[61] = {
+	id:61,
+	index:2,
+	name:"infantry_cavalry",
+	level:4,
+	wood:1325,
+	stone:1325,
+	iron:1325,
+	food:1325,
+	coin:0,
+	gem:0,
+	exp:53
+}
+militaryTech[62] = {
+	id:62,
+	index:3,
+	name:"infantry_cavalry",
+	level:6,
+	wood:2088,
+	stone:2088,
+	iron:2088,
+	food:2088,
+	coin:0,
+	gem:0,
+	exp:83
+}
+militaryTech[63] = {
+	id:63,
+	index:4,
+	name:"infantry_cavalry",
+	level:8,
+	wood:2863,
+	stone:2863,
+	iron:2863,
+	food:2863,
+	coin:0,
+	gem:0,
+	exp:114
+}
+militaryTech[64] = {
+	id:64,
+	index:5,
+	name:"infantry_cavalry",
+	level:10,
+	wood:3681,
+	stone:3681,
+	iron:3681,
+	food:3681,
+	coin:0,
+	gem:0,
+	exp:147
+}
+militaryTech[65] = {
+	id:65,
+	index:6,
+	name:"infantry_cavalry",
+	level:12,
+	wood:4531,
+	stone:4531,
+	iron:4531,
+	food:4531,
+	coin:0,
+	gem:0,
+	exp:181
+}
+militaryTech[66] = {
+	id:66,
+	index:7,
+	name:"infantry_cavalry",
+	level:14,
+	wood:5413,
+	stone:5413,
+	iron:5413,
+	food:5413,
+	coin:0,
+	gem:0,
+	exp:216
+}
+militaryTech[67] = {
+	id:67,
+	index:8,
+	name:"infantry_cavalry",
+	level:16,
+	wood:6450,
+	stone:6450,
+	iron:6450,
+	food:6450,
+	coin:0,
+	gem:0,
+	exp:258
+}
+militaryTech[68] = {
+	id:68,
+	index:9,
+	name:"infantry_cavalry",
+	level:18,
+	wood:7606,
+	stone:7606,
+	iron:7606,
+	food:7606,
+	coin:0,
+	gem:0,
+	exp:304
+}
+militaryTech[69] = {
+	id:69,
+	index:10,
+	name:"infantry_cavalry",
+	level:20,
+	wood:8800,
+	stone:8800,
+	iron:8800,
+	food:8800,
+	coin:0,
+	gem:0,
+	exp:352
+}
+militaryTech[70] = {
+	id:70,
+	index:11,
+	name:"infantry_cavalry",
+	level:22,
+	wood:10131,
+	stone:10131,
+	iron:10131,
+	food:10131,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[71] = {
+	id:71,
+	index:12,
+	name:"infantry_cavalry",
+	level:24,
+	wood:12038,
+	stone:12038,
+	iron:12038,
+	food:12038,
+	coin:0,
+	gem:0,
+	exp:481
+}
+militaryTech[72] = {
+	id:72,
+	index:13,
+	name:"infantry_cavalry",
+	level:26,
+	wood:14356,
+	stone:14356,
+	iron:14356,
+	food:14356,
+	coin:0,
+	gem:0,
+	exp:574
+}
+militaryTech[73] = {
+	id:73,
+	index:14,
+	name:"infantry_cavalry",
+	level:28,
+	wood:16738,
+	stone:16738,
+	iron:16738,
+	food:16738,
+	coin:0,
+	gem:0,
+	exp:669
+}
+militaryTech[74] = {
+	id:74,
+	index:15,
+	name:"infantry_cavalry",
+	level:30,
+	wood:19581,
+	stone:19581,
+	iron:19581,
+	food:19581,
+	coin:0,
+	gem:0,
+	exp:783
+}
+militaryTech[75] = {
+	id:75,
+	index:16,
+	name:"infantry_cavalry",
+	level:32,
+	wood:24206,
+	stone:24206,
+	iron:24206,
+	food:24206,
+	coin:0,
+	gem:0,
+	exp:968
+}
+militaryTech[76] = {
+	id:76,
+	index:17,
+	name:"infantry_cavalry",
+	level:34,
+	wood:30119,
+	stone:30119,
+	iron:30119,
+	food:30119,
+	coin:0,
+	gem:0,
+	exp:1204
+}
+militaryTech[77] = {
+	id:77,
+	index:18,
+	name:"infantry_cavalry",
+	level:36,
+	wood:36119,
+	stone:36119,
+	iron:36119,
+	food:36119,
+	coin:0,
+	gem:0,
+	exp:1444
+}
+militaryTech[78] = {
+	id:78,
+	index:19,
+	name:"infantry_cavalry",
+	level:38,
+	wood:43544,
+	stone:43544,
+	iron:43544,
+	food:43544,
+	coin:0,
+	gem:0,
+	exp:1741
+}
+militaryTech[79] = {
+	id:79,
+	index:20,
+	name:"infantry_cavalry",
+	level:40,
+	wood:56144,
+	stone:56144,
+	iron:56144,
+	food:56144,
+	coin:0,
+	gem:0,
+	exp:2245
+}
+militaryTech[80] = {
+	id:80,
+	index:21,
+	name:"infantry_cavalry",
+	level:42,
+	wood:72363,
+	stone:72363,
+	iron:72363,
+	food:72363,
+	coin:0,
+	gem:0,
+	exp:2894
+}
+militaryTech[81] = {
+	id:81,
+	index:22,
+	name:"infantry_cavalry",
+	level:44,
+	wood:88888,
+	stone:88888,
+	iron:88888,
+	food:88888,
+	coin:0,
+	gem:0,
+	exp:3555
+}
+militaryTech[82] = {
+	id:82,
+	index:23,
+	name:"infantry_cavalry",
+	level:46,
+	wood:109481,
+	stone:109481,
+	iron:109481,
+	food:109481,
+	coin:0,
+	gem:0,
+	exp:4379
+}
+militaryTech[83] = {
+	id:83,
+	index:24,
+	name:"infantry_cavalry",
+	level:48,
+	wood:144000,
+	stone:144000,
+	iron:144000,
+	food:144000,
+	coin:0,
+	gem:0,
+	exp:5760
+}
+militaryTech[84] = {
+	id:84,
+	index:25,
+	name:"infantry_cavalry",
+	level:50,
+	wood:188313,
+	stone:188313,
+	iron:188313,
+	food:188313,
+	coin:0,
+	gem:0,
+	exp:7532
+}
+militaryTech[85] = {
+	id:85,
+	index:26,
+	name:"infantry_cavalry",
+	level:52,
+	wood:233631,
+	stone:233631,
+	iron:233631,
+	food:233631,
+	coin:0,
+	gem:0,
+	exp:9345
+}
+militaryTech[86] = {
+	id:86,
+	index:27,
+	name:"infantry_cavalry",
+	level:54,
+	wood:290063,
+	stone:290063,
+	iron:290063,
+	food:290063,
+	coin:0,
+	gem:0,
+	exp:11602
+}
+militaryTech[87] = {
+	id:87,
+	index:28,
+	name:"infantry_cavalry",
+	level:56,
+	wood:360250,
+	stone:360250,
+	iron:360250,
+	food:360250,
+	coin:0,
+	gem:0,
+	exp:14410
+}
+militaryTech[88] = {
+	id:88,
+	index:29,
+	name:"infantry_cavalry",
+	level:58,
+	wood:447375,
+	stone:447375,
+	iron:447375,
+	food:447375,
+	coin:0,
+	gem:0,
+	exp:17895
+}
+militaryTech[89] = {
+	id:89,
+	index:30,
+	name:"infantry_cavalry",
+	level:60,
+	wood:555500,
+	stone:555500,
+	iron:555500,
+	food:555500,
+	coin:0,
+	gem:0,
+	exp:22220
+}
+militaryTech[90] = {
+	id:90,
+	index:1,
+	name:"infantry_siege",
+	level:2,
+	wood:575,
+	stone:575,
+	iron:575,
+	food:575,
+	coin:0,
+	gem:0,
+	exp:23
+}
+militaryTech[91] = {
+	id:91,
+	index:2,
+	name:"infantry_siege",
+	level:4,
+	wood:1325,
+	stone:1325,
+	iron:1325,
+	food:1325,
+	coin:0,
+	gem:0,
+	exp:53
+}
+militaryTech[92] = {
+	id:92,
+	index:3,
+	name:"infantry_siege",
+	level:6,
+	wood:2088,
+	stone:2088,
+	iron:2088,
+	food:2088,
+	coin:0,
+	gem:0,
+	exp:83
+}
+militaryTech[93] = {
+	id:93,
+	index:4,
+	name:"infantry_siege",
+	level:8,
+	wood:2863,
+	stone:2863,
+	iron:2863,
+	food:2863,
+	coin:0,
+	gem:0,
+	exp:114
+}
+militaryTech[94] = {
+	id:94,
+	index:5,
+	name:"infantry_siege",
+	level:10,
+	wood:3681,
+	stone:3681,
+	iron:3681,
+	food:3681,
+	coin:0,
+	gem:0,
+	exp:147
+}
+militaryTech[95] = {
+	id:95,
+	index:6,
+	name:"infantry_siege",
+	level:12,
+	wood:4531,
+	stone:4531,
+	iron:4531,
+	food:4531,
+	coin:0,
+	gem:0,
+	exp:181
+}
+militaryTech[96] = {
+	id:96,
+	index:7,
+	name:"infantry_siege",
+	level:14,
+	wood:5413,
+	stone:5413,
+	iron:5413,
+	food:5413,
+	coin:0,
+	gem:0,
+	exp:216
+}
+militaryTech[97] = {
+	id:97,
+	index:8,
+	name:"infantry_siege",
+	level:16,
+	wood:6450,
+	stone:6450,
+	iron:6450,
+	food:6450,
+	coin:0,
+	gem:0,
+	exp:258
+}
+militaryTech[98] = {
+	id:98,
+	index:9,
+	name:"infantry_siege",
+	level:18,
+	wood:7606,
+	stone:7606,
+	iron:7606,
+	food:7606,
+	coin:0,
+	gem:0,
+	exp:304
+}
+militaryTech[99] = {
+	id:99,
+	index:10,
+	name:"infantry_siege",
+	level:20,
+	wood:8800,
+	stone:8800,
+	iron:8800,
+	food:8800,
+	coin:0,
+	gem:0,
+	exp:352
+}
+militaryTech[100] = {
+	id:100,
+	index:11,
+	name:"infantry_siege",
+	level:22,
+	wood:10131,
+	stone:10131,
+	iron:10131,
+	food:10131,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[101] = {
+	id:101,
+	index:12,
+	name:"infantry_siege",
+	level:24,
+	wood:12038,
+	stone:12038,
+	iron:12038,
+	food:12038,
+	coin:0,
+	gem:0,
+	exp:481
+}
+militaryTech[102] = {
+	id:102,
+	index:13,
+	name:"infantry_siege",
+	level:26,
+	wood:14356,
+	stone:14356,
+	iron:14356,
+	food:14356,
+	coin:0,
+	gem:0,
+	exp:574
+}
+militaryTech[103] = {
+	id:103,
+	index:14,
+	name:"infantry_siege",
+	level:28,
+	wood:16738,
+	stone:16738,
+	iron:16738,
+	food:16738,
+	coin:0,
+	gem:0,
+	exp:669
+}
+militaryTech[104] = {
+	id:104,
+	index:15,
+	name:"infantry_siege",
+	level:30,
+	wood:19581,
+	stone:19581,
+	iron:19581,
+	food:19581,
+	coin:0,
+	gem:0,
+	exp:783
+}
+militaryTech[105] = {
+	id:105,
+	index:16,
+	name:"infantry_siege",
+	level:32,
+	wood:24206,
+	stone:24206,
+	iron:24206,
+	food:24206,
+	coin:0,
+	gem:0,
+	exp:968
+}
+militaryTech[106] = {
+	id:106,
+	index:17,
+	name:"infantry_siege",
+	level:34,
+	wood:30119,
+	stone:30119,
+	iron:30119,
+	food:30119,
+	coin:0,
+	gem:0,
+	exp:1204
+}
+militaryTech[107] = {
+	id:107,
+	index:18,
+	name:"infantry_siege",
+	level:36,
+	wood:36119,
+	stone:36119,
+	iron:36119,
+	food:36119,
+	coin:0,
+	gem:0,
+	exp:1444
+}
+militaryTech[108] = {
+	id:108,
+	index:19,
+	name:"infantry_siege",
+	level:38,
+	wood:43544,
+	stone:43544,
+	iron:43544,
+	food:43544,
+	coin:0,
+	gem:0,
+	exp:1741
+}
+militaryTech[109] = {
+	id:109,
+	index:20,
+	name:"infantry_siege",
+	level:40,
+	wood:56144,
+	stone:56144,
+	iron:56144,
+	food:56144,
+	coin:0,
+	gem:0,
+	exp:2245
+}
+militaryTech[110] = {
+	id:110,
+	index:21,
+	name:"infantry_siege",
+	level:42,
+	wood:72363,
+	stone:72363,
+	iron:72363,
+	food:72363,
+	coin:0,
+	gem:0,
+	exp:2894
+}
+militaryTech[111] = {
+	id:111,
+	index:22,
+	name:"infantry_siege",
+	level:44,
+	wood:88888,
+	stone:88888,
+	iron:88888,
+	food:88888,
+	coin:0,
+	gem:0,
+	exp:3555
+}
+militaryTech[112] = {
+	id:112,
+	index:23,
+	name:"infantry_siege",
+	level:46,
+	wood:109481,
+	stone:109481,
+	iron:109481,
+	food:109481,
+	coin:0,
+	gem:0,
+	exp:4379
+}
+militaryTech[113] = {
+	id:113,
+	index:24,
+	name:"infantry_siege",
+	level:48,
+	wood:144000,
+	stone:144000,
+	iron:144000,
+	food:144000,
+	coin:0,
+	gem:0,
+	exp:5760
+}
+militaryTech[114] = {
+	id:114,
+	index:25,
+	name:"infantry_siege",
+	level:50,
+	wood:188313,
+	stone:188313,
+	iron:188313,
+	food:188313,
+	coin:0,
+	gem:0,
+	exp:7532
+}
+militaryTech[115] = {
+	id:115,
+	index:26,
+	name:"infantry_siege",
+	level:52,
+	wood:233631,
+	stone:233631,
+	iron:233631,
+	food:233631,
+	coin:0,
+	gem:0,
+	exp:9345
+}
+militaryTech[116] = {
+	id:116,
+	index:27,
+	name:"infantry_siege",
+	level:54,
+	wood:290063,
+	stone:290063,
+	iron:290063,
+	food:290063,
+	coin:0,
+	gem:0,
+	exp:11602
+}
+militaryTech[117] = {
+	id:117,
+	index:28,
+	name:"infantry_siege",
+	level:56,
+	wood:360250,
+	stone:360250,
+	iron:360250,
+	food:360250,
+	coin:0,
+	gem:0,
+	exp:14410
+}
+militaryTech[118] = {
+	id:118,
+	index:29,
+	name:"infantry_siege",
+	level:58,
+	wood:447375,
+	stone:447375,
+	iron:447375,
+	food:447375,
+	coin:0,
+	gem:0,
+	exp:17895
+}
+militaryTech[119] = {
+	id:119,
+	index:30,
+	name:"infantry_siege",
+	level:60,
+	wood:555500,
+	stone:555500,
+	iron:555500,
+	food:555500,
+	coin:0,
+	gem:0,
+	exp:22220
+}
+militaryTech[120] = {
+	id:120,
+	index:1,
+	name:"infantry_hpAdd",
+	level:2,
+	wood:1150,
+	stone:1150,
+	iron:1150,
+	food:1150,
+	coin:0,
+	gem:0,
+	exp:46
+}
+militaryTech[121] = {
+	id:121,
+	index:2,
+	name:"infantry_hpAdd",
+	level:4,
+	wood:2650,
+	stone:2650,
+	iron:2650,
+	food:2650,
+	coin:0,
+	gem:0,
+	exp:106
+}
+militaryTech[122] = {
+	id:122,
+	index:3,
+	name:"infantry_hpAdd",
+	level:6,
+	wood:4175,
+	stone:4175,
+	iron:4175,
+	food:4175,
+	coin:0,
+	gem:0,
+	exp:167
+}
+militaryTech[123] = {
+	id:123,
+	index:4,
+	name:"infantry_hpAdd",
+	level:8,
+	wood:5725,
+	stone:5725,
+	iron:5725,
+	food:5725,
+	coin:0,
+	gem:0,
+	exp:229
+}
+militaryTech[124] = {
+	id:124,
+	index:5,
+	name:"infantry_hpAdd",
+	level:10,
+	wood:7363,
+	stone:7363,
+	iron:7363,
+	food:7363,
+	coin:0,
+	gem:0,
+	exp:294
+}
+militaryTech[125] = {
+	id:125,
+	index:6,
+	name:"infantry_hpAdd",
+	level:12,
+	wood:9063,
+	stone:9063,
+	iron:9063,
+	food:9063,
+	coin:0,
+	gem:0,
+	exp:362
+}
+militaryTech[126] = {
+	id:126,
+	index:7,
+	name:"infantry_hpAdd",
+	level:14,
+	wood:10825,
+	stone:10825,
+	iron:10825,
+	food:10825,
+	coin:0,
+	gem:0,
+	exp:433
+}
+militaryTech[127] = {
+	id:127,
+	index:8,
+	name:"infantry_hpAdd",
+	level:16,
+	wood:12900,
+	stone:12900,
+	iron:12900,
+	food:12900,
+	coin:0,
+	gem:0,
+	exp:516
+}
+militaryTech[128] = {
+	id:128,
+	index:9,
+	name:"infantry_hpAdd",
+	level:18,
+	wood:15213,
+	stone:15213,
+	iron:15213,
+	food:15213,
+	coin:0,
+	gem:0,
+	exp:608
+}
+militaryTech[129] = {
+	id:129,
+	index:10,
+	name:"infantry_hpAdd",
+	level:20,
+	wood:17600,
+	stone:17600,
+	iron:17600,
+	food:17600,
+	coin:0,
+	gem:0,
+	exp:704
+}
+militaryTech[130] = {
+	id:130,
+	index:11,
+	name:"infantry_hpAdd",
+	level:22,
+	wood:20263,
+	stone:20263,
+	iron:20263,
+	food:20263,
+	coin:0,
+	gem:0,
+	exp:810
+}
+militaryTech[131] = {
+	id:131,
+	index:12,
+	name:"infantry_hpAdd",
+	level:24,
+	wood:24075,
+	stone:24075,
+	iron:24075,
+	food:24075,
+	coin:0,
+	gem:0,
+	exp:963
+}
+militaryTech[132] = {
+	id:132,
+	index:13,
+	name:"infantry_hpAdd",
+	level:26,
+	wood:28713,
+	stone:28713,
+	iron:28713,
+	food:28713,
+	coin:0,
+	gem:0,
+	exp:1148
+}
+militaryTech[133] = {
+	id:133,
+	index:14,
+	name:"infantry_hpAdd",
+	level:28,
+	wood:33475,
+	stone:33475,
+	iron:33475,
+	food:33475,
+	coin:0,
+	gem:0,
+	exp:1339
+}
+militaryTech[134] = {
+	id:134,
+	index:15,
+	name:"infantry_hpAdd",
+	level:30,
+	wood:39163,
+	stone:39163,
+	iron:39163,
+	food:39163,
+	coin:0,
+	gem:0,
+	exp:1566
+}
+militaryTech[135] = {
+	id:135,
+	index:16,
+	name:"infantry_hpAdd",
+	level:32,
+	wood:48413,
+	stone:48413,
+	iron:48413,
+	food:48413,
+	coin:0,
+	gem:0,
+	exp:1936
+}
+militaryTech[136] = {
+	id:136,
+	index:17,
+	name:"infantry_hpAdd",
+	level:34,
+	wood:60238,
+	stone:60238,
+	iron:60238,
+	food:60238,
+	coin:0,
+	gem:0,
+	exp:2409
+}
+militaryTech[137] = {
+	id:137,
+	index:18,
+	name:"infantry_hpAdd",
+	level:36,
+	wood:72238,
+	stone:72238,
+	iron:72238,
+	food:72238,
+	coin:0,
+	gem:0,
+	exp:2889
+}
+militaryTech[138] = {
+	id:138,
+	index:19,
+	name:"infantry_hpAdd",
+	level:38,
+	wood:87088,
+	stone:87088,
+	iron:87088,
+	food:87088,
+	coin:0,
+	gem:0,
+	exp:3483
+}
+militaryTech[139] = {
+	id:139,
+	index:20,
+	name:"infantry_hpAdd",
+	level:40,
+	wood:112288,
+	stone:112288,
+	iron:112288,
+	food:112288,
+	coin:0,
+	gem:0,
+	exp:4491
+}
+militaryTech[140] = {
+	id:140,
+	index:21,
+	name:"infantry_hpAdd",
+	level:42,
+	wood:144725,
+	stone:144725,
+	iron:144725,
+	food:144725,
+	coin:0,
+	gem:0,
+	exp:5789
+}
+militaryTech[141] = {
+	id:141,
+	index:22,
+	name:"infantry_hpAdd",
+	level:44,
+	wood:177775,
+	stone:177775,
+	iron:177775,
+	food:177775,
+	coin:0,
+	gem:0,
+	exp:7111
+}
+militaryTech[142] = {
+	id:142,
+	index:23,
+	name:"infantry_hpAdd",
+	level:46,
+	wood:218963,
+	stone:218963,
+	iron:218963,
+	food:218963,
+	coin:0,
+	gem:0,
+	exp:8758
+}
+militaryTech[143] = {
+	id:143,
+	index:24,
+	name:"infantry_hpAdd",
+	level:48,
+	wood:288000,
+	stone:288000,
+	iron:288000,
+	food:288000,
+	coin:0,
+	gem:0,
+	exp:11520
+}
+militaryTech[144] = {
+	id:144,
+	index:25,
+	name:"infantry_hpAdd",
+	level:50,
+	wood:376625,
+	stone:376625,
+	iron:376625,
+	food:376625,
+	coin:0,
+	gem:0,
+	exp:15065
+}
+militaryTech[145] = {
+	id:145,
+	index:26,
+	name:"infantry_hpAdd",
+	level:52,
+	wood:467263,
+	stone:467263,
+	iron:467263,
+	food:467263,
+	coin:0,
+	gem:0,
+	exp:18690
+}
+militaryTech[146] = {
+	id:146,
+	index:27,
+	name:"infantry_hpAdd",
+	level:54,
+	wood:580125,
+	stone:580125,
+	iron:580125,
+	food:580125,
+	coin:0,
+	gem:0,
+	exp:23205
+}
+militaryTech[147] = {
+	id:147,
+	index:28,
+	name:"infantry_hpAdd",
+	level:56,
+	wood:720500,
+	stone:720500,
+	iron:720500,
+	food:720500,
+	coin:0,
+	gem:0,
+	exp:28820
+}
+militaryTech[148] = {
+	id:148,
+	index:29,
+	name:"infantry_hpAdd",
+	level:58,
+	wood:894750,
+	stone:894750,
+	iron:894750,
+	food:894750,
+	coin:0,
+	gem:0,
+	exp:35790
+}
+militaryTech[149] = {
+	id:149,
+	index:30,
+	name:"infantry_hpAdd",
+	level:60,
+	wood:1111000,
+	stone:1111000,
+	iron:1111000,
+	food:1111000,
+	coin:0,
+	gem:0,
+	exp:44440
+}
+militaryTech[150] = {
+	id:150,
+	index:1,
+	name:"archer_infantry",
+	level:2,
+	wood:613,
+	stone:613,
+	iron:613,
+	food:613,
+	coin:0,
+	gem:0,
+	exp:24
+}
+militaryTech[151] = {
+	id:151,
+	index:2,
+	name:"archer_infantry",
+	level:4,
+	wood:1400,
+	stone:1400,
+	iron:1400,
+	food:1400,
+	coin:0,
+	gem:0,
+	exp:56
+}
+militaryTech[152] = {
+	id:152,
+	index:3,
+	name:"archer_infantry",
+	level:6,
+	wood:2200,
+	stone:2200,
+	iron:2200,
+	food:2200,
+	coin:0,
+	gem:0,
+	exp:88
+}
+militaryTech[153] = {
+	id:153,
+	index:4,
+	name:"archer_infantry",
+	level:8,
+	wood:3013,
+	stone:3013,
+	iron:3013,
+	food:3013,
+	coin:0,
+	gem:0,
+	exp:120
+}
+militaryTech[154] = {
+	id:154,
+	index:5,
+	name:"archer_infantry",
+	level:10,
+	wood:3869,
+	stone:3869,
+	iron:3869,
+	food:3869,
+	coin:0,
+	gem:0,
+	exp:154
+}
+militaryTech[155] = {
+	id:155,
+	index:6,
+	name:"archer_infantry",
+	level:12,
+	wood:4763,
+	stone:4763,
+	iron:4763,
+	food:4763,
+	coin:0,
+	gem:0,
+	exp:190
+}
+militaryTech[156] = {
+	id:156,
+	index:7,
+	name:"archer_infantry",
+	level:14,
+	wood:5688,
+	stone:5688,
+	iron:5688,
+	food:5688,
+	coin:0,
+	gem:0,
+	exp:227
+}
+militaryTech[157] = {
+	id:157,
+	index:8,
+	name:"archer_infantry",
+	level:16,
+	wood:6781,
+	stone:6781,
+	iron:6781,
+	food:6781,
+	coin:0,
+	gem:0,
+	exp:271
+}
+militaryTech[158] = {
+	id:158,
+	index:9,
+	name:"archer_infantry",
+	level:18,
+	wood:7994,
+	stone:7994,
+	iron:7994,
+	food:7994,
+	coin:0,
+	gem:0,
+	exp:319
+}
+militaryTech[159] = {
+	id:159,
+	index:10,
+	name:"archer_infantry",
+	level:20,
+	wood:9244,
+	stone:9244,
+	iron:9244,
+	food:9244,
+	coin:0,
+	gem:0,
+	exp:369
+}
+militaryTech[160] = {
+	id:160,
+	index:11,
+	name:"archer_infantry",
+	level:22,
+	wood:10644,
+	stone:10644,
+	iron:10644,
+	food:10644,
+	coin:0,
+	gem:0,
+	exp:425
+}
+militaryTech[161] = {
+	id:161,
+	index:12,
+	name:"archer_infantry",
+	level:24,
+	wood:12644,
+	stone:12644,
+	iron:12644,
+	food:12644,
+	coin:0,
+	gem:0,
+	exp:505
+}
+militaryTech[162] = {
+	id:162,
+	index:13,
+	name:"archer_infantry",
+	level:26,
+	wood:15081,
+	stone:15081,
+	iron:15081,
+	food:15081,
+	coin:0,
+	gem:0,
+	exp:603
+}
+militaryTech[163] = {
+	id:163,
+	index:14,
+	name:"archer_infantry",
+	level:28,
+	wood:17581,
+	stone:17581,
+	iron:17581,
+	food:17581,
+	coin:0,
+	gem:0,
+	exp:703
+}
+militaryTech[164] = {
+	id:164,
+	index:15,
+	name:"archer_infantry",
+	level:30,
+	wood:20569,
+	stone:20569,
+	iron:20569,
+	food:20569,
+	coin:0,
+	gem:0,
+	exp:822
+}
+militaryTech[165] = {
+	id:165,
+	index:16,
+	name:"archer_infantry",
+	level:32,
+	wood:25425,
+	stone:25425,
+	iron:25425,
+	food:25425,
+	coin:0,
+	gem:0,
+	exp:1017
+}
+militaryTech[166] = {
+	id:166,
+	index:17,
+	name:"archer_infantry",
+	level:34,
+	wood:31631,
+	stone:31631,
+	iron:31631,
+	food:31631,
+	coin:0,
+	gem:0,
+	exp:1265
+}
+militaryTech[167] = {
+	id:167,
+	index:18,
+	name:"archer_infantry",
+	level:36,
+	wood:37931,
+	stone:37931,
+	iron:37931,
+	food:37931,
+	coin:0,
+	gem:0,
+	exp:1517
+}
+militaryTech[168] = {
+	id:168,
+	index:19,
+	name:"archer_infantry",
+	level:38,
+	wood:45725,
+	stone:45725,
+	iron:45725,
+	food:45725,
+	coin:0,
+	gem:0,
+	exp:1829
+}
+militaryTech[169] = {
+	id:169,
+	index:20,
+	name:"archer_infantry",
+	level:40,
+	wood:58956,
+	stone:58956,
+	iron:58956,
+	food:58956,
+	coin:0,
+	gem:0,
+	exp:2358
+}
+militaryTech[170] = {
+	id:170,
+	index:21,
+	name:"archer_infantry",
+	level:42,
+	wood:75988,
+	stone:75988,
+	iron:75988,
+	food:75988,
+	coin:0,
+	gem:0,
+	exp:3039
+}
+militaryTech[171] = {
+	id:171,
+	index:22,
+	name:"archer_infantry",
+	level:44,
+	wood:93338,
+	stone:93338,
+	iron:93338,
+	food:93338,
+	coin:0,
+	gem:0,
+	exp:3733
+}
+militaryTech[172] = {
+	id:172,
+	index:23,
+	name:"archer_infantry",
+	level:46,
+	wood:114956,
+	stone:114956,
+	iron:114956,
+	food:114956,
+	coin:0,
+	gem:0,
+	exp:4598
+}
+militaryTech[173] = {
+	id:173,
+	index:24,
+	name:"archer_infantry",
+	level:48,
+	wood:151206,
+	stone:151206,
+	iron:151206,
+	food:151206,
+	coin:0,
+	gem:0,
+	exp:6048
+}
+militaryTech[174] = {
+	id:174,
+	index:25,
+	name:"archer_infantry",
+	level:50,
+	wood:197731,
+	stone:197731,
+	iron:197731,
+	food:197731,
+	coin:0,
+	gem:0,
+	exp:7909
+}
+militaryTech[175] = {
+	id:175,
+	index:26,
+	name:"archer_infantry",
+	level:52,
+	wood:245319,
+	stone:245319,
+	iron:245319,
+	food:245319,
+	coin:0,
+	gem:0,
+	exp:9812
+}
+militaryTech[176] = {
+	id:176,
+	index:27,
+	name:"archer_infantry",
+	level:54,
+	wood:304569,
+	stone:304569,
+	iron:304569,
+	food:304569,
+	coin:0,
+	gem:0,
+	exp:12182
+}
+militaryTech[177] = {
+	id:177,
+	index:28,
+	name:"archer_infantry",
+	level:56,
+	wood:378263,
+	stone:378263,
+	iron:378263,
+	food:378263,
+	coin:0,
+	gem:0,
+	exp:15130
+}
+militaryTech[178] = {
+	id:178,
+	index:29,
+	name:"archer_infantry",
+	level:58,
+	wood:469750,
+	stone:469750,
+	iron:469750,
+	food:469750,
+	coin:0,
+	gem:0,
+	exp:18790
+}
+militaryTech[179] = {
+	id:179,
+	index:30,
+	name:"archer_infantry",
+	level:60,
+	wood:583275,
+	stone:583275,
+	iron:583275,
+	food:583275,
+	coin:0,
+	gem:0,
+	exp:23331
+}
+militaryTech[180] = {
+	id:180,
+	index:1,
+	name:"archer_archer",
+	level:2,
+	wood:613,
+	stone:613,
+	iron:613,
+	food:613,
+	coin:0,
+	gem:0,
+	exp:24
+}
+militaryTech[181] = {
+	id:181,
+	index:2,
+	name:"archer_archer",
+	level:4,
+	wood:1400,
+	stone:1400,
+	iron:1400,
+	food:1400,
+	coin:0,
+	gem:0,
+	exp:56
+}
+militaryTech[182] = {
+	id:182,
+	index:3,
+	name:"archer_archer",
+	level:6,
+	wood:2200,
+	stone:2200,
+	iron:2200,
+	food:2200,
+	coin:0,
+	gem:0,
+	exp:88
+}
+militaryTech[183] = {
+	id:183,
+	index:4,
+	name:"archer_archer",
+	level:8,
+	wood:3013,
+	stone:3013,
+	iron:3013,
+	food:3013,
+	coin:0,
+	gem:0,
+	exp:120
+}
+militaryTech[184] = {
+	id:184,
+	index:5,
+	name:"archer_archer",
+	level:10,
+	wood:3869,
+	stone:3869,
+	iron:3869,
+	food:3869,
+	coin:0,
+	gem:0,
+	exp:154
+}
+militaryTech[185] = {
+	id:185,
+	index:6,
+	name:"archer_archer",
+	level:12,
+	wood:4763,
+	stone:4763,
+	iron:4763,
+	food:4763,
+	coin:0,
+	gem:0,
+	exp:190
+}
+militaryTech[186] = {
+	id:186,
+	index:7,
+	name:"archer_archer",
+	level:14,
+	wood:5688,
+	stone:5688,
+	iron:5688,
+	food:5688,
+	coin:0,
+	gem:0,
+	exp:227
+}
+militaryTech[187] = {
+	id:187,
+	index:8,
+	name:"archer_archer",
+	level:16,
+	wood:6781,
+	stone:6781,
+	iron:6781,
+	food:6781,
+	coin:0,
+	gem:0,
+	exp:271
+}
+militaryTech[188] = {
+	id:188,
+	index:9,
+	name:"archer_archer",
+	level:18,
+	wood:7994,
+	stone:7994,
+	iron:7994,
+	food:7994,
+	coin:0,
+	gem:0,
+	exp:319
+}
+militaryTech[189] = {
+	id:189,
+	index:10,
+	name:"archer_archer",
+	level:20,
+	wood:9244,
+	stone:9244,
+	iron:9244,
+	food:9244,
+	coin:0,
+	gem:0,
+	exp:369
+}
+militaryTech[190] = {
+	id:190,
+	index:11,
+	name:"archer_archer",
+	level:22,
+	wood:10644,
+	stone:10644,
+	iron:10644,
+	food:10644,
+	coin:0,
+	gem:0,
+	exp:425
+}
+militaryTech[191] = {
+	id:191,
+	index:12,
+	name:"archer_archer",
+	level:24,
+	wood:12644,
+	stone:12644,
+	iron:12644,
+	food:12644,
+	coin:0,
+	gem:0,
+	exp:505
+}
+militaryTech[192] = {
+	id:192,
+	index:13,
+	name:"archer_archer",
+	level:26,
+	wood:15081,
+	stone:15081,
+	iron:15081,
+	food:15081,
+	coin:0,
+	gem:0,
+	exp:603
+}
+militaryTech[193] = {
+	id:193,
+	index:14,
+	name:"archer_archer",
+	level:28,
+	wood:17581,
+	stone:17581,
+	iron:17581,
+	food:17581,
+	coin:0,
+	gem:0,
+	exp:703
+}
+militaryTech[194] = {
+	id:194,
+	index:15,
+	name:"archer_archer",
+	level:30,
+	wood:20569,
+	stone:20569,
+	iron:20569,
+	food:20569,
+	coin:0,
+	gem:0,
+	exp:822
+}
+militaryTech[195] = {
+	id:195,
+	index:16,
+	name:"archer_archer",
+	level:32,
+	wood:25425,
+	stone:25425,
+	iron:25425,
+	food:25425,
+	coin:0,
+	gem:0,
+	exp:1017
+}
+militaryTech[196] = {
+	id:196,
+	index:17,
+	name:"archer_archer",
+	level:34,
+	wood:31631,
+	stone:31631,
+	iron:31631,
+	food:31631,
+	coin:0,
+	gem:0,
+	exp:1265
+}
+militaryTech[197] = {
+	id:197,
+	index:18,
+	name:"archer_archer",
+	level:36,
+	wood:37931,
+	stone:37931,
+	iron:37931,
+	food:37931,
+	coin:0,
+	gem:0,
+	exp:1517
+}
+militaryTech[198] = {
+	id:198,
+	index:19,
+	name:"archer_archer",
+	level:38,
+	wood:45725,
+	stone:45725,
+	iron:45725,
+	food:45725,
+	coin:0,
+	gem:0,
+	exp:1829
+}
+militaryTech[199] = {
+	id:199,
+	index:20,
+	name:"archer_archer",
+	level:40,
+	wood:58956,
+	stone:58956,
+	iron:58956,
+	food:58956,
+	coin:0,
+	gem:0,
+	exp:2358
+}
+militaryTech[200] = {
+	id:200,
+	index:21,
+	name:"archer_archer",
+	level:42,
+	wood:75988,
+	stone:75988,
+	iron:75988,
+	food:75988,
+	coin:0,
+	gem:0,
+	exp:3039
+}
+militaryTech[201] = {
+	id:201,
+	index:22,
+	name:"archer_archer",
+	level:44,
+	wood:93338,
+	stone:93338,
+	iron:93338,
+	food:93338,
+	coin:0,
+	gem:0,
+	exp:3733
+}
+militaryTech[202] = {
+	id:202,
+	index:23,
+	name:"archer_archer",
+	level:46,
+	wood:114956,
+	stone:114956,
+	iron:114956,
+	food:114956,
+	coin:0,
+	gem:0,
+	exp:4598
+}
+militaryTech[203] = {
+	id:203,
+	index:24,
+	name:"archer_archer",
+	level:48,
+	wood:151206,
+	stone:151206,
+	iron:151206,
+	food:151206,
+	coin:0,
+	gem:0,
+	exp:6048
+}
+militaryTech[204] = {
+	id:204,
+	index:25,
+	name:"archer_archer",
+	level:50,
+	wood:197731,
+	stone:197731,
+	iron:197731,
+	food:197731,
+	coin:0,
+	gem:0,
+	exp:7909
+}
+militaryTech[205] = {
+	id:205,
+	index:26,
+	name:"archer_archer",
+	level:52,
+	wood:245319,
+	stone:245319,
+	iron:245319,
+	food:245319,
+	coin:0,
+	gem:0,
+	exp:9812
+}
+militaryTech[206] = {
+	id:206,
+	index:27,
+	name:"archer_archer",
+	level:54,
+	wood:304569,
+	stone:304569,
+	iron:304569,
+	food:304569,
+	coin:0,
+	gem:0,
+	exp:12182
+}
+militaryTech[207] = {
+	id:207,
+	index:28,
+	name:"archer_archer",
+	level:56,
+	wood:378263,
+	stone:378263,
+	iron:378263,
+	food:378263,
+	coin:0,
+	gem:0,
+	exp:15130
+}
+militaryTech[208] = {
+	id:208,
+	index:29,
+	name:"archer_archer",
+	level:58,
+	wood:469750,
+	stone:469750,
+	iron:469750,
+	food:469750,
+	coin:0,
+	gem:0,
+	exp:18790
+}
+militaryTech[209] = {
+	id:209,
+	index:30,
+	name:"archer_archer",
+	level:60,
+	wood:583275,
+	stone:583275,
+	iron:583275,
+	food:583275,
+	coin:0,
+	gem:0,
+	exp:23331
+}
+militaryTech[210] = {
+	id:210,
+	index:1,
+	name:"archer_cavalry",
+	level:2,
+	wood:613,
+	stone:613,
+	iron:613,
+	food:613,
+	coin:0,
+	gem:0,
+	exp:24
+}
+militaryTech[211] = {
+	id:211,
+	index:2,
+	name:"archer_cavalry",
+	level:4,
+	wood:1400,
+	stone:1400,
+	iron:1400,
+	food:1400,
+	coin:0,
+	gem:0,
+	exp:56
+}
+militaryTech[212] = {
+	id:212,
+	index:3,
+	name:"archer_cavalry",
+	level:6,
+	wood:2200,
+	stone:2200,
+	iron:2200,
+	food:2200,
+	coin:0,
+	gem:0,
+	exp:88
+}
+militaryTech[213] = {
+	id:213,
+	index:4,
+	name:"archer_cavalry",
+	level:8,
+	wood:3013,
+	stone:3013,
+	iron:3013,
+	food:3013,
+	coin:0,
+	gem:0,
+	exp:120
+}
+militaryTech[214] = {
+	id:214,
+	index:5,
+	name:"archer_cavalry",
+	level:10,
+	wood:3869,
+	stone:3869,
+	iron:3869,
+	food:3869,
+	coin:0,
+	gem:0,
+	exp:154
+}
+militaryTech[215] = {
+	id:215,
+	index:6,
+	name:"archer_cavalry",
+	level:12,
+	wood:4763,
+	stone:4763,
+	iron:4763,
+	food:4763,
+	coin:0,
+	gem:0,
+	exp:190
+}
+militaryTech[216] = {
+	id:216,
+	index:7,
+	name:"archer_cavalry",
+	level:14,
+	wood:5688,
+	stone:5688,
+	iron:5688,
+	food:5688,
+	coin:0,
+	gem:0,
+	exp:227
+}
+militaryTech[217] = {
+	id:217,
+	index:8,
+	name:"archer_cavalry",
+	level:16,
+	wood:6781,
+	stone:6781,
+	iron:6781,
+	food:6781,
+	coin:0,
+	gem:0,
+	exp:271
+}
+militaryTech[218] = {
+	id:218,
+	index:9,
+	name:"archer_cavalry",
+	level:18,
+	wood:7994,
+	stone:7994,
+	iron:7994,
+	food:7994,
+	coin:0,
+	gem:0,
+	exp:319
+}
+militaryTech[219] = {
+	id:219,
+	index:10,
+	name:"archer_cavalry",
+	level:20,
+	wood:9244,
+	stone:9244,
+	iron:9244,
+	food:9244,
+	coin:0,
+	gem:0,
+	exp:369
+}
+militaryTech[220] = {
+	id:220,
+	index:11,
+	name:"archer_cavalry",
+	level:22,
+	wood:10644,
+	stone:10644,
+	iron:10644,
+	food:10644,
+	coin:0,
+	gem:0,
+	exp:425
+}
+militaryTech[221] = {
+	id:221,
+	index:12,
+	name:"archer_cavalry",
+	level:24,
+	wood:12644,
+	stone:12644,
+	iron:12644,
+	food:12644,
+	coin:0,
+	gem:0,
+	exp:505
+}
+militaryTech[222] = {
+	id:222,
+	index:13,
+	name:"archer_cavalry",
+	level:26,
+	wood:15081,
+	stone:15081,
+	iron:15081,
+	food:15081,
+	coin:0,
+	gem:0,
+	exp:603
+}
+militaryTech[223] = {
+	id:223,
+	index:14,
+	name:"archer_cavalry",
+	level:28,
+	wood:17581,
+	stone:17581,
+	iron:17581,
+	food:17581,
+	coin:0,
+	gem:0,
+	exp:703
+}
+militaryTech[224] = {
+	id:224,
+	index:15,
+	name:"archer_cavalry",
+	level:30,
+	wood:20569,
+	stone:20569,
+	iron:20569,
+	food:20569,
+	coin:0,
+	gem:0,
+	exp:822
+}
+militaryTech[225] = {
+	id:225,
+	index:16,
+	name:"archer_cavalry",
+	level:32,
+	wood:25425,
+	stone:25425,
+	iron:25425,
+	food:25425,
+	coin:0,
+	gem:0,
+	exp:1017
+}
+militaryTech[226] = {
+	id:226,
+	index:17,
+	name:"archer_cavalry",
+	level:34,
+	wood:31631,
+	stone:31631,
+	iron:31631,
+	food:31631,
+	coin:0,
+	gem:0,
+	exp:1265
+}
+militaryTech[227] = {
+	id:227,
+	index:18,
+	name:"archer_cavalry",
+	level:36,
+	wood:37931,
+	stone:37931,
+	iron:37931,
+	food:37931,
+	coin:0,
+	gem:0,
+	exp:1517
+}
+militaryTech[228] = {
+	id:228,
+	index:19,
+	name:"archer_cavalry",
+	level:38,
+	wood:45725,
+	stone:45725,
+	iron:45725,
+	food:45725,
+	coin:0,
+	gem:0,
+	exp:1829
+}
+militaryTech[229] = {
+	id:229,
+	index:20,
+	name:"archer_cavalry",
+	level:40,
+	wood:58956,
+	stone:58956,
+	iron:58956,
+	food:58956,
+	coin:0,
+	gem:0,
+	exp:2358
+}
+militaryTech[230] = {
+	id:230,
+	index:21,
+	name:"archer_cavalry",
+	level:42,
+	wood:75988,
+	stone:75988,
+	iron:75988,
+	food:75988,
+	coin:0,
+	gem:0,
+	exp:3039
+}
+militaryTech[231] = {
+	id:231,
+	index:22,
+	name:"archer_cavalry",
+	level:44,
+	wood:93338,
+	stone:93338,
+	iron:93338,
+	food:93338,
+	coin:0,
+	gem:0,
+	exp:3733
+}
+militaryTech[232] = {
+	id:232,
+	index:23,
+	name:"archer_cavalry",
+	level:46,
+	wood:114956,
+	stone:114956,
+	iron:114956,
+	food:114956,
+	coin:0,
+	gem:0,
+	exp:4598
+}
+militaryTech[233] = {
+	id:233,
+	index:24,
+	name:"archer_cavalry",
+	level:48,
+	wood:151206,
+	stone:151206,
+	iron:151206,
+	food:151206,
+	coin:0,
+	gem:0,
+	exp:6048
+}
+militaryTech[234] = {
+	id:234,
+	index:25,
+	name:"archer_cavalry",
+	level:50,
+	wood:197731,
+	stone:197731,
+	iron:197731,
+	food:197731,
+	coin:0,
+	gem:0,
+	exp:7909
+}
+militaryTech[235] = {
+	id:235,
+	index:26,
+	name:"archer_cavalry",
+	level:52,
+	wood:245319,
+	stone:245319,
+	iron:245319,
+	food:245319,
+	coin:0,
+	gem:0,
+	exp:9812
+}
+militaryTech[236] = {
+	id:236,
+	index:27,
+	name:"archer_cavalry",
+	level:54,
+	wood:304569,
+	stone:304569,
+	iron:304569,
+	food:304569,
+	coin:0,
+	gem:0,
+	exp:12182
+}
+militaryTech[237] = {
+	id:237,
+	index:28,
+	name:"archer_cavalry",
+	level:56,
+	wood:378263,
+	stone:378263,
+	iron:378263,
+	food:378263,
+	coin:0,
+	gem:0,
+	exp:15130
+}
+militaryTech[238] = {
+	id:238,
+	index:29,
+	name:"archer_cavalry",
+	level:58,
+	wood:469750,
+	stone:469750,
+	iron:469750,
+	food:469750,
+	coin:0,
+	gem:0,
+	exp:18790
+}
+militaryTech[239] = {
+	id:239,
+	index:30,
+	name:"archer_cavalry",
+	level:60,
+	wood:583275,
+	stone:583275,
+	iron:583275,
+	food:583275,
+	coin:0,
+	gem:0,
+	exp:23331
+}
+militaryTech[240] = {
+	id:240,
+	index:1,
+	name:"archer_siege",
+	level:2,
+	wood:613,
+	stone:613,
+	iron:613,
+	food:613,
+	coin:0,
+	gem:0,
+	exp:24
+}
+militaryTech[241] = {
+	id:241,
+	index:2,
+	name:"archer_siege",
+	level:4,
+	wood:1400,
+	stone:1400,
+	iron:1400,
+	food:1400,
+	coin:0,
+	gem:0,
+	exp:56
+}
+militaryTech[242] = {
+	id:242,
+	index:3,
+	name:"archer_siege",
+	level:6,
+	wood:2200,
+	stone:2200,
+	iron:2200,
+	food:2200,
+	coin:0,
+	gem:0,
+	exp:88
+}
+militaryTech[243] = {
+	id:243,
+	index:4,
+	name:"archer_siege",
+	level:8,
+	wood:3013,
+	stone:3013,
+	iron:3013,
+	food:3013,
+	coin:0,
+	gem:0,
+	exp:120
+}
+militaryTech[244] = {
+	id:244,
+	index:5,
+	name:"archer_siege",
+	level:10,
+	wood:3869,
+	stone:3869,
+	iron:3869,
+	food:3869,
+	coin:0,
+	gem:0,
+	exp:154
+}
+militaryTech[245] = {
+	id:245,
+	index:6,
+	name:"archer_siege",
+	level:12,
+	wood:4763,
+	stone:4763,
+	iron:4763,
+	food:4763,
+	coin:0,
+	gem:0,
+	exp:190
+}
+militaryTech[246] = {
+	id:246,
+	index:7,
+	name:"archer_siege",
+	level:14,
+	wood:5688,
+	stone:5688,
+	iron:5688,
+	food:5688,
+	coin:0,
+	gem:0,
+	exp:227
+}
+militaryTech[247] = {
+	id:247,
+	index:8,
+	name:"archer_siege",
+	level:16,
+	wood:6781,
+	stone:6781,
+	iron:6781,
+	food:6781,
+	coin:0,
+	gem:0,
+	exp:271
+}
+militaryTech[248] = {
+	id:248,
+	index:9,
+	name:"archer_siege",
+	level:18,
+	wood:7994,
+	stone:7994,
+	iron:7994,
+	food:7994,
+	coin:0,
+	gem:0,
+	exp:319
+}
+militaryTech[249] = {
+	id:249,
+	index:10,
+	name:"archer_siege",
+	level:20,
+	wood:9244,
+	stone:9244,
+	iron:9244,
+	food:9244,
+	coin:0,
+	gem:0,
+	exp:369
+}
+militaryTech[250] = {
+	id:250,
+	index:11,
+	name:"archer_siege",
+	level:22,
+	wood:10644,
+	stone:10644,
+	iron:10644,
+	food:10644,
+	coin:0,
+	gem:0,
+	exp:425
+}
+militaryTech[251] = {
+	id:251,
+	index:12,
+	name:"archer_siege",
+	level:24,
+	wood:12644,
+	stone:12644,
+	iron:12644,
+	food:12644,
+	coin:0,
+	gem:0,
+	exp:505
+}
+militaryTech[252] = {
+	id:252,
+	index:13,
+	name:"archer_siege",
+	level:26,
+	wood:15081,
+	stone:15081,
+	iron:15081,
+	food:15081,
+	coin:0,
+	gem:0,
+	exp:603
+}
+militaryTech[253] = {
+	id:253,
+	index:14,
+	name:"archer_siege",
+	level:28,
+	wood:17581,
+	stone:17581,
+	iron:17581,
+	food:17581,
+	coin:0,
+	gem:0,
+	exp:703
+}
+militaryTech[254] = {
+	id:254,
+	index:15,
+	name:"archer_siege",
+	level:30,
+	wood:20569,
+	stone:20569,
+	iron:20569,
+	food:20569,
+	coin:0,
+	gem:0,
+	exp:822
+}
+militaryTech[255] = {
+	id:255,
+	index:16,
+	name:"archer_siege",
+	level:32,
+	wood:25425,
+	stone:25425,
+	iron:25425,
+	food:25425,
+	coin:0,
+	gem:0,
+	exp:1017
+}
+militaryTech[256] = {
+	id:256,
+	index:17,
+	name:"archer_siege",
+	level:34,
+	wood:31631,
+	stone:31631,
+	iron:31631,
+	food:31631,
+	coin:0,
+	gem:0,
+	exp:1265
+}
+militaryTech[257] = {
+	id:257,
+	index:18,
+	name:"archer_siege",
+	level:36,
+	wood:37931,
+	stone:37931,
+	iron:37931,
+	food:37931,
+	coin:0,
+	gem:0,
+	exp:1517
+}
+militaryTech[258] = {
+	id:258,
+	index:19,
+	name:"archer_siege",
+	level:38,
+	wood:45725,
+	stone:45725,
+	iron:45725,
+	food:45725,
+	coin:0,
+	gem:0,
+	exp:1829
+}
+militaryTech[259] = {
+	id:259,
+	index:20,
+	name:"archer_siege",
+	level:40,
+	wood:58956,
+	stone:58956,
+	iron:58956,
+	food:58956,
+	coin:0,
+	gem:0,
+	exp:2358
+}
+militaryTech[260] = {
+	id:260,
+	index:21,
+	name:"archer_siege",
+	level:42,
+	wood:75988,
+	stone:75988,
+	iron:75988,
+	food:75988,
+	coin:0,
+	gem:0,
+	exp:3039
+}
+militaryTech[261] = {
+	id:261,
+	index:22,
+	name:"archer_siege",
+	level:44,
+	wood:93338,
+	stone:93338,
+	iron:93338,
+	food:93338,
+	coin:0,
+	gem:0,
+	exp:3733
+}
+militaryTech[262] = {
+	id:262,
+	index:23,
+	name:"archer_siege",
+	level:46,
+	wood:114956,
+	stone:114956,
+	iron:114956,
+	food:114956,
+	coin:0,
+	gem:0,
+	exp:4598
+}
+militaryTech[263] = {
+	id:263,
+	index:24,
+	name:"archer_siege",
+	level:48,
+	wood:151206,
+	stone:151206,
+	iron:151206,
+	food:151206,
+	coin:0,
+	gem:0,
+	exp:6048
+}
+militaryTech[264] = {
+	id:264,
+	index:25,
+	name:"archer_siege",
+	level:50,
+	wood:197731,
+	stone:197731,
+	iron:197731,
+	food:197731,
+	coin:0,
+	gem:0,
+	exp:7909
+}
+militaryTech[265] = {
+	id:265,
+	index:26,
+	name:"archer_siege",
+	level:52,
+	wood:245319,
+	stone:245319,
+	iron:245319,
+	food:245319,
+	coin:0,
+	gem:0,
+	exp:9812
+}
+militaryTech[266] = {
+	id:266,
+	index:27,
+	name:"archer_siege",
+	level:54,
+	wood:304569,
+	stone:304569,
+	iron:304569,
+	food:304569,
+	coin:0,
+	gem:0,
+	exp:12182
+}
+militaryTech[267] = {
+	id:267,
+	index:28,
+	name:"archer_siege",
+	level:56,
+	wood:378263,
+	stone:378263,
+	iron:378263,
+	food:378263,
+	coin:0,
+	gem:0,
+	exp:15130
+}
+militaryTech[268] = {
+	id:268,
+	index:29,
+	name:"archer_siege",
+	level:58,
+	wood:469750,
+	stone:469750,
+	iron:469750,
+	food:469750,
+	coin:0,
+	gem:0,
+	exp:18790
+}
+militaryTech[269] = {
+	id:269,
+	index:30,
+	name:"archer_siege",
+	level:60,
+	wood:583275,
+	stone:583275,
+	iron:583275,
+	food:583275,
+	coin:0,
+	gem:0,
+	exp:23331
+}
+militaryTech[270] = {
+	id:270,
+	index:1,
+	name:"archer_hpAdd",
+	level:2,
+	wood:1219,
+	stone:1219,
+	iron:1219,
+	food:1219,
+	coin:0,
+	gem:0,
+	exp:48
+}
+militaryTech[271] = {
+	id:271,
+	index:2,
+	name:"archer_hpAdd",
+	level:4,
+	wood:2794,
+	stone:2794,
+	iron:2794,
+	food:2794,
+	coin:0,
+	gem:0,
+	exp:111
+}
+militaryTech[272] = {
+	id:272,
+	index:3,
+	name:"archer_hpAdd",
+	level:6,
+	wood:4394,
+	stone:4394,
+	iron:4394,
+	food:4394,
+	coin:0,
+	gem:0,
+	exp:175
+}
+militaryTech[273] = {
+	id:273,
+	index:4,
+	name:"archer_hpAdd",
+	level:8,
+	wood:6019,
+	stone:6019,
+	iron:6019,
+	food:6019,
+	coin:0,
+	gem:0,
+	exp:240
+}
+militaryTech[274] = {
+	id:274,
+	index:5,
+	name:"archer_hpAdd",
+	level:10,
+	wood:7738,
+	stone:7738,
+	iron:7738,
+	food:7738,
+	coin:0,
+	gem:0,
+	exp:309
+}
+militaryTech[275] = {
+	id:275,
+	index:6,
+	name:"archer_hpAdd",
+	level:12,
+	wood:9519,
+	stone:9519,
+	iron:9519,
+	food:9519,
+	coin:0,
+	gem:0,
+	exp:380
+}
+militaryTech[276] = {
+	id:276,
+	index:7,
+	name:"archer_hpAdd",
+	level:14,
+	wood:11375,
+	stone:11375,
+	iron:11375,
+	food:11375,
+	coin:0,
+	gem:0,
+	exp:455
+}
+militaryTech[277] = {
+	id:277,
+	index:8,
+	name:"archer_hpAdd",
+	level:16,
+	wood:13550,
+	stone:13550,
+	iron:13550,
+	food:13550,
+	coin:0,
+	gem:0,
+	exp:542
+}
+militaryTech[278] = {
+	id:278,
+	index:9,
+	name:"archer_hpAdd",
+	level:18,
+	wood:15981,
+	stone:15981,
+	iron:15981,
+	food:15981,
+	coin:0,
+	gem:0,
+	exp:639
+}
+militaryTech[279] = {
+	id:279,
+	index:10,
+	name:"archer_hpAdd",
+	level:20,
+	wood:18481,
+	stone:18481,
+	iron:18481,
+	food:18481,
+	coin:0,
+	gem:0,
+	exp:739
+}
+militaryTech[280] = {
+	id:280,
+	index:11,
+	name:"archer_hpAdd",
+	level:22,
+	wood:21281,
+	stone:21281,
+	iron:21281,
+	food:21281,
+	coin:0,
+	gem:0,
+	exp:851
+}
+militaryTech[281] = {
+	id:281,
+	index:12,
+	name:"archer_hpAdd",
+	level:24,
+	wood:25281,
+	stone:25281,
+	iron:25281,
+	food:25281,
+	coin:0,
+	gem:0,
+	exp:1011
+}
+militaryTech[282] = {
+	id:282,
+	index:13,
+	name:"archer_hpAdd",
+	level:26,
+	wood:30156,
+	stone:30156,
+	iron:30156,
+	food:30156,
+	coin:0,
+	gem:0,
+	exp:1206
+}
+militaryTech[283] = {
+	id:283,
+	index:14,
+	name:"archer_hpAdd",
+	level:28,
+	wood:35156,
+	stone:35156,
+	iron:35156,
+	food:35156,
+	coin:0,
+	gem:0,
+	exp:1406
+}
+militaryTech[284] = {
+	id:284,
+	index:15,
+	name:"archer_hpAdd",
+	level:30,
+	wood:41125,
+	stone:41125,
+	iron:41125,
+	food:41125,
+	coin:0,
+	gem:0,
+	exp:1645
+}
+militaryTech[285] = {
+	id:285,
+	index:16,
+	name:"archer_hpAdd",
+	level:32,
+	wood:50838,
+	stone:50838,
+	iron:50838,
+	food:50838,
+	coin:0,
+	gem:0,
+	exp:2033
+}
+militaryTech[286] = {
+	id:286,
+	index:17,
+	name:"archer_hpAdd",
+	level:34,
+	wood:63256,
+	stone:63256,
+	iron:63256,
+	food:63256,
+	coin:0,
+	gem:0,
+	exp:2530
+}
+militaryTech[287] = {
+	id:287,
+	index:18,
+	name:"archer_hpAdd",
+	level:36,
+	wood:75856,
+	stone:75856,
+	iron:75856,
+	food:75856,
+	coin:0,
+	gem:0,
+	exp:3034
+}
+militaryTech[288] = {
+	id:288,
+	index:19,
+	name:"archer_hpAdd",
+	level:38,
+	wood:91444,
+	stone:91444,
+	iron:91444,
+	food:91444,
+	coin:0,
+	gem:0,
+	exp:3657
+}
+militaryTech[289] = {
+	id:289,
+	index:20,
+	name:"archer_hpAdd",
+	level:40,
+	wood:117906,
+	stone:117906,
+	iron:117906,
+	food:117906,
+	coin:0,
+	gem:0,
+	exp:4716
+}
+militaryTech[290] = {
+	id:290,
+	index:21,
+	name:"archer_hpAdd",
+	level:42,
+	wood:151969,
+	stone:151969,
+	iron:151969,
+	food:151969,
+	coin:0,
+	gem:0,
+	exp:6078
+}
+militaryTech[291] = {
+	id:291,
+	index:22,
+	name:"archer_hpAdd",
+	level:44,
+	wood:186669,
+	stone:186669,
+	iron:186669,
+	food:186669,
+	coin:0,
+	gem:0,
+	exp:7466
+}
+militaryTech[292] = {
+	id:292,
+	index:23,
+	name:"archer_hpAdd",
+	level:46,
+	wood:229913,
+	stone:229913,
+	iron:229913,
+	food:229913,
+	coin:0,
+	gem:0,
+	exp:9196
+}
+militaryTech[293] = {
+	id:293,
+	index:24,
+	name:"archer_hpAdd",
+	level:48,
+	wood:302406,
+	stone:302406,
+	iron:302406,
+	food:302406,
+	coin:0,
+	gem:0,
+	exp:12096
+}
+militaryTech[294] = {
+	id:294,
+	index:25,
+	name:"archer_hpAdd",
+	level:50,
+	wood:395463,
+	stone:395463,
+	iron:395463,
+	food:395463,
+	coin:0,
+	gem:0,
+	exp:15818
+}
+militaryTech[295] = {
+	id:295,
+	index:26,
+	name:"archer_hpAdd",
+	level:52,
+	wood:490631,
+	stone:490631,
+	iron:490631,
+	food:490631,
+	coin:0,
+	gem:0,
+	exp:19625
+}
+militaryTech[296] = {
+	id:296,
+	index:27,
+	name:"archer_hpAdd",
+	level:54,
+	wood:609131,
+	stone:609131,
+	iron:609131,
+	food:609131,
+	coin:0,
+	gem:0,
+	exp:24365
+}
+militaryTech[297] = {
+	id:297,
+	index:28,
+	name:"archer_hpAdd",
+	level:56,
+	wood:756525,
+	stone:756525,
+	iron:756525,
+	food:756525,
+	coin:0,
+	gem:0,
+	exp:30261
+}
+militaryTech[298] = {
+	id:298,
+	index:29,
+	name:"archer_hpAdd",
+	level:58,
+	wood:939488,
+	stone:939488,
+	iron:939488,
+	food:939488,
+	coin:0,
+	gem:0,
+	exp:37579
+}
+militaryTech[299] = {
+	id:299,
+	index:30,
+	name:"archer_hpAdd",
+	level:60,
+	wood:1166550,
+	stone:1166550,
+	iron:1166550,
+	food:1166550,
+	coin:0,
+	gem:0,
+	exp:46662
+}
+militaryTech[300] = {
+	id:300,
+	index:1,
+	name:"cavalry_infantry",
+	level:2,
+	wood:644,
+	stone:644,
+	iron:644,
+	food:644,
+	coin:0,
+	gem:0,
+	exp:25
+}
+militaryTech[301] = {
+	id:301,
+	index:2,
+	name:"cavalry_infantry",
+	level:4,
+	wood:1469,
+	stone:1469,
+	iron:1469,
+	food:1469,
+	coin:0,
+	gem:0,
+	exp:58
+}
+militaryTech[302] = {
+	id:302,
+	index:3,
+	name:"cavalry_infantry",
+	level:6,
+	wood:2306,
+	stone:2306,
+	iron:2306,
+	food:2306,
+	coin:0,
+	gem:0,
+	exp:92
+}
+militaryTech[303] = {
+	id:303,
+	index:4,
+	name:"cavalry_infantry",
+	level:8,
+	wood:3156,
+	stone:3156,
+	iron:3156,
+	food:3156,
+	coin:0,
+	gem:0,
+	exp:126
+}
+militaryTech[304] = {
+	id:304,
+	index:5,
+	name:"cavalry_infantry",
+	level:10,
+	wood:4056,
+	stone:4056,
+	iron:4056,
+	food:4056,
+	coin:0,
+	gem:0,
+	exp:162
+}
+militaryTech[305] = {
+	id:305,
+	index:6,
+	name:"cavalry_infantry",
+	level:12,
+	wood:4988,
+	stone:4988,
+	iron:4988,
+	food:4988,
+	coin:0,
+	gem:0,
+	exp:199
+}
+militaryTech[306] = {
+	id:306,
+	index:7,
+	name:"cavalry_infantry",
+	level:14,
+	wood:5963,
+	stone:5963,
+	iron:5963,
+	food:5963,
+	coin:0,
+	gem:0,
+	exp:238
+}
+militaryTech[307] = {
+	id:307,
+	index:8,
+	name:"cavalry_infantry",
+	level:16,
+	wood:7100,
+	stone:7100,
+	iron:7100,
+	food:7100,
+	coin:0,
+	gem:0,
+	exp:284
+}
+militaryTech[308] = {
+	id:308,
+	index:9,
+	name:"cavalry_infantry",
+	level:18,
+	wood:8375,
+	stone:8375,
+	iron:8375,
+	food:8375,
+	coin:0,
+	gem:0,
+	exp:335
+}
+militaryTech[309] = {
+	id:309,
+	index:10,
+	name:"cavalry_infantry",
+	level:20,
+	wood:9681,
+	stone:9681,
+	iron:9681,
+	food:9681,
+	coin:0,
+	gem:0,
+	exp:387
+}
+militaryTech[310] = {
+	id:310,
+	index:11,
+	name:"cavalry_infantry",
+	level:22,
+	wood:11150,
+	stone:11150,
+	iron:11150,
+	food:11150,
+	coin:0,
+	gem:0,
+	exp:446
+}
+militaryTech[311] = {
+	id:311,
+	index:12,
+	name:"cavalry_infantry",
+	level:24,
+	wood:13250,
+	stone:13250,
+	iron:13250,
+	food:13250,
+	coin:0,
+	gem:0,
+	exp:530
+}
+militaryTech[312] = {
+	id:312,
+	index:13,
+	name:"cavalry_infantry",
+	level:26,
+	wood:15800,
+	stone:15800,
+	iron:15800,
+	food:15800,
+	coin:0,
+	gem:0,
+	exp:632
+}
+militaryTech[313] = {
+	id:313,
+	index:14,
+	name:"cavalry_infantry",
+	level:28,
+	wood:18419,
+	stone:18419,
+	iron:18419,
+	food:18419,
+	coin:0,
+	gem:0,
+	exp:736
+}
+militaryTech[314] = {
+	id:314,
+	index:15,
+	name:"cavalry_infantry",
+	level:30,
+	wood:21544,
+	stone:21544,
+	iron:21544,
+	food:21544,
+	coin:0,
+	gem:0,
+	exp:861
+}
+militaryTech[315] = {
+	id:315,
+	index:16,
+	name:"cavalry_infantry",
+	level:32,
+	wood:26631,
+	stone:26631,
+	iron:26631,
+	food:26631,
+	coin:0,
+	gem:0,
+	exp:1065
+}
+militaryTech[316] = {
+	id:316,
+	index:17,
+	name:"cavalry_infantry",
+	level:34,
+	wood:33138,
+	stone:33138,
+	iron:33138,
+	food:33138,
+	coin:0,
+	gem:0,
+	exp:1325
+}
+militaryTech[317] = {
+	id:317,
+	index:18,
+	name:"cavalry_infantry",
+	level:36,
+	wood:39738,
+	stone:39738,
+	iron:39738,
+	food:39738,
+	coin:0,
+	gem:0,
+	exp:1589
+}
+militaryTech[318] = {
+	id:318,
+	index:19,
+	name:"cavalry_infantry",
+	level:38,
+	wood:47900,
+	stone:47900,
+	iron:47900,
+	food:47900,
+	coin:0,
+	gem:0,
+	exp:1916
+}
+militaryTech[319] = {
+	id:319,
+	index:20,
+	name:"cavalry_infantry",
+	level:40,
+	wood:61763,
+	stone:61763,
+	iron:61763,
+	food:61763,
+	coin:0,
+	gem:0,
+	exp:2470
+}
+militaryTech[320] = {
+	id:320,
+	index:21,
+	name:"cavalry_infantry",
+	level:42,
+	wood:79606,
+	stone:79606,
+	iron:79606,
+	food:79606,
+	coin:0,
+	gem:0,
+	exp:3184
+}
+militaryTech[321] = {
+	id:321,
+	index:22,
+	name:"cavalry_infantry",
+	level:44,
+	wood:97781,
+	stone:97781,
+	iron:97781,
+	food:97781,
+	coin:0,
+	gem:0,
+	exp:3911
+}
+militaryTech[322] = {
+	id:322,
+	index:23,
+	name:"cavalry_infantry",
+	level:46,
+	wood:120438,
+	stone:120438,
+	iron:120438,
+	food:120438,
+	coin:0,
+	gem:0,
+	exp:4817
+}
+militaryTech[323] = {
+	id:323,
+	index:24,
+	name:"cavalry_infantry",
+	level:48,
+	wood:158406,
+	stone:158406,
+	iron:158406,
+	food:158406,
+	coin:0,
+	gem:0,
+	exp:6336
+}
+militaryTech[324] = {
+	id:324,
+	index:25,
+	name:"cavalry_infantry",
+	level:50,
+	wood:207150,
+	stone:207150,
+	iron:207150,
+	food:207150,
+	coin:0,
+	gem:0,
+	exp:8286
+}
+militaryTech[325] = {
+	id:325,
+	index:26,
+	name:"cavalry_infantry",
+	level:52,
+	wood:257000,
+	stone:257000,
+	iron:257000,
+	food:257000,
+	coin:0,
+	gem:0,
+	exp:10280
+}
+militaryTech[326] = {
+	id:326,
+	index:27,
+	name:"cavalry_infantry",
+	level:54,
+	wood:319069,
+	stone:319069,
+	iron:319069,
+	food:319069,
+	coin:0,
+	gem:0,
+	exp:12762
+}
+militaryTech[327] = {
+	id:327,
+	index:28,
+	name:"cavalry_infantry",
+	level:56,
+	wood:396288,
+	stone:396288,
+	iron:396288,
+	food:396288,
+	coin:0,
+	gem:0,
+	exp:15851
+}
+militaryTech[328] = {
+	id:328,
+	index:29,
+	name:"cavalry_infantry",
+	level:58,
+	wood:492125,
+	stone:492125,
+	iron:492125,
+	food:492125,
+	coin:0,
+	gem:0,
+	exp:19685
+}
+militaryTech[329] = {
+	id:329,
+	index:30,
+	name:"cavalry_infantry",
+	level:60,
+	wood:611050,
+	stone:611050,
+	iron:611050,
+	food:611050,
+	coin:0,
+	gem:0,
+	exp:24442
+}
+militaryTech[330] = {
+	id:330,
+	index:1,
+	name:"cavalry_archer",
+	level:2,
+	wood:644,
+	stone:644,
+	iron:644,
+	food:644,
+	coin:0,
+	gem:0,
+	exp:25
+}
+militaryTech[331] = {
+	id:331,
+	index:2,
+	name:"cavalry_archer",
+	level:4,
+	wood:1469,
+	stone:1469,
+	iron:1469,
+	food:1469,
+	coin:0,
+	gem:0,
+	exp:58
+}
+militaryTech[332] = {
+	id:332,
+	index:3,
+	name:"cavalry_archer",
+	level:6,
+	wood:2306,
+	stone:2306,
+	iron:2306,
+	food:2306,
+	coin:0,
+	gem:0,
+	exp:92
+}
+militaryTech[333] = {
+	id:333,
+	index:4,
+	name:"cavalry_archer",
+	level:8,
+	wood:3156,
+	stone:3156,
+	iron:3156,
+	food:3156,
+	coin:0,
+	gem:0,
+	exp:126
+}
+militaryTech[334] = {
+	id:334,
+	index:5,
+	name:"cavalry_archer",
+	level:10,
+	wood:4056,
+	stone:4056,
+	iron:4056,
+	food:4056,
+	coin:0,
+	gem:0,
+	exp:162
+}
+militaryTech[335] = {
+	id:335,
+	index:6,
+	name:"cavalry_archer",
+	level:12,
+	wood:4988,
+	stone:4988,
+	iron:4988,
+	food:4988,
+	coin:0,
+	gem:0,
+	exp:199
+}
+militaryTech[336] = {
+	id:336,
+	index:7,
+	name:"cavalry_archer",
+	level:14,
+	wood:5963,
+	stone:5963,
+	iron:5963,
+	food:5963,
+	coin:0,
+	gem:0,
+	exp:238
+}
+militaryTech[337] = {
+	id:337,
+	index:8,
+	name:"cavalry_archer",
+	level:16,
+	wood:7100,
+	stone:7100,
+	iron:7100,
+	food:7100,
+	coin:0,
+	gem:0,
+	exp:284
+}
+militaryTech[338] = {
+	id:338,
+	index:9,
+	name:"cavalry_archer",
+	level:18,
+	wood:8375,
+	stone:8375,
+	iron:8375,
+	food:8375,
+	coin:0,
+	gem:0,
+	exp:335
+}
+militaryTech[339] = {
+	id:339,
+	index:10,
+	name:"cavalry_archer",
+	level:20,
+	wood:9681,
+	stone:9681,
+	iron:9681,
+	food:9681,
+	coin:0,
+	gem:0,
+	exp:387
+}
+militaryTech[340] = {
+	id:340,
+	index:11,
+	name:"cavalry_archer",
+	level:22,
+	wood:11150,
+	stone:11150,
+	iron:11150,
+	food:11150,
+	coin:0,
+	gem:0,
+	exp:446
+}
+militaryTech[341] = {
+	id:341,
+	index:12,
+	name:"cavalry_archer",
+	level:24,
+	wood:13250,
+	stone:13250,
+	iron:13250,
+	food:13250,
+	coin:0,
+	gem:0,
+	exp:530
+}
+militaryTech[342] = {
+	id:342,
+	index:13,
+	name:"cavalry_archer",
+	level:26,
+	wood:15800,
+	stone:15800,
+	iron:15800,
+	food:15800,
+	coin:0,
+	gem:0,
+	exp:632
+}
+militaryTech[343] = {
+	id:343,
+	index:14,
+	name:"cavalry_archer",
+	level:28,
+	wood:18419,
+	stone:18419,
+	iron:18419,
+	food:18419,
+	coin:0,
+	gem:0,
+	exp:736
+}
+militaryTech[344] = {
+	id:344,
+	index:15,
+	name:"cavalry_archer",
+	level:30,
+	wood:21544,
+	stone:21544,
+	iron:21544,
+	food:21544,
+	coin:0,
+	gem:0,
+	exp:861
+}
+militaryTech[345] = {
+	id:345,
+	index:16,
+	name:"cavalry_archer",
+	level:32,
+	wood:26631,
+	stone:26631,
+	iron:26631,
+	food:26631,
+	coin:0,
+	gem:0,
+	exp:1065
+}
+militaryTech[346] = {
+	id:346,
+	index:17,
+	name:"cavalry_archer",
+	level:34,
+	wood:33138,
+	stone:33138,
+	iron:33138,
+	food:33138,
+	coin:0,
+	gem:0,
+	exp:1325
+}
+militaryTech[347] = {
+	id:347,
+	index:18,
+	name:"cavalry_archer",
+	level:36,
+	wood:39738,
+	stone:39738,
+	iron:39738,
+	food:39738,
+	coin:0,
+	gem:0,
+	exp:1589
+}
+militaryTech[348] = {
+	id:348,
+	index:19,
+	name:"cavalry_archer",
+	level:38,
+	wood:47900,
+	stone:47900,
+	iron:47900,
+	food:47900,
+	coin:0,
+	gem:0,
+	exp:1916
+}
+militaryTech[349] = {
+	id:349,
+	index:20,
+	name:"cavalry_archer",
+	level:40,
+	wood:61763,
+	stone:61763,
+	iron:61763,
+	food:61763,
+	coin:0,
+	gem:0,
+	exp:2470
+}
+militaryTech[350] = {
+	id:350,
+	index:21,
+	name:"cavalry_archer",
+	level:42,
+	wood:79606,
+	stone:79606,
+	iron:79606,
+	food:79606,
+	coin:0,
+	gem:0,
+	exp:3184
+}
+militaryTech[351] = {
+	id:351,
+	index:22,
+	name:"cavalry_archer",
+	level:44,
+	wood:97781,
+	stone:97781,
+	iron:97781,
+	food:97781,
+	coin:0,
+	gem:0,
+	exp:3911
+}
+militaryTech[352] = {
+	id:352,
+	index:23,
+	name:"cavalry_archer",
+	level:46,
+	wood:120438,
+	stone:120438,
+	iron:120438,
+	food:120438,
+	coin:0,
+	gem:0,
+	exp:4817
+}
+militaryTech[353] = {
+	id:353,
+	index:24,
+	name:"cavalry_archer",
+	level:48,
+	wood:158406,
+	stone:158406,
+	iron:158406,
+	food:158406,
+	coin:0,
+	gem:0,
+	exp:6336
+}
+militaryTech[354] = {
+	id:354,
+	index:25,
+	name:"cavalry_archer",
+	level:50,
+	wood:207150,
+	stone:207150,
+	iron:207150,
+	food:207150,
+	coin:0,
+	gem:0,
+	exp:8286
+}
+militaryTech[355] = {
+	id:355,
+	index:26,
+	name:"cavalry_archer",
+	level:52,
+	wood:257000,
+	stone:257000,
+	iron:257000,
+	food:257000,
+	coin:0,
+	gem:0,
+	exp:10280
+}
+militaryTech[356] = {
+	id:356,
+	index:27,
+	name:"cavalry_archer",
+	level:54,
+	wood:319069,
+	stone:319069,
+	iron:319069,
+	food:319069,
+	coin:0,
+	gem:0,
+	exp:12762
+}
+militaryTech[357] = {
+	id:357,
+	index:28,
+	name:"cavalry_archer",
+	level:56,
+	wood:396288,
+	stone:396288,
+	iron:396288,
+	food:396288,
+	coin:0,
+	gem:0,
+	exp:15851
+}
+militaryTech[358] = {
+	id:358,
+	index:29,
+	name:"cavalry_archer",
+	level:58,
+	wood:492125,
+	stone:492125,
+	iron:492125,
+	food:492125,
+	coin:0,
+	gem:0,
+	exp:19685
+}
+militaryTech[359] = {
+	id:359,
+	index:30,
+	name:"cavalry_archer",
+	level:60,
+	wood:611050,
+	stone:611050,
+	iron:611050,
+	food:611050,
+	coin:0,
+	gem:0,
+	exp:24442
+}
+militaryTech[360] = {
+	id:360,
+	index:1,
+	name:"cavalry_cavalry",
+	level:2,
+	wood:644,
+	stone:644,
+	iron:644,
+	food:644,
+	coin:0,
+	gem:0,
+	exp:25
+}
+militaryTech[361] = {
+	id:361,
+	index:2,
+	name:"cavalry_cavalry",
+	level:4,
+	wood:1469,
+	stone:1469,
+	iron:1469,
+	food:1469,
+	coin:0,
+	gem:0,
+	exp:58
+}
+militaryTech[362] = {
+	id:362,
+	index:3,
+	name:"cavalry_cavalry",
+	level:6,
+	wood:2306,
+	stone:2306,
+	iron:2306,
+	food:2306,
+	coin:0,
+	gem:0,
+	exp:92
+}
+militaryTech[363] = {
+	id:363,
+	index:4,
+	name:"cavalry_cavalry",
+	level:8,
+	wood:3156,
+	stone:3156,
+	iron:3156,
+	food:3156,
+	coin:0,
+	gem:0,
+	exp:126
+}
+militaryTech[364] = {
+	id:364,
+	index:5,
+	name:"cavalry_cavalry",
+	level:10,
+	wood:4056,
+	stone:4056,
+	iron:4056,
+	food:4056,
+	coin:0,
+	gem:0,
+	exp:162
+}
+militaryTech[365] = {
+	id:365,
+	index:6,
+	name:"cavalry_cavalry",
+	level:12,
+	wood:4988,
+	stone:4988,
+	iron:4988,
+	food:4988,
+	coin:0,
+	gem:0,
+	exp:199
+}
+militaryTech[366] = {
+	id:366,
+	index:7,
+	name:"cavalry_cavalry",
+	level:14,
+	wood:5963,
+	stone:5963,
+	iron:5963,
+	food:5963,
+	coin:0,
+	gem:0,
+	exp:238
+}
+militaryTech[367] = {
+	id:367,
+	index:8,
+	name:"cavalry_cavalry",
+	level:16,
+	wood:7100,
+	stone:7100,
+	iron:7100,
+	food:7100,
+	coin:0,
+	gem:0,
+	exp:284
+}
+militaryTech[368] = {
+	id:368,
+	index:9,
+	name:"cavalry_cavalry",
+	level:18,
+	wood:8375,
+	stone:8375,
+	iron:8375,
+	food:8375,
+	coin:0,
+	gem:0,
+	exp:335
+}
+militaryTech[369] = {
+	id:369,
+	index:10,
+	name:"cavalry_cavalry",
+	level:20,
+	wood:9681,
+	stone:9681,
+	iron:9681,
+	food:9681,
+	coin:0,
+	gem:0,
+	exp:387
+}
+militaryTech[370] = {
+	id:370,
+	index:11,
+	name:"cavalry_cavalry",
+	level:22,
+	wood:11150,
+	stone:11150,
+	iron:11150,
+	food:11150,
+	coin:0,
+	gem:0,
+	exp:446
+}
+militaryTech[371] = {
+	id:371,
+	index:12,
+	name:"cavalry_cavalry",
+	level:24,
+	wood:13250,
+	stone:13250,
+	iron:13250,
+	food:13250,
+	coin:0,
+	gem:0,
+	exp:530
+}
+militaryTech[372] = {
+	id:372,
+	index:13,
+	name:"cavalry_cavalry",
+	level:26,
+	wood:15800,
+	stone:15800,
+	iron:15800,
+	food:15800,
+	coin:0,
+	gem:0,
+	exp:632
+}
+militaryTech[373] = {
+	id:373,
+	index:14,
+	name:"cavalry_cavalry",
+	level:28,
+	wood:18419,
+	stone:18419,
+	iron:18419,
+	food:18419,
+	coin:0,
+	gem:0,
+	exp:736
+}
+militaryTech[374] = {
+	id:374,
+	index:15,
+	name:"cavalry_cavalry",
+	level:30,
+	wood:21544,
+	stone:21544,
+	iron:21544,
+	food:21544,
+	coin:0,
+	gem:0,
+	exp:861
+}
+militaryTech[375] = {
+	id:375,
+	index:16,
+	name:"cavalry_cavalry",
+	level:32,
+	wood:26631,
+	stone:26631,
+	iron:26631,
+	food:26631,
+	coin:0,
+	gem:0,
+	exp:1065
+}
+militaryTech[376] = {
+	id:376,
+	index:17,
+	name:"cavalry_cavalry",
+	level:34,
+	wood:33138,
+	stone:33138,
+	iron:33138,
+	food:33138,
+	coin:0,
+	gem:0,
+	exp:1325
+}
+militaryTech[377] = {
+	id:377,
+	index:18,
+	name:"cavalry_cavalry",
+	level:36,
+	wood:39738,
+	stone:39738,
+	iron:39738,
+	food:39738,
+	coin:0,
+	gem:0,
+	exp:1589
+}
+militaryTech[378] = {
+	id:378,
+	index:19,
+	name:"cavalry_cavalry",
+	level:38,
+	wood:47900,
+	stone:47900,
+	iron:47900,
+	food:47900,
+	coin:0,
+	gem:0,
+	exp:1916
+}
+militaryTech[379] = {
+	id:379,
+	index:20,
+	name:"cavalry_cavalry",
+	level:40,
+	wood:61763,
+	stone:61763,
+	iron:61763,
+	food:61763,
+	coin:0,
+	gem:0,
+	exp:2470
+}
+militaryTech[380] = {
+	id:380,
+	index:21,
+	name:"cavalry_cavalry",
+	level:42,
+	wood:79606,
+	stone:79606,
+	iron:79606,
+	food:79606,
+	coin:0,
+	gem:0,
+	exp:3184
+}
+militaryTech[381] = {
+	id:381,
+	index:22,
+	name:"cavalry_cavalry",
+	level:44,
+	wood:97781,
+	stone:97781,
+	iron:97781,
+	food:97781,
+	coin:0,
+	gem:0,
+	exp:3911
+}
+militaryTech[382] = {
+	id:382,
+	index:23,
+	name:"cavalry_cavalry",
+	level:46,
+	wood:120438,
+	stone:120438,
+	iron:120438,
+	food:120438,
+	coin:0,
+	gem:0,
+	exp:4817
+}
+militaryTech[383] = {
+	id:383,
+	index:24,
+	name:"cavalry_cavalry",
+	level:48,
+	wood:158406,
+	stone:158406,
+	iron:158406,
+	food:158406,
+	coin:0,
+	gem:0,
+	exp:6336
+}
+militaryTech[384] = {
+	id:384,
+	index:25,
+	name:"cavalry_cavalry",
+	level:50,
+	wood:207150,
+	stone:207150,
+	iron:207150,
+	food:207150,
+	coin:0,
+	gem:0,
+	exp:8286
+}
+militaryTech[385] = {
+	id:385,
+	index:26,
+	name:"cavalry_cavalry",
+	level:52,
+	wood:257000,
+	stone:257000,
+	iron:257000,
+	food:257000,
+	coin:0,
+	gem:0,
+	exp:10280
+}
+militaryTech[386] = {
+	id:386,
+	index:27,
+	name:"cavalry_cavalry",
+	level:54,
+	wood:319069,
+	stone:319069,
+	iron:319069,
+	food:319069,
+	coin:0,
+	gem:0,
+	exp:12762
+}
+militaryTech[387] = {
+	id:387,
+	index:28,
+	name:"cavalry_cavalry",
+	level:56,
+	wood:396288,
+	stone:396288,
+	iron:396288,
+	food:396288,
+	coin:0,
+	gem:0,
+	exp:15851
+}
+militaryTech[388] = {
+	id:388,
+	index:29,
+	name:"cavalry_cavalry",
+	level:58,
+	wood:492125,
+	stone:492125,
+	iron:492125,
+	food:492125,
+	coin:0,
+	gem:0,
+	exp:19685
+}
+militaryTech[389] = {
+	id:389,
+	index:30,
+	name:"cavalry_cavalry",
+	level:60,
+	wood:611050,
+	stone:611050,
+	iron:611050,
+	food:611050,
+	coin:0,
+	gem:0,
+	exp:24442
+}
+militaryTech[390] = {
+	id:390,
+	index:1,
+	name:"cavalry_siege",
+	level:2,
+	wood:644,
+	stone:644,
+	iron:644,
+	food:644,
+	coin:0,
+	gem:0,
+	exp:25
+}
+militaryTech[391] = {
+	id:391,
+	index:2,
+	name:"cavalry_siege",
+	level:4,
+	wood:1469,
+	stone:1469,
+	iron:1469,
+	food:1469,
+	coin:0,
+	gem:0,
+	exp:58
+}
+militaryTech[392] = {
+	id:392,
+	index:3,
+	name:"cavalry_siege",
+	level:6,
+	wood:2306,
+	stone:2306,
+	iron:2306,
+	food:2306,
+	coin:0,
+	gem:0,
+	exp:92
+}
+militaryTech[393] = {
+	id:393,
+	index:4,
+	name:"cavalry_siege",
+	level:8,
+	wood:3156,
+	stone:3156,
+	iron:3156,
+	food:3156,
+	coin:0,
+	gem:0,
+	exp:126
+}
+militaryTech[394] = {
+	id:394,
+	index:5,
+	name:"cavalry_siege",
+	level:10,
+	wood:4056,
+	stone:4056,
+	iron:4056,
+	food:4056,
+	coin:0,
+	gem:0,
+	exp:162
+}
+militaryTech[395] = {
+	id:395,
+	index:6,
+	name:"cavalry_siege",
+	level:12,
+	wood:4988,
+	stone:4988,
+	iron:4988,
+	food:4988,
+	coin:0,
+	gem:0,
+	exp:199
+}
+militaryTech[396] = {
+	id:396,
+	index:7,
+	name:"cavalry_siege",
+	level:14,
+	wood:5963,
+	stone:5963,
+	iron:5963,
+	food:5963,
+	coin:0,
+	gem:0,
+	exp:238
+}
+militaryTech[397] = {
+	id:397,
+	index:8,
+	name:"cavalry_siege",
+	level:16,
+	wood:7100,
+	stone:7100,
+	iron:7100,
+	food:7100,
+	coin:0,
+	gem:0,
+	exp:284
+}
+militaryTech[398] = {
+	id:398,
+	index:9,
+	name:"cavalry_siege",
+	level:18,
+	wood:8375,
+	stone:8375,
+	iron:8375,
+	food:8375,
+	coin:0,
+	gem:0,
+	exp:335
+}
+militaryTech[399] = {
+	id:399,
+	index:10,
+	name:"cavalry_siege",
+	level:20,
+	wood:9681,
+	stone:9681,
+	iron:9681,
+	food:9681,
+	coin:0,
+	gem:0,
+	exp:387
+}
+militaryTech[400] = {
+	id:400,
+	index:11,
+	name:"cavalry_siege",
+	level:22,
+	wood:11150,
+	stone:11150,
+	iron:11150,
+	food:11150,
+	coin:0,
+	gem:0,
+	exp:446
+}
+militaryTech[401] = {
+	id:401,
+	index:12,
+	name:"cavalry_siege",
+	level:24,
+	wood:13250,
+	stone:13250,
+	iron:13250,
+	food:13250,
+	coin:0,
+	gem:0,
+	exp:530
+}
+militaryTech[402] = {
+	id:402,
+	index:13,
+	name:"cavalry_siege",
+	level:26,
+	wood:15800,
+	stone:15800,
+	iron:15800,
+	food:15800,
+	coin:0,
+	gem:0,
+	exp:632
+}
+militaryTech[403] = {
+	id:403,
+	index:14,
+	name:"cavalry_siege",
+	level:28,
+	wood:18419,
+	stone:18419,
+	iron:18419,
+	food:18419,
+	coin:0,
+	gem:0,
+	exp:736
+}
+militaryTech[404] = {
+	id:404,
+	index:15,
+	name:"cavalry_siege",
+	level:30,
+	wood:21544,
+	stone:21544,
+	iron:21544,
+	food:21544,
+	coin:0,
+	gem:0,
+	exp:861
+}
+militaryTech[405] = {
+	id:405,
+	index:16,
+	name:"cavalry_siege",
+	level:32,
+	wood:26631,
+	stone:26631,
+	iron:26631,
+	food:26631,
+	coin:0,
+	gem:0,
+	exp:1065
+}
+militaryTech[406] = {
+	id:406,
+	index:17,
+	name:"cavalry_siege",
+	level:34,
+	wood:33138,
+	stone:33138,
+	iron:33138,
+	food:33138,
+	coin:0,
+	gem:0,
+	exp:1325
+}
+militaryTech[407] = {
+	id:407,
+	index:18,
+	name:"cavalry_siege",
+	level:36,
+	wood:39738,
+	stone:39738,
+	iron:39738,
+	food:39738,
+	coin:0,
+	gem:0,
+	exp:1589
+}
+militaryTech[408] = {
+	id:408,
+	index:19,
+	name:"cavalry_siege",
+	level:38,
+	wood:47900,
+	stone:47900,
+	iron:47900,
+	food:47900,
+	coin:0,
+	gem:0,
+	exp:1916
+}
+militaryTech[409] = {
+	id:409,
+	index:20,
+	name:"cavalry_siege",
+	level:40,
+	wood:61763,
+	stone:61763,
+	iron:61763,
+	food:61763,
+	coin:0,
+	gem:0,
+	exp:2470
+}
+militaryTech[410] = {
+	id:410,
+	index:21,
+	name:"cavalry_siege",
+	level:42,
+	wood:79606,
+	stone:79606,
+	iron:79606,
+	food:79606,
+	coin:0,
+	gem:0,
+	exp:3184
+}
+militaryTech[411] = {
+	id:411,
+	index:22,
+	name:"cavalry_siege",
+	level:44,
+	wood:97781,
+	stone:97781,
+	iron:97781,
+	food:97781,
+	coin:0,
+	gem:0,
+	exp:3911
+}
+militaryTech[412] = {
+	id:412,
+	index:23,
+	name:"cavalry_siege",
+	level:46,
+	wood:120438,
+	stone:120438,
+	iron:120438,
+	food:120438,
+	coin:0,
+	gem:0,
+	exp:4817
+}
+militaryTech[413] = {
+	id:413,
+	index:24,
+	name:"cavalry_siege",
+	level:48,
+	wood:158406,
+	stone:158406,
+	iron:158406,
+	food:158406,
+	coin:0,
+	gem:0,
+	exp:6336
+}
+militaryTech[414] = {
+	id:414,
+	index:25,
+	name:"cavalry_siege",
+	level:50,
+	wood:207150,
+	stone:207150,
+	iron:207150,
+	food:207150,
+	coin:0,
+	gem:0,
+	exp:8286
+}
+militaryTech[415] = {
+	id:415,
+	index:26,
+	name:"cavalry_siege",
+	level:52,
+	wood:257000,
+	stone:257000,
+	iron:257000,
+	food:257000,
+	coin:0,
+	gem:0,
+	exp:10280
+}
+militaryTech[416] = {
+	id:416,
+	index:27,
+	name:"cavalry_siege",
+	level:54,
+	wood:319069,
+	stone:319069,
+	iron:319069,
+	food:319069,
+	coin:0,
+	gem:0,
+	exp:12762
+}
+militaryTech[417] = {
+	id:417,
+	index:28,
+	name:"cavalry_siege",
+	level:56,
+	wood:396288,
+	stone:396288,
+	iron:396288,
+	food:396288,
+	coin:0,
+	gem:0,
+	exp:15851
+}
+militaryTech[418] = {
+	id:418,
+	index:29,
+	name:"cavalry_siege",
+	level:58,
+	wood:492125,
+	stone:492125,
+	iron:492125,
+	food:492125,
+	coin:0,
+	gem:0,
+	exp:19685
+}
+militaryTech[419] = {
+	id:419,
+	index:30,
+	name:"cavalry_siege",
+	level:60,
+	wood:611050,
+	stone:611050,
+	iron:611050,
+	food:611050,
+	coin:0,
+	gem:0,
+	exp:24442
+}
+militaryTech[420] = {
+	id:420,
+	index:1,
+	name:"cavalry_hpAdd",
+	level:2,
+	wood:1275,
+	stone:1275,
+	iron:1275,
+	food:1275,
+	coin:0,
+	gem:0,
+	exp:51
+}
+militaryTech[421] = {
+	id:421,
+	index:2,
+	name:"cavalry_hpAdd",
+	level:4,
+	wood:2925,
+	stone:2925,
+	iron:2925,
+	food:2925,
+	coin:0,
+	gem:0,
+	exp:117
+}
+militaryTech[422] = {
+	id:422,
+	index:3,
+	name:"cavalry_hpAdd",
+	level:6,
+	wood:4600,
+	stone:4600,
+	iron:4600,
+	food:4600,
+	coin:0,
+	gem:0,
+	exp:184
+}
+militaryTech[423] = {
+	id:423,
+	index:4,
+	name:"cavalry_hpAdd",
+	level:8,
+	wood:6306,
+	stone:6306,
+	iron:6306,
+	food:6306,
+	coin:0,
+	gem:0,
+	exp:252
+}
+militaryTech[424] = {
+	id:424,
+	index:5,
+	name:"cavalry_hpAdd",
+	level:10,
+	wood:8106,
+	stone:8106,
+	iron:8106,
+	food:8106,
+	coin:0,
+	gem:0,
+	exp:324
+}
+militaryTech[425] = {
+	id:425,
+	index:6,
+	name:"cavalry_hpAdd",
+	level:12,
+	wood:9969,
+	stone:9969,
+	iron:9969,
+	food:9969,
+	coin:0,
+	gem:0,
+	exp:398
+}
+militaryTech[426] = {
+	id:426,
+	index:7,
+	name:"cavalry_hpAdd",
+	level:14,
+	wood:11919,
+	stone:11919,
+	iron:11919,
+	food:11919,
+	coin:0,
+	gem:0,
+	exp:476
+}
+militaryTech[427] = {
+	id:427,
+	index:8,
+	name:"cavalry_hpAdd",
+	level:16,
+	wood:14194,
+	stone:14194,
+	iron:14194,
+	food:14194,
+	coin:0,
+	gem:0,
+	exp:567
+}
+militaryTech[428] = {
+	id:428,
+	index:9,
+	name:"cavalry_hpAdd",
+	level:18,
+	wood:16744,
+	stone:16744,
+	iron:16744,
+	food:16744,
+	coin:0,
+	gem:0,
+	exp:669
+}
+militaryTech[429] = {
+	id:429,
+	index:10,
+	name:"cavalry_hpAdd",
+	level:20,
+	wood:19363,
+	stone:19363,
+	iron:19363,
+	food:19363,
+	coin:0,
+	gem:0,
+	exp:774
+}
+militaryTech[430] = {
+	id:430,
+	index:11,
+	name:"cavalry_hpAdd",
+	level:22,
+	wood:22294,
+	stone:22294,
+	iron:22294,
+	food:22294,
+	coin:0,
+	gem:0,
+	exp:891
+}
+militaryTech[431] = {
+	id:431,
+	index:12,
+	name:"cavalry_hpAdd",
+	level:24,
+	wood:26494,
+	stone:26494,
+	iron:26494,
+	food:26494,
+	coin:0,
+	gem:0,
+	exp:1059
+}
+militaryTech[432] = {
+	id:432,
+	index:13,
+	name:"cavalry_hpAdd",
+	level:26,
+	wood:31594,
+	stone:31594,
+	iron:31594,
+	food:31594,
+	coin:0,
+	gem:0,
+	exp:1263
+}
+militaryTech[433] = {
+	id:433,
+	index:14,
+	name:"cavalry_hpAdd",
+	level:28,
+	wood:36831,
+	stone:36831,
+	iron:36831,
+	food:36831,
+	coin:0,
+	gem:0,
+	exp:1473
+}
+militaryTech[434] = {
+	id:434,
+	index:15,
+	name:"cavalry_hpAdd",
+	level:30,
+	wood:43081,
+	stone:43081,
+	iron:43081,
+	food:43081,
+	coin:0,
+	gem:0,
+	exp:1723
+}
+militaryTech[435] = {
+	id:435,
+	index:16,
+	name:"cavalry_hpAdd",
+	level:32,
+	wood:53263,
+	stone:53263,
+	iron:53263,
+	food:53263,
+	coin:0,
+	gem:0,
+	exp:2130
+}
+militaryTech[436] = {
+	id:436,
+	index:17,
+	name:"cavalry_hpAdd",
+	level:34,
+	wood:66269,
+	stone:66269,
+	iron:66269,
+	food:66269,
+	coin:0,
+	gem:0,
+	exp:2650
+}
+militaryTech[437] = {
+	id:437,
+	index:18,
+	name:"cavalry_hpAdd",
+	level:36,
+	wood:79469,
+	stone:79469,
+	iron:79469,
+	food:79469,
+	coin:0,
+	gem:0,
+	exp:3178
+}
+militaryTech[438] = {
+	id:438,
+	index:19,
+	name:"cavalry_hpAdd",
+	level:38,
+	wood:95800,
+	stone:95800,
+	iron:95800,
+	food:95800,
+	coin:0,
+	gem:0,
+	exp:3832
+}
+militaryTech[439] = {
+	id:439,
+	index:20,
+	name:"cavalry_hpAdd",
+	level:40,
+	wood:123525,
+	stone:123525,
+	iron:123525,
+	food:123525,
+	coin:0,
+	gem:0,
+	exp:4941
+}
+militaryTech[440] = {
+	id:440,
+	index:21,
+	name:"cavalry_hpAdd",
+	level:42,
+	wood:159200,
+	stone:159200,
+	iron:159200,
+	food:159200,
+	coin:0,
+	gem:0,
+	exp:6368
+}
+militaryTech[441] = {
+	id:441,
+	index:22,
+	name:"cavalry_hpAdd",
+	level:44,
+	wood:195556,
+	stone:195556,
+	iron:195556,
+	food:195556,
+	coin:0,
+	gem:0,
+	exp:7822
+}
+militaryTech[442] = {
+	id:442,
+	index:23,
+	name:"cavalry_hpAdd",
+	level:46,
+	wood:240869,
+	stone:240869,
+	iron:240869,
+	food:240869,
+	coin:0,
+	gem:0,
+	exp:9634
+}
+militaryTech[443] = {
+	id:443,
+	index:24,
+	name:"cavalry_hpAdd",
+	level:48,
+	wood:316806,
+	stone:316806,
+	iron:316806,
+	food:316806,
+	coin:0,
+	gem:0,
+	exp:12672
+}
+militaryTech[444] = {
+	id:444,
+	index:25,
+	name:"cavalry_hpAdd",
+	level:50,
+	wood:414300,
+	stone:414300,
+	iron:414300,
+	food:414300,
+	coin:0,
+	gem:0,
+	exp:16572
+}
+militaryTech[445] = {
+	id:445,
+	index:26,
+	name:"cavalry_hpAdd",
+	level:52,
+	wood:513994,
+	stone:513994,
+	iron:513994,
+	food:513994,
+	coin:0,
+	gem:0,
+	exp:20559
+}
+militaryTech[446] = {
+	id:446,
+	index:27,
+	name:"cavalry_hpAdd",
+	level:54,
+	wood:638138,
+	stone:638138,
+	iron:638138,
+	food:638138,
+	coin:0,
+	gem:0,
+	exp:25525
+}
+militaryTech[447] = {
+	id:447,
+	index:28,
+	name:"cavalry_hpAdd",
+	level:56,
+	wood:792563,
+	stone:792563,
+	iron:792563,
+	food:792563,
+	coin:0,
+	gem:0,
+	exp:31702
+}
+militaryTech[448] = {
+	id:448,
+	index:29,
+	name:"cavalry_hpAdd",
+	level:58,
+	wood:984238,
+	stone:984238,
+	iron:984238,
+	food:984238,
+	coin:0,
+	gem:0,
+	exp:39369
+}
+militaryTech[449] = {
+	id:449,
+	index:30,
+	name:"cavalry_hpAdd",
+	level:60,
+	wood:1222100,
+	stone:1222100,
+	iron:1222100,
+	food:1222100,
+	coin:0,
+	gem:0,
+	exp:48884
+}
+militaryTech[450] = {
+	id:450,
+	index:1,
+	name:"siege_infantry",
+	level:2,
+	wood:669,
+	stone:669,
+	iron:669,
+	food:669,
+	coin:0,
+	gem:0,
+	exp:26
+}
+militaryTech[451] = {
+	id:451,
+	index:2,
+	name:"siege_infantry",
+	level:4,
+	wood:1531,
+	stone:1531,
+	iron:1531,
+	food:1531,
+	coin:0,
+	gem:0,
+	exp:61
+}
+militaryTech[452] = {
+	id:452,
+	index:3,
+	name:"siege_infantry",
+	level:6,
+	wood:2406,
+	stone:2406,
+	iron:2406,
+	food:2406,
+	coin:0,
+	gem:0,
+	exp:96
+}
+militaryTech[453] = {
+	id:453,
+	index:4,
+	name:"siege_infantry",
+	level:8,
+	wood:3294,
+	stone:3294,
+	iron:3294,
+	food:3294,
+	coin:0,
+	gem:0,
+	exp:131
+}
+militaryTech[454] = {
+	id:454,
+	index:5,
+	name:"siege_infantry",
+	level:10,
+	wood:4238,
+	stone:4238,
+	iron:4238,
+	food:4238,
+	coin:0,
+	gem:0,
+	exp:169
+}
+militaryTech[455] = {
+	id:455,
+	index:6,
+	name:"siege_infantry",
+	level:12,
+	wood:5213,
+	stone:5213,
+	iron:5213,
+	food:5213,
+	coin:0,
+	gem:0,
+	exp:208
+}
+militaryTech[456] = {
+	id:456,
+	index:7,
+	name:"siege_infantry",
+	level:14,
+	wood:6231,
+	stone:6231,
+	iron:6231,
+	food:6231,
+	coin:0,
+	gem:0,
+	exp:249
+}
+militaryTech[457] = {
+	id:457,
+	index:8,
+	name:"siege_infantry",
+	level:16,
+	wood:7425,
+	stone:7425,
+	iron:7425,
+	food:7425,
+	coin:0,
+	gem:0,
+	exp:297
+}
+militaryTech[458] = {
+	id:458,
+	index:9,
+	name:"siege_infantry",
+	level:18,
+	wood:8750,
+	stone:8750,
+	iron:8750,
+	food:8750,
+	coin:0,
+	gem:0,
+	exp:350
+}
+militaryTech[459] = {
+	id:459,
+	index:10,
+	name:"siege_infantry",
+	level:20,
+	wood:10125,
+	stone:10125,
+	iron:10125,
+	food:10125,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[460] = {
+	id:460,
+	index:11,
+	name:"siege_infantry",
+	level:22,
+	wood:11656,
+	stone:11656,
+	iron:11656,
+	food:11656,
+	coin:0,
+	gem:0,
+	exp:466
+}
+militaryTech[461] = {
+	id:461,
+	index:12,
+	name:"siege_infantry",
+	level:24,
+	wood:13844,
+	stone:13844,
+	iron:13844,
+	food:13844,
+	coin:0,
+	gem:0,
+	exp:553
+}
+militaryTech[462] = {
+	id:462,
+	index:13,
+	name:"siege_infantry",
+	level:26,
+	wood:16513,
+	stone:16513,
+	iron:16513,
+	food:16513,
+	coin:0,
+	gem:0,
+	exp:660
+}
+militaryTech[463] = {
+	id:463,
+	index:14,
+	name:"siege_infantry",
+	level:28,
+	wood:19256,
+	stone:19256,
+	iron:19256,
+	food:19256,
+	coin:0,
+	gem:0,
+	exp:770
+}
+militaryTech[464] = {
+	id:464,
+	index:15,
+	name:"siege_infantry",
+	level:30,
+	wood:22525,
+	stone:22525,
+	iron:22525,
+	food:22525,
+	coin:0,
+	gem:0,
+	exp:901
+}
+militaryTech[465] = {
+	id:465,
+	index:16,
+	name:"siege_infantry",
+	level:32,
+	wood:27844,
+	stone:27844,
+	iron:27844,
+	food:27844,
+	coin:0,
+	gem:0,
+	exp:1113
+}
+militaryTech[466] = {
+	id:466,
+	index:17,
+	name:"siege_infantry",
+	level:34,
+	wood:34644,
+	stone:34644,
+	iron:34644,
+	food:34644,
+	coin:0,
+	gem:0,
+	exp:1385
+}
+militaryTech[467] = {
+	id:467,
+	index:18,
+	name:"siege_infantry",
+	level:36,
+	wood:41544,
+	stone:41544,
+	iron:41544,
+	food:41544,
+	coin:0,
+	gem:0,
+	exp:1661
+}
+militaryTech[468] = {
+	id:468,
+	index:19,
+	name:"siege_infantry",
+	level:38,
+	wood:50081,
+	stone:50081,
+	iron:50081,
+	food:50081,
+	coin:0,
+	gem:0,
+	exp:2003
+}
+militaryTech[469] = {
+	id:469,
+	index:20,
+	name:"siege_infantry",
+	level:40,
+	wood:64569,
+	stone:64569,
+	iron:64569,
+	food:64569,
+	coin:0,
+	gem:0,
+	exp:2582
+}
+militaryTech[470] = {
+	id:470,
+	index:21,
+	name:"siege_infantry",
+	level:42,
+	wood:83225,
+	stone:83225,
+	iron:83225,
+	food:83225,
+	coin:0,
+	gem:0,
+	exp:3329
+}
+militaryTech[471] = {
+	id:471,
+	index:22,
+	name:"siege_infantry",
+	level:44,
+	wood:102225,
+	stone:102225,
+	iron:102225,
+	food:102225,
+	coin:0,
+	gem:0,
+	exp:4089
+}
+militaryTech[472] = {
+	id:472,
+	index:23,
+	name:"siege_infantry",
+	level:46,
+	wood:125906,
+	stone:125906,
+	iron:125906,
+	food:125906,
+	coin:0,
+	gem:0,
+	exp:5036
+}
+militaryTech[473] = {
+	id:473,
+	index:24,
+	name:"siege_infantry",
+	level:48,
+	wood:165606,
+	stone:165606,
+	iron:165606,
+	food:165606,
+	coin:0,
+	gem:0,
+	exp:6624
+}
+militaryTech[474] = {
+	id:474,
+	index:25,
+	name:"siege_infantry",
+	level:50,
+	wood:216569,
+	stone:216569,
+	iron:216569,
+	food:216569,
+	coin:0,
+	gem:0,
+	exp:8662
+}
+militaryTech[475] = {
+	id:475,
+	index:26,
+	name:"siege_infantry",
+	level:52,
+	wood:268681,
+	stone:268681,
+	iron:268681,
+	food:268681,
+	coin:0,
+	gem:0,
+	exp:10747
+}
+militaryTech[476] = {
+	id:476,
+	index:27,
+	name:"siege_infantry",
+	level:54,
+	wood:333575,
+	stone:333575,
+	iron:333575,
+	food:333575,
+	coin:0,
+	gem:0,
+	exp:13343
+}
+militaryTech[477] = {
+	id:477,
+	index:28,
+	name:"siege_infantry",
+	level:56,
+	wood:414288,
+	stone:414288,
+	iron:414288,
+	food:414288,
+	coin:0,
+	gem:0,
+	exp:16571
+}
+militaryTech[478] = {
+	id:478,
+	index:29,
+	name:"siege_infantry",
+	level:58,
+	wood:514488,
+	stone:514488,
+	iron:514488,
+	food:514488,
+	coin:0,
+	gem:0,
+	exp:20579
+}
+militaryTech[479] = {
+	id:479,
+	index:30,
+	name:"siege_infantry",
+	level:60,
+	wood:638825,
+	stone:638825,
+	iron:638825,
+	food:638825,
+	coin:0,
+	gem:0,
+	exp:25553
+}
+militaryTech[480] = {
+	id:480,
+	index:1,
+	name:"siege_archer",
+	level:2,
+	wood:669,
+	stone:669,
+	iron:669,
+	food:669,
+	coin:0,
+	gem:0,
+	exp:26
+}
+militaryTech[481] = {
+	id:481,
+	index:2,
+	name:"siege_archer",
+	level:4,
+	wood:1531,
+	stone:1531,
+	iron:1531,
+	food:1531,
+	coin:0,
+	gem:0,
+	exp:61
+}
+militaryTech[482] = {
+	id:482,
+	index:3,
+	name:"siege_archer",
+	level:6,
+	wood:2406,
+	stone:2406,
+	iron:2406,
+	food:2406,
+	coin:0,
+	gem:0,
+	exp:96
+}
+militaryTech[483] = {
+	id:483,
+	index:4,
+	name:"siege_archer",
+	level:8,
+	wood:3294,
+	stone:3294,
+	iron:3294,
+	food:3294,
+	coin:0,
+	gem:0,
+	exp:131
+}
+militaryTech[484] = {
+	id:484,
+	index:5,
+	name:"siege_archer",
+	level:10,
+	wood:4238,
+	stone:4238,
+	iron:4238,
+	food:4238,
+	coin:0,
+	gem:0,
+	exp:169
+}
+militaryTech[485] = {
+	id:485,
+	index:6,
+	name:"siege_archer",
+	level:12,
+	wood:5213,
+	stone:5213,
+	iron:5213,
+	food:5213,
+	coin:0,
+	gem:0,
+	exp:208
+}
+militaryTech[486] = {
+	id:486,
+	index:7,
+	name:"siege_archer",
+	level:14,
+	wood:6231,
+	stone:6231,
+	iron:6231,
+	food:6231,
+	coin:0,
+	gem:0,
+	exp:249
+}
+militaryTech[487] = {
+	id:487,
+	index:8,
+	name:"siege_archer",
+	level:16,
+	wood:7425,
+	stone:7425,
+	iron:7425,
+	food:7425,
+	coin:0,
+	gem:0,
+	exp:297
+}
+militaryTech[488] = {
+	id:488,
+	index:9,
+	name:"siege_archer",
+	level:18,
+	wood:8750,
+	stone:8750,
+	iron:8750,
+	food:8750,
+	coin:0,
+	gem:0,
+	exp:350
+}
+militaryTech[489] = {
+	id:489,
+	index:10,
+	name:"siege_archer",
+	level:20,
+	wood:10125,
+	stone:10125,
+	iron:10125,
+	food:10125,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[490] = {
+	id:490,
+	index:11,
+	name:"siege_archer",
+	level:22,
+	wood:11656,
+	stone:11656,
+	iron:11656,
+	food:11656,
+	coin:0,
+	gem:0,
+	exp:466
+}
+militaryTech[491] = {
+	id:491,
+	index:12,
+	name:"siege_archer",
+	level:24,
+	wood:13844,
+	stone:13844,
+	iron:13844,
+	food:13844,
+	coin:0,
+	gem:0,
+	exp:553
+}
+militaryTech[492] = {
+	id:492,
+	index:13,
+	name:"siege_archer",
+	level:26,
+	wood:16513,
+	stone:16513,
+	iron:16513,
+	food:16513,
+	coin:0,
+	gem:0,
+	exp:660
+}
+militaryTech[493] = {
+	id:493,
+	index:14,
+	name:"siege_archer",
+	level:28,
+	wood:19256,
+	stone:19256,
+	iron:19256,
+	food:19256,
+	coin:0,
+	gem:0,
+	exp:770
+}
+militaryTech[494] = {
+	id:494,
+	index:15,
+	name:"siege_archer",
+	level:30,
+	wood:22525,
+	stone:22525,
+	iron:22525,
+	food:22525,
+	coin:0,
+	gem:0,
+	exp:901
+}
+militaryTech[495] = {
+	id:495,
+	index:16,
+	name:"siege_archer",
+	level:32,
+	wood:27844,
+	stone:27844,
+	iron:27844,
+	food:27844,
+	coin:0,
+	gem:0,
+	exp:1113
+}
+militaryTech[496] = {
+	id:496,
+	index:17,
+	name:"siege_archer",
+	level:34,
+	wood:34644,
+	stone:34644,
+	iron:34644,
+	food:34644,
+	coin:0,
+	gem:0,
+	exp:1385
+}
+militaryTech[497] = {
+	id:497,
+	index:18,
+	name:"siege_archer",
+	level:36,
+	wood:41544,
+	stone:41544,
+	iron:41544,
+	food:41544,
+	coin:0,
+	gem:0,
+	exp:1661
+}
+militaryTech[498] = {
+	id:498,
+	index:19,
+	name:"siege_archer",
+	level:38,
+	wood:50081,
+	stone:50081,
+	iron:50081,
+	food:50081,
+	coin:0,
+	gem:0,
+	exp:2003
+}
+militaryTech[499] = {
+	id:499,
+	index:20,
+	name:"siege_archer",
+	level:40,
+	wood:64569,
+	stone:64569,
+	iron:64569,
+	food:64569,
+	coin:0,
+	gem:0,
+	exp:2582
+}
+militaryTech[500] = {
+	id:500,
+	index:21,
+	name:"siege_archer",
+	level:42,
+	wood:83225,
+	stone:83225,
+	iron:83225,
+	food:83225,
+	coin:0,
+	gem:0,
+	exp:3329
+}
+militaryTech[501] = {
+	id:501,
+	index:22,
+	name:"siege_archer",
+	level:44,
+	wood:102225,
+	stone:102225,
+	iron:102225,
+	food:102225,
+	coin:0,
+	gem:0,
+	exp:4089
+}
+militaryTech[502] = {
+	id:502,
+	index:23,
+	name:"siege_archer",
+	level:46,
+	wood:125906,
+	stone:125906,
+	iron:125906,
+	food:125906,
+	coin:0,
+	gem:0,
+	exp:5036
+}
+militaryTech[503] = {
+	id:503,
+	index:24,
+	name:"siege_archer",
+	level:48,
+	wood:165606,
+	stone:165606,
+	iron:165606,
+	food:165606,
+	coin:0,
+	gem:0,
+	exp:6624
+}
+militaryTech[504] = {
+	id:504,
+	index:25,
+	name:"siege_archer",
+	level:50,
+	wood:216569,
+	stone:216569,
+	iron:216569,
+	food:216569,
+	coin:0,
+	gem:0,
+	exp:8662
+}
+militaryTech[505] = {
+	id:505,
+	index:26,
+	name:"siege_archer",
+	level:52,
+	wood:268681,
+	stone:268681,
+	iron:268681,
+	food:268681,
+	coin:0,
+	gem:0,
+	exp:10747
+}
+militaryTech[506] = {
+	id:506,
+	index:27,
+	name:"siege_archer",
+	level:54,
+	wood:333575,
+	stone:333575,
+	iron:333575,
+	food:333575,
+	coin:0,
+	gem:0,
+	exp:13343
+}
+militaryTech[507] = {
+	id:507,
+	index:28,
+	name:"siege_archer",
+	level:56,
+	wood:414288,
+	stone:414288,
+	iron:414288,
+	food:414288,
+	coin:0,
+	gem:0,
+	exp:16571
+}
+militaryTech[508] = {
+	id:508,
+	index:29,
+	name:"siege_archer",
+	level:58,
+	wood:514488,
+	stone:514488,
+	iron:514488,
+	food:514488,
+	coin:0,
+	gem:0,
+	exp:20579
+}
+militaryTech[509] = {
+	id:509,
+	index:30,
+	name:"siege_archer",
+	level:60,
+	wood:638825,
+	stone:638825,
+	iron:638825,
+	food:638825,
+	coin:0,
+	gem:0,
+	exp:25553
+}
+militaryTech[510] = {
+	id:510,
+	index:1,
+	name:"siege_cavalry",
+	level:2,
+	wood:669,
+	stone:669,
+	iron:669,
+	food:669,
+	coin:0,
+	gem:0,
+	exp:26
+}
+militaryTech[511] = {
+	id:511,
+	index:2,
+	name:"siege_cavalry",
+	level:4,
+	wood:1531,
+	stone:1531,
+	iron:1531,
+	food:1531,
+	coin:0,
+	gem:0,
+	exp:61
+}
+militaryTech[512] = {
+	id:512,
+	index:3,
+	name:"siege_cavalry",
+	level:6,
+	wood:2406,
+	stone:2406,
+	iron:2406,
+	food:2406,
+	coin:0,
+	gem:0,
+	exp:96
+}
+militaryTech[513] = {
+	id:513,
+	index:4,
+	name:"siege_cavalry",
+	level:8,
+	wood:3294,
+	stone:3294,
+	iron:3294,
+	food:3294,
+	coin:0,
+	gem:0,
+	exp:131
+}
+militaryTech[514] = {
+	id:514,
+	index:5,
+	name:"siege_cavalry",
+	level:10,
+	wood:4238,
+	stone:4238,
+	iron:4238,
+	food:4238,
+	coin:0,
+	gem:0,
+	exp:169
+}
+militaryTech[515] = {
+	id:515,
+	index:6,
+	name:"siege_cavalry",
+	level:12,
+	wood:5213,
+	stone:5213,
+	iron:5213,
+	food:5213,
+	coin:0,
+	gem:0,
+	exp:208
+}
+militaryTech[516] = {
+	id:516,
+	index:7,
+	name:"siege_cavalry",
+	level:14,
+	wood:6231,
+	stone:6231,
+	iron:6231,
+	food:6231,
+	coin:0,
+	gem:0,
+	exp:249
+}
+militaryTech[517] = {
+	id:517,
+	index:8,
+	name:"siege_cavalry",
+	level:16,
+	wood:7425,
+	stone:7425,
+	iron:7425,
+	food:7425,
+	coin:0,
+	gem:0,
+	exp:297
+}
+militaryTech[518] = {
+	id:518,
+	index:9,
+	name:"siege_cavalry",
+	level:18,
+	wood:8750,
+	stone:8750,
+	iron:8750,
+	food:8750,
+	coin:0,
+	gem:0,
+	exp:350
+}
+militaryTech[519] = {
+	id:519,
+	index:10,
+	name:"siege_cavalry",
+	level:20,
+	wood:10125,
+	stone:10125,
+	iron:10125,
+	food:10125,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[520] = {
+	id:520,
+	index:11,
+	name:"siege_cavalry",
+	level:22,
+	wood:11656,
+	stone:11656,
+	iron:11656,
+	food:11656,
+	coin:0,
+	gem:0,
+	exp:466
+}
+militaryTech[521] = {
+	id:521,
+	index:12,
+	name:"siege_cavalry",
+	level:24,
+	wood:13844,
+	stone:13844,
+	iron:13844,
+	food:13844,
+	coin:0,
+	gem:0,
+	exp:553
+}
+militaryTech[522] = {
+	id:522,
+	index:13,
+	name:"siege_cavalry",
+	level:26,
+	wood:16513,
+	stone:16513,
+	iron:16513,
+	food:16513,
+	coin:0,
+	gem:0,
+	exp:660
+}
+militaryTech[523] = {
+	id:523,
+	index:14,
+	name:"siege_cavalry",
+	level:28,
+	wood:19256,
+	stone:19256,
+	iron:19256,
+	food:19256,
+	coin:0,
+	gem:0,
+	exp:770
+}
+militaryTech[524] = {
+	id:524,
+	index:15,
+	name:"siege_cavalry",
+	level:30,
+	wood:22525,
+	stone:22525,
+	iron:22525,
+	food:22525,
+	coin:0,
+	gem:0,
+	exp:901
+}
+militaryTech[525] = {
+	id:525,
+	index:16,
+	name:"siege_cavalry",
+	level:32,
+	wood:27844,
+	stone:27844,
+	iron:27844,
+	food:27844,
+	coin:0,
+	gem:0,
+	exp:1113
+}
+militaryTech[526] = {
+	id:526,
+	index:17,
+	name:"siege_cavalry",
+	level:34,
+	wood:34644,
+	stone:34644,
+	iron:34644,
+	food:34644,
+	coin:0,
+	gem:0,
+	exp:1385
+}
+militaryTech[527] = {
+	id:527,
+	index:18,
+	name:"siege_cavalry",
+	level:36,
+	wood:41544,
+	stone:41544,
+	iron:41544,
+	food:41544,
+	coin:0,
+	gem:0,
+	exp:1661
+}
+militaryTech[528] = {
+	id:528,
+	index:19,
+	name:"siege_cavalry",
+	level:38,
+	wood:50081,
+	stone:50081,
+	iron:50081,
+	food:50081,
+	coin:0,
+	gem:0,
+	exp:2003
+}
+militaryTech[529] = {
+	id:529,
+	index:20,
+	name:"siege_cavalry",
+	level:40,
+	wood:64569,
+	stone:64569,
+	iron:64569,
+	food:64569,
+	coin:0,
+	gem:0,
+	exp:2582
+}
+militaryTech[530] = {
+	id:530,
+	index:21,
+	name:"siege_cavalry",
+	level:42,
+	wood:83225,
+	stone:83225,
+	iron:83225,
+	food:83225,
+	coin:0,
+	gem:0,
+	exp:3329
+}
+militaryTech[531] = {
+	id:531,
+	index:22,
+	name:"siege_cavalry",
+	level:44,
+	wood:102225,
+	stone:102225,
+	iron:102225,
+	food:102225,
+	coin:0,
+	gem:0,
+	exp:4089
+}
+militaryTech[532] = {
+	id:532,
+	index:23,
+	name:"siege_cavalry",
+	level:46,
+	wood:125906,
+	stone:125906,
+	iron:125906,
+	food:125906,
+	coin:0,
+	gem:0,
+	exp:5036
+}
+militaryTech[533] = {
+	id:533,
+	index:24,
+	name:"siege_cavalry",
+	level:48,
+	wood:165606,
+	stone:165606,
+	iron:165606,
+	food:165606,
+	coin:0,
+	gem:0,
+	exp:6624
+}
+militaryTech[534] = {
+	id:534,
+	index:25,
+	name:"siege_cavalry",
+	level:50,
+	wood:216569,
+	stone:216569,
+	iron:216569,
+	food:216569,
+	coin:0,
+	gem:0,
+	exp:8662
+}
+militaryTech[535] = {
+	id:535,
+	index:26,
+	name:"siege_cavalry",
+	level:52,
+	wood:268681,
+	stone:268681,
+	iron:268681,
+	food:268681,
+	coin:0,
+	gem:0,
+	exp:10747
+}
+militaryTech[536] = {
+	id:536,
+	index:27,
+	name:"siege_cavalry",
+	level:54,
+	wood:333575,
+	stone:333575,
+	iron:333575,
+	food:333575,
+	coin:0,
+	gem:0,
+	exp:13343
+}
+militaryTech[537] = {
+	id:537,
+	index:28,
+	name:"siege_cavalry",
+	level:56,
+	wood:414288,
+	stone:414288,
+	iron:414288,
+	food:414288,
+	coin:0,
+	gem:0,
+	exp:16571
+}
+militaryTech[538] = {
+	id:538,
+	index:29,
+	name:"siege_cavalry",
+	level:58,
+	wood:514488,
+	stone:514488,
+	iron:514488,
+	food:514488,
+	coin:0,
+	gem:0,
+	exp:20579
+}
+militaryTech[539] = {
+	id:539,
+	index:30,
+	name:"siege_cavalry",
+	level:60,
+	wood:638825,
+	stone:638825,
+	iron:638825,
+	food:638825,
+	coin:0,
+	gem:0,
+	exp:25553
+}
+militaryTech[540] = {
+	id:540,
+	index:1,
+	name:"siege_siege",
+	level:2,
+	wood:669,
+	stone:669,
+	iron:669,
+	food:669,
+	coin:0,
+	gem:0,
+	exp:26
+}
+militaryTech[541] = {
+	id:541,
+	index:2,
+	name:"siege_siege",
+	level:4,
+	wood:1531,
+	stone:1531,
+	iron:1531,
+	food:1531,
+	coin:0,
+	gem:0,
+	exp:61
+}
+militaryTech[542] = {
+	id:542,
+	index:3,
+	name:"siege_siege",
+	level:6,
+	wood:2406,
+	stone:2406,
+	iron:2406,
+	food:2406,
+	coin:0,
+	gem:0,
+	exp:96
+}
+militaryTech[543] = {
+	id:543,
+	index:4,
+	name:"siege_siege",
+	level:8,
+	wood:3294,
+	stone:3294,
+	iron:3294,
+	food:3294,
+	coin:0,
+	gem:0,
+	exp:131
+}
+militaryTech[544] = {
+	id:544,
+	index:5,
+	name:"siege_siege",
+	level:10,
+	wood:4238,
+	stone:4238,
+	iron:4238,
+	food:4238,
+	coin:0,
+	gem:0,
+	exp:169
+}
+militaryTech[545] = {
+	id:545,
+	index:6,
+	name:"siege_siege",
+	level:12,
+	wood:5213,
+	stone:5213,
+	iron:5213,
+	food:5213,
+	coin:0,
+	gem:0,
+	exp:208
+}
+militaryTech[546] = {
+	id:546,
+	index:7,
+	name:"siege_siege",
+	level:14,
+	wood:6231,
+	stone:6231,
+	iron:6231,
+	food:6231,
+	coin:0,
+	gem:0,
+	exp:249
+}
+militaryTech[547] = {
+	id:547,
+	index:8,
+	name:"siege_siege",
+	level:16,
+	wood:7425,
+	stone:7425,
+	iron:7425,
+	food:7425,
+	coin:0,
+	gem:0,
+	exp:297
+}
+militaryTech[548] = {
+	id:548,
+	index:9,
+	name:"siege_siege",
+	level:18,
+	wood:8750,
+	stone:8750,
+	iron:8750,
+	food:8750,
+	coin:0,
+	gem:0,
+	exp:350
+}
+militaryTech[549] = {
+	id:549,
+	index:10,
+	name:"siege_siege",
+	level:20,
+	wood:10125,
+	stone:10125,
+	iron:10125,
+	food:10125,
+	coin:0,
+	gem:0,
+	exp:405
+}
+militaryTech[550] = {
+	id:550,
+	index:11,
+	name:"siege_siege",
+	level:22,
+	wood:11656,
+	stone:11656,
+	iron:11656,
+	food:11656,
+	coin:0,
+	gem:0,
+	exp:466
+}
+militaryTech[551] = {
+	id:551,
+	index:12,
+	name:"siege_siege",
+	level:24,
+	wood:13844,
+	stone:13844,
+	iron:13844,
+	food:13844,
+	coin:0,
+	gem:0,
+	exp:553
+}
+militaryTech[552] = {
+	id:552,
+	index:13,
+	name:"siege_siege",
+	level:26,
+	wood:16513,
+	stone:16513,
+	iron:16513,
+	food:16513,
+	coin:0,
+	gem:0,
+	exp:660
+}
+militaryTech[553] = {
+	id:553,
+	index:14,
+	name:"siege_siege",
+	level:28,
+	wood:19256,
+	stone:19256,
+	iron:19256,
+	food:19256,
+	coin:0,
+	gem:0,
+	exp:770
+}
+militaryTech[554] = {
+	id:554,
+	index:15,
+	name:"siege_siege",
+	level:30,
+	wood:22525,
+	stone:22525,
+	iron:22525,
+	food:22525,
+	coin:0,
+	gem:0,
+	exp:901
+}
+militaryTech[555] = {
+	id:555,
+	index:16,
+	name:"siege_siege",
+	level:32,
+	wood:27844,
+	stone:27844,
+	iron:27844,
+	food:27844,
+	coin:0,
+	gem:0,
+	exp:1113
+}
+militaryTech[556] = {
+	id:556,
+	index:17,
+	name:"siege_siege",
+	level:34,
+	wood:34644,
+	stone:34644,
+	iron:34644,
+	food:34644,
+	coin:0,
+	gem:0,
+	exp:1385
+}
+militaryTech[557] = {
+	id:557,
+	index:18,
+	name:"siege_siege",
+	level:36,
+	wood:41544,
+	stone:41544,
+	iron:41544,
+	food:41544,
+	coin:0,
+	gem:0,
+	exp:1661
+}
+militaryTech[558] = {
+	id:558,
+	index:19,
+	name:"siege_siege",
+	level:38,
+	wood:50081,
+	stone:50081,
+	iron:50081,
+	food:50081,
+	coin:0,
+	gem:0,
+	exp:2003
+}
+militaryTech[559] = {
+	id:559,
+	index:20,
+	name:"siege_siege",
+	level:40,
+	wood:64569,
+	stone:64569,
+	iron:64569,
+	food:64569,
+	coin:0,
+	gem:0,
+	exp:2582
+}
+militaryTech[560] = {
+	id:560,
+	index:21,
+	name:"siege_siege",
+	level:42,
+	wood:83225,
+	stone:83225,
+	iron:83225,
+	food:83225,
+	coin:0,
+	gem:0,
+	exp:3329
+}
+militaryTech[561] = {
+	id:561,
+	index:22,
+	name:"siege_siege",
+	level:44,
+	wood:102225,
+	stone:102225,
+	iron:102225,
+	food:102225,
+	coin:0,
+	gem:0,
+	exp:4089
+}
+militaryTech[562] = {
+	id:562,
+	index:23,
+	name:"siege_siege",
+	level:46,
+	wood:125906,
+	stone:125906,
+	iron:125906,
+	food:125906,
+	coin:0,
+	gem:0,
+	exp:5036
+}
+militaryTech[563] = {
+	id:563,
+	index:24,
+	name:"siege_siege",
+	level:48,
+	wood:165606,
+	stone:165606,
+	iron:165606,
+	food:165606,
+	coin:0,
+	gem:0,
+	exp:6624
+}
+militaryTech[564] = {
+	id:564,
+	index:25,
+	name:"siege_siege",
+	level:50,
+	wood:216569,
+	stone:216569,
+	iron:216569,
+	food:216569,
+	coin:0,
+	gem:0,
+	exp:8662
+}
+militaryTech[565] = {
+	id:565,
+	index:26,
+	name:"siege_siege",
+	level:52,
+	wood:268681,
+	stone:268681,
+	iron:268681,
+	food:268681,
+	coin:0,
+	gem:0,
+	exp:10747
+}
+militaryTech[566] = {
+	id:566,
+	index:27,
+	name:"siege_siege",
+	level:54,
+	wood:333575,
+	stone:333575,
+	iron:333575,
+	food:333575,
+	coin:0,
+	gem:0,
+	exp:13343
+}
+militaryTech[567] = {
+	id:567,
+	index:28,
+	name:"siege_siege",
+	level:56,
+	wood:414288,
+	stone:414288,
+	iron:414288,
+	food:414288,
+	coin:0,
+	gem:0,
+	exp:16571
+}
+militaryTech[568] = {
+	id:568,
+	index:29,
+	name:"siege_siege",
+	level:58,
+	wood:514488,
+	stone:514488,
+	iron:514488,
+	food:514488,
+	coin:0,
+	gem:0,
+	exp:20579
+}
+militaryTech[569] = {
+	id:569,
+	index:30,
+	name:"siege_siege",
+	level:60,
+	wood:638825,
+	stone:638825,
+	iron:638825,
+	food:638825,
+	coin:0,
+	gem:0,
+	exp:25553
+}
+militaryTech[570] = {
+	id:570,
+	index:1,
+	name:"siege_hpAdd",
+	level:2,
+	wood:1331,
+	stone:1331,
+	iron:1331,
+	food:1331,
+	coin:0,
+	gem:0,
+	exp:53
+}
+militaryTech[571] = {
+	id:571,
+	index:2,
+	name:"siege_hpAdd",
+	level:4,
+	wood:3056,
+	stone:3056,
+	iron:3056,
+	food:3056,
+	coin:0,
+	gem:0,
+	exp:122
+}
+militaryTech[572] = {
+	id:572,
+	index:3,
+	name:"siege_hpAdd",
+	level:6,
+	wood:4806,
+	stone:4806,
+	iron:4806,
+	food:4806,
+	coin:0,
+	gem:0,
+	exp:192
+}
+militaryTech[573] = {
+	id:573,
+	index:4,
+	name:"siege_hpAdd",
+	level:8,
+	wood:6588,
+	stone:6588,
+	iron:6588,
+	food:6588,
+	coin:0,
+	gem:0,
+	exp:263
+}
+militaryTech[574] = {
+	id:574,
+	index:5,
+	name:"siege_hpAdd",
+	level:10,
+	wood:8475,
+	stone:8475,
+	iron:8475,
+	food:8475,
+	coin:0,
+	gem:0,
+	exp:339
+}
+militaryTech[575] = {
+	id:575,
+	index:6,
+	name:"siege_hpAdd",
+	level:12,
+	wood:10425,
+	stone:10425,
+	iron:10425,
+	food:10425,
+	coin:0,
+	gem:0,
+	exp:417
+}
+militaryTech[576] = {
+	id:576,
+	index:7,
+	name:"siege_hpAdd",
+	level:14,
+	wood:12456,
+	stone:12456,
+	iron:12456,
+	food:12456,
+	coin:0,
+	gem:0,
+	exp:498
+}
+militaryTech[577] = {
+	id:577,
+	index:8,
+	name:"siege_hpAdd",
+	level:16,
+	wood:14838,
+	stone:14838,
+	iron:14838,
+	food:14838,
+	coin:0,
+	gem:0,
+	exp:593
+}
+militaryTech[578] = {
+	id:578,
+	index:9,
+	name:"siege_hpAdd",
+	level:18,
+	wood:17500,
+	stone:17500,
+	iron:17500,
+	food:17500,
+	coin:0,
+	gem:0,
+	exp:700
+}
+militaryTech[579] = {
+	id:579,
+	index:10,
+	name:"siege_hpAdd",
+	level:20,
+	wood:20244,
+	stone:20244,
+	iron:20244,
+	food:20244,
+	coin:0,
+	gem:0,
+	exp:809
+}
+militaryTech[580] = {
+	id:580,
+	index:11,
+	name:"siege_hpAdd",
+	level:22,
+	wood:23306,
+	stone:23306,
+	iron:23306,
+	food:23306,
+	coin:0,
+	gem:0,
+	exp:932
+}
+militaryTech[581] = {
+	id:581,
+	index:12,
+	name:"siege_hpAdd",
+	level:24,
+	wood:27688,
+	stone:27688,
+	iron:27688,
+	food:27688,
+	coin:0,
+	gem:0,
+	exp:1107
+}
+militaryTech[582] = {
+	id:582,
+	index:13,
+	name:"siege_hpAdd",
+	level:26,
+	wood:33025,
+	stone:33025,
+	iron:33025,
+	food:33025,
+	coin:0,
+	gem:0,
+	exp:1321
+}
+militaryTech[583] = {
+	id:583,
+	index:14,
+	name:"siege_hpAdd",
+	level:28,
+	wood:38506,
+	stone:38506,
+	iron:38506,
+	food:38506,
+	coin:0,
+	gem:0,
+	exp:1540
+}
+militaryTech[584] = {
+	id:584,
+	index:15,
+	name:"siege_hpAdd",
+	level:30,
+	wood:45044,
+	stone:45044,
+	iron:45044,
+	food:45044,
+	coin:0,
+	gem:0,
+	exp:1801
+}
+militaryTech[585] = {
+	id:585,
+	index:16,
+	name:"siege_hpAdd",
+	level:32,
+	wood:55681,
+	stone:55681,
+	iron:55681,
+	food:55681,
+	coin:0,
+	gem:0,
+	exp:2227
+}
+militaryTech[586] = {
+	id:586,
+	index:17,
+	name:"siege_hpAdd",
+	level:34,
+	wood:69281,
+	stone:69281,
+	iron:69281,
+	food:69281,
+	coin:0,
+	gem:0,
+	exp:2771
+}
+militaryTech[587] = {
+	id:587,
+	index:18,
+	name:"siege_hpAdd",
+	level:36,
+	wood:83075,
+	stone:83075,
+	iron:83075,
+	food:83075,
+	coin:0,
+	gem:0,
+	exp:3323
+}
+militaryTech[588] = {
+	id:588,
+	index:19,
+	name:"siege_hpAdd",
+	level:38,
+	wood:100156,
+	stone:100156,
+	iron:100156,
+	food:100156,
+	coin:0,
+	gem:0,
+	exp:4006
+}
+militaryTech[589] = {
+	id:589,
+	index:20,
+	name:"siege_hpAdd",
+	level:40,
+	wood:129138,
+	stone:129138,
+	iron:129138,
+	food:129138,
+	coin:0,
+	gem:0,
+	exp:5165
+}
+militaryTech[590] = {
+	id:590,
+	index:21,
+	name:"siege_hpAdd",
+	level:42,
+	wood:166444,
+	stone:166444,
+	iron:166444,
+	food:166444,
+	coin:0,
+	gem:0,
+	exp:6657
+}
+militaryTech[591] = {
+	id:591,
+	index:22,
+	name:"siege_hpAdd",
+	level:44,
+	wood:204444,
+	stone:204444,
+	iron:204444,
+	food:204444,
+	coin:0,
+	gem:0,
+	exp:8177
+}
+militaryTech[592] = {
+	id:592,
+	index:23,
+	name:"siege_hpAdd",
+	level:46,
+	wood:251813,
+	stone:251813,
+	iron:251813,
+	food:251813,
+	coin:0,
+	gem:0,
+	exp:10072
+}
+militaryTech[593] = {
+	id:593,
+	index:24,
+	name:"siege_hpAdd",
+	level:48,
+	wood:331206,
+	stone:331206,
+	iron:331206,
+	food:331206,
+	coin:0,
+	gem:0,
+	exp:13248
+}
+militaryTech[594] = {
+	id:594,
+	index:25,
+	name:"siege_hpAdd",
+	level:50,
+	wood:433125,
+	stone:433125,
+	iron:433125,
+	food:433125,
+	coin:0,
+	gem:0,
+	exp:17325
+}
+militaryTech[595] = {
+	id:595,
+	index:26,
+	name:"siege_hpAdd",
+	level:52,
+	wood:537356,
+	stone:537356,
+	iron:537356,
+	food:537356,
+	coin:0,
+	gem:0,
+	exp:21494
+}
+militaryTech[596] = {
+	id:596,
+	index:27,
+	name:"siege_hpAdd",
+	level:54,
+	wood:667144,
+	stone:667144,
+	iron:667144,
+	food:667144,
+	coin:0,
+	gem:0,
+	exp:26685
+}
+militaryTech[597] = {
+	id:597,
+	index:28,
+	name:"siege_hpAdd",
+	level:56,
+	wood:828575,
+	stone:828575,
+	iron:828575,
+	food:828575,
+	coin:0,
+	gem:0,
+	exp:33143
+}
+militaryTech[598] = {
+	id:598,
+	index:29,
+	name:"siege_hpAdd",
+	level:58,
+	wood:1028963,
+	stone:1028963,
+	iron:1028963,
+	food:1028963,
+	coin:0,
+	gem:0,
+	exp:41158
+}
+militaryTech[599] = {
+	id:599,
+	index:30,
+	name:"siege_hpAdd",
+	level:60,
+	wood:1277650,
+	stone:1277650,
+	iron:1277650,
+	food:1277650,
+	coin:0,
+	gem:0,
+	exp:51106
+}
