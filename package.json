@@ -1,0 +1,44 @@
+{
+  "name": "KOD",
+  "version": "1.0.0",
+  "private": true,
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
+  "dependencies": {
+    "pomelo": "git://github.com/ModunZhang/pomelo.git",
+    "mongoose": "4.4.20",
+    "bluebird": "3.4.0",
+    "underscore": "1.8.3",
+    "nodemailer": "0.7",
+    "sprintf": "0.1.5",
+    "shortid": "2.2.6",
+    "shelljs": "0.5.3",
+    "apn":"1.7.6",
+    "toobusy-js":"0.4.3",
+    "pomelo-http-plugin":"0.0.25",
+    "request":"2.71.0",
+    "xml-crypto":"git://github.com/ModunZhang/xml-crypto.git",
+    "xmldom":"0.1.19",
+    "pm2":"1.1.3",
+    "usage":"0.7.1",
+    "node-gcm":"0.14.0 ",
+    "iab_verifier":"0.1.2",
+    "collections":"3.0.0",
+    "moment":"2.12.0",
+    "jsonfile":"2.3.0",
+    "bad-words-chinese":"1.0.0",
+    "mongo-dump-stream":"0.3.3",
+    "aliyun-sdk":"1.9.1",
+    "aliyun-oss-upload-stream":"1.2.1"
+  },
+  "devDependencies": {
+    "should": ">=0.0.1",
+    "mocha": ">=0.0.1",
+    "ws": "0.8.0",
+    "debug":"2.2.0",
+    "tick-id":"1.0.2"
+  }
+}
