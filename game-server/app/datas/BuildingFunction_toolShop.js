@@ -1,0 +1,565 @@
+"use strict"
+
+var toolShop = []
+module.exports = toolShop
+
+toolShop[1] = {
+	level:1,
+	production:1,
+	productionType:1,
+	productBmWood:4000,
+	productBmStone:4000,
+	productBmIron:4000,
+	productBmtime:160,
+	productAmWood:4000,
+	productAmStone:4000,
+	productAmIron:4000,
+	productAmtime:320,
+	power:30
+}
+toolShop[2] = {
+	level:2,
+	production:2,
+	productionType:1,
+	productBmWood:7960,
+	productBmStone:7960,
+	productBmIron:7960,
+	productBmtime:320,
+	productAmWood:7960,
+	productAmStone:7960,
+	productAmIron:7960,
+	productAmtime:640,
+	power:35
+}
+toolShop[3] = {
+	level:3,
+	production:4,
+	productionType:1,
+	productBmWood:15840,
+	productBmStone:15840,
+	productBmIron:15840,
+	productBmtime:480,
+	productAmWood:15840,
+	productAmStone:15840,
+	productAmIron:15840,
+	productAmtime:960,
+	power:40
+}
+toolShop[4] = {
+	level:4,
+	production:6,
+	productionType:2,
+	productBmWood:23640,
+	productBmStone:23640,
+	productBmIron:23640,
+	productBmtime:640,
+	productAmWood:23640,
+	productAmStone:23640,
+	productAmIron:23640,
+	productAmtime:1280,
+	power:50
+}
+toolShop[5] = {
+	level:5,
+	production:8,
+	productionType:2,
+	productBmWood:31360,
+	productBmStone:31360,
+	productBmIron:31360,
+	productBmtime:800,
+	productAmWood:31360,
+	productAmStone:31360,
+	productAmIron:31360,
+	productAmtime:1600,
+	power:60
+}
+toolShop[6] = {
+	level:6,
+	production:10,
+	productionType:2,
+	productBmWood:39000,
+	productBmStone:39000,
+	productBmIron:39000,
+	productBmtime:960,
+	productAmWood:39000,
+	productAmStone:39000,
+	productAmIron:39000,
+	productAmtime:1920,
+	power:70
+}
+toolShop[7] = {
+	level:7,
+	production:12,
+	productionType:2,
+	productBmWood:46560,
+	productBmStone:46560,
+	productBmIron:46560,
+	productBmtime:1120,
+	productAmWood:46560,
+	productAmStone:46560,
+	productAmIron:46560,
+	productAmtime:2240,
+	power:100
+}
+toolShop[8] = {
+	level:8,
+	production:15,
+	productionType:2,
+	productBmWood:57900,
+	productBmStone:57900,
+	productBmIron:57900,
+	productBmtime:1280,
+	productAmWood:57900,
+	productAmStone:57900,
+	productAmIron:57900,
+	productAmtime:2560,
+	power:180
+}
+toolShop[9] = {
+	level:9,
+	production:20,
+	productionType:3,
+	productBmWood:76800,
+	productBmStone:76800,
+	productBmIron:76800,
+	productBmtime:1440,
+	productAmWood:76800,
+	productAmStone:76800,
+	productAmIron:76800,
+	productAmtime:2880,
+	power:370
+}
+toolShop[10] = {
+	level:10,
+	production:25,
+	productionType:3,
+	productBmWood:95500,
+	productBmStone:95500,
+	productBmIron:95500,
+	productBmtime:1600,
+	productAmWood:95500,
+	productAmStone:95500,
+	productAmIron:95500,
+	productAmtime:3200,
+	power:550
+}
+toolShop[11] = {
+	level:11,
+	production:30,
+	productionType:3,
+	productBmWood:114000,
+	productBmStone:114000,
+	productBmIron:114000,
+	productBmtime:1760,
+	productAmWood:114000,
+	productAmStone:114000,
+	productAmIron:114000,
+	productAmtime:3520,
+	power:750
+}
+toolShop[12] = {
+	level:12,
+	production:35,
+	productionType:3,
+	productBmWood:132300,
+	productBmStone:132300,
+	productBmIron:132300,
+	productBmtime:1920,
+	productAmWood:132300,
+	productAmStone:132300,
+	productAmIron:132300,
+	productAmtime:3840,
+	power:950
+}
+toolShop[13] = {
+	level:13,
+	production:40,
+	productionType:3,
+	productBmWood:150400,
+	productBmStone:150400,
+	productBmIron:150400,
+	productBmtime:2080,
+	productAmWood:150400,
+	productAmStone:150400,
+	productAmIron:150400,
+	productAmtime:4160,
+	power:1250
+}
+toolShop[14] = {
+	level:14,
+	production:45,
+	productionType:3,
+	productBmWood:168300,
+	productBmStone:168300,
+	productBmIron:168300,
+	productBmtime:2240,
+	productAmWood:168300,
+	productAmStone:168300,
+	productAmIron:168300,
+	productAmtime:4480,
+	power:2530
+}
+toolShop[15] = {
+	level:15,
+	production:50,
+	productionType:3,
+	productBmWood:186000,
+	productBmStone:186000,
+	productBmIron:186000,
+	productBmtime:2400,
+	productAmWood:186000,
+	productAmStone:186000,
+	productAmIron:186000,
+	productAmtime:4800,
+	power:3940
+}
+toolShop[16] = {
+	level:16,
+	production:55,
+	productionType:3,
+	productBmWood:203500,
+	productBmStone:203500,
+	productBmIron:203500,
+	productBmtime:2560,
+	productAmWood:203500,
+	productAmStone:203500,
+	productAmIron:203500,
+	productAmtime:5120,
+	power:5450
+}
+toolShop[17] = {
+	level:17,
+	production:60,
+	productionType:3,
+	productBmWood:220800,
+	productBmStone:220800,
+	productBmIron:220800,
+	productBmtime:2880,
+	productAmWood:220800,
+	productAmStone:220800,
+	productAmIron:220800,
+	productAmtime:5760,
+	power:7960
+}
+toolShop[18] = {
+	level:18,
+	production:65,
+	productionType:3,
+	productBmWood:237900,
+	productBmStone:237900,
+	productBmIron:237900,
+	productBmtime:3200,
+	productAmWood:237900,
+	productAmStone:237900,
+	productAmIron:237900,
+	productAmtime:6400,
+	power:9790
+}
+toolShop[19] = {
+	level:19,
+	production:70,
+	productionType:3,
+	productBmWood:254800,
+	productBmStone:254800,
+	productBmIron:254800,
+	productBmtime:3520,
+	productAmWood:254800,
+	productAmStone:254800,
+	productAmIron:254800,
+	productAmtime:7040,
+	power:11960
+}
+toolShop[20] = {
+	level:20,
+	production:75,
+	productionType:3,
+	productBmWood:271500,
+	productBmStone:271500,
+	productBmIron:271500,
+	productBmtime:3840,
+	productAmWood:271500,
+	productAmStone:271500,
+	productAmIron:271500,
+	productAmtime:7680,
+	power:14030
+}
+toolShop[21] = {
+	level:21,
+	production:80,
+	productionType:3,
+	productBmWood:288000,
+	productBmStone:288000,
+	productBmIron:288000,
+	productBmtime:4160,
+	productAmWood:288000,
+	productAmStone:288000,
+	productAmIron:288000,
+	productAmtime:8320,
+	power:19060
+}
+toolShop[22] = {
+	level:22,
+	production:85,
+	productionType:3,
+	productBmWood:304300,
+	productBmStone:304300,
+	productBmIron:304300,
+	productBmtime:4480,
+	productAmWood:304300,
+	productAmStone:304300,
+	productAmIron:304300,
+	productAmtime:8960,
+	power:21840
+}
+toolShop[23] = {
+	level:23,
+	production:90,
+	productionType:3,
+	productBmWood:320400,
+	productBmStone:320400,
+	productBmIron:320400,
+	productBmtime:4800,
+	productAmWood:320400,
+	productAmStone:320400,
+	productAmIron:320400,
+	productAmtime:9600,
+	power:25210
+}
+toolShop[24] = {
+	level:24,
+	production:95,
+	productionType:3,
+	productBmWood:336300,
+	productBmStone:336300,
+	productBmIron:336300,
+	productBmtime:5120,
+	productAmWood:336300,
+	productAmStone:336300,
+	productAmIron:336300,
+	productAmtime:10240,
+	power:28370
+}
+toolShop[25] = {
+	level:25,
+	production:100,
+	productionType:3,
+	productBmWood:352000,
+	productBmStone:352000,
+	productBmIron:352000,
+	productBmtime:5440,
+	productAmWood:352000,
+	productAmStone:352000,
+	productAmIron:352000,
+	productAmtime:10880,
+	power:38740
+}
+toolShop[26] = {
+	level:26,
+	production:110,
+	productionType:3,
+	productBmWood:385000,
+	productBmStone:385000,
+	productBmIron:385000,
+	productBmtime:5760,
+	productAmWood:385000,
+	productAmStone:385000,
+	productAmIron:385000,
+	productAmtime:11520,
+	power:43250
+}
+toolShop[27] = {
+	level:27,
+	production:120,
+	productionType:3,
+	productBmWood:417600,
+	productBmStone:417600,
+	productBmIron:417600,
+	productBmtime:6080,
+	productAmWood:417600,
+	productAmStone:417600,
+	productAmIron:417600,
+	productAmtime:12160,
+	power:48650
+}
+toolShop[28] = {
+	level:28,
+	production:130,
+	productionType:3,
+	productBmWood:449800,
+	productBmStone:449800,
+	productBmIron:449800,
+	productBmtime:6400,
+	productAmWood:449800,
+	productAmStone:449800,
+	productAmIron:449800,
+	productAmtime:12800,
+	power:53760
+}
+toolShop[29] = {
+	level:29,
+	production:140,
+	productionType:3,
+	productBmWood:481600,
+	productBmStone:481600,
+	productBmIron:481600,
+	productBmtime:7200,
+	productAmWood:481600,
+	productAmStone:481600,
+	productAmIron:481600,
+	productAmtime:14400,
+	power:76510
+}
+toolShop[30] = {
+	level:30,
+	production:150,
+	productionType:3,
+	productBmWood:513000,
+	productBmStone:513000,
+	productBmIron:513000,
+	productBmtime:8000,
+	productAmWood:513000,
+	productAmStone:513000,
+	productAmIron:513000,
+	productAmtime:16000,
+	power:88320
+}
+toolShop[31] = {
+	level:31,
+	production:160,
+	productionType:3,
+	productBmWood:544000,
+	productBmStone:544000,
+	productBmIron:544000,
+	productBmtime:8800,
+	productAmWood:544000,
+	productAmStone:544000,
+	productAmIron:544000,
+	productAmtime:17600,
+	power:102010
+}
+toolShop[32] = {
+	level:32,
+	production:170,
+	productionType:3,
+	productBmWood:574600,
+	productBmStone:574600,
+	productBmIron:574600,
+	productBmtime:9600,
+	productAmWood:574600,
+	productAmStone:574600,
+	productAmIron:574600,
+	productAmtime:19200,
+	power:115730
+}
+toolShop[33] = {
+	level:33,
+	production:180,
+	productionType:3,
+	productBmWood:604800,
+	productBmStone:604800,
+	productBmIron:604800,
+	productBmtime:10400,
+	productAmWood:604800,
+	productAmStone:604800,
+	productAmIron:604800,
+	productAmtime:20800,
+	power:158410
+}
+toolShop[34] = {
+	level:34,
+	production:190,
+	productionType:3,
+	productBmWood:634600,
+	productBmStone:634600,
+	productBmIron:634600,
+	productBmtime:11200,
+	productAmWood:634600,
+	productAmStone:634600,
+	productAmIron:634600,
+	productAmtime:22400,
+	power:178000
+}
+toolShop[35] = {
+	level:35,
+	production:200,
+	productionType:3,
+	productBmWood:664000,
+	productBmStone:664000,
+	productBmIron:664000,
+	productBmtime:12000,
+	productAmWood:664000,
+	productAmStone:664000,
+	productAmIron:664000,
+	productAmtime:24000,
+	power:200500
+}
+toolShop[36] = {
+	level:36,
+	production:210,
+	productionType:3,
+	productBmWood:693000,
+	productBmStone:693000,
+	productBmIron:693000,
+	productBmtime:12800,
+	productAmWood:693000,
+	productAmStone:693000,
+	productAmIron:693000,
+	productAmtime:25600,
+	power:223150
+}
+toolShop[37] = {
+	level:37,
+	production:220,
+	productionType:3,
+	productBmWood:721600,
+	productBmStone:721600,
+	productBmIron:721600,
+	productBmtime:13600,
+	productAmWood:721600,
+	productAmStone:721600,
+	productAmIron:721600,
+	productAmtime:27200,
+	power:300090
+}
+toolShop[38] = {
+	level:38,
+	production:230,
+	productionType:3,
+	productBmWood:749800,
+	productBmStone:749800,
+	productBmIron:749800,
+	productBmtime:14400,
+	productAmWood:749800,
+	productAmStone:749800,
+	productAmIron:749800,
+	productAmtime:28800,
+	power:331970
+}
+toolShop[39] = {
+	level:39,
+	production:240,
+	productionType:3,
+	productBmWood:777600,
+	productBmStone:777600,
+	productBmIron:777600,
+	productBmtime:15200,
+	productAmWood:777600,
+	productAmStone:777600,
+	productAmIron:777600,
+	productAmtime:30400,
+	power:368030
+}
+toolShop[40] = {
+	level:40,
+	production:250,
+	productionType:3,
+	productBmWood:800000,
+	productBmStone:800000,
+	productBmIron:800000,
+	productBmtime:16000,
+	productAmWood:800000,
+	productAmStone:800000,
+	productAmIron:800000,
+	productAmtime:32000,
+	power:404820
+}

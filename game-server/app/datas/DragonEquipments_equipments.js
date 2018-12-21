@@ -1,0 +1,797 @@
+"use strict"
+
+var equipments = {}
+module.exports = equipments
+
+equipments["redCrown_s1"] = {
+	name:"redCrown_s1",
+	usedFor:"redDragon",
+	maxStar:1,
+	category:"crown",
+	resolveLExp:100,
+	resolveMExp:75,
+	resolveSExp:50,
+	materials:"runes_1:3,redCrystal_1:3",
+	coin:5000,
+	makeTime:2400
+}
+equipments["blueCrown_s1"] = {
+	name:"blueCrown_s1",
+	usedFor:"blueDragon",
+	maxStar:1,
+	category:"crown",
+	resolveLExp:100,
+	resolveMExp:75,
+	resolveSExp:50,
+	materials:"runes_1:3,blueCrystal_1:3",
+	coin:5000,
+	makeTime:2400
+}
+equipments["greenCrown_s1"] = {
+	name:"greenCrown_s1",
+	usedFor:"greenDragon",
+	maxStar:1,
+	category:"crown",
+	resolveLExp:100,
+	resolveMExp:75,
+	resolveSExp:50,
+	materials:"runes_1:3,greenCrystal_1:3",
+	coin:5000,
+	makeTime:2400
+}
+equipments["redCrown_s2"] = {
+	name:"redCrown_s2",
+	usedFor:"redDragon",
+	maxStar:2,
+	category:"crown",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"runes_2:3,redCrystal_2:3",
+	coin:60000,
+	makeTime:4800
+}
+equipments["blueCrown_s2"] = {
+	name:"blueCrown_s2",
+	usedFor:"blueDragon",
+	maxStar:2,
+	category:"crown",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"runes_2:3,blueCrystal_2:3",
+	coin:60000,
+	makeTime:4800
+}
+equipments["greenCrown_s2"] = {
+	name:"greenCrown_s2",
+	usedFor:"greenDragon",
+	maxStar:2,
+	category:"crown",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"runes_2:3,greenCrystal_2:3",
+	coin:60000,
+	makeTime:4800
+}
+equipments["redCrown_s3"] = {
+	name:"redCrown_s3",
+	usedFor:"redDragon",
+	maxStar:3,
+	category:"crown",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"runes_3:3,redCrystal_3:3",
+	coin:180000,
+	makeTime:9600
+}
+equipments["blueCrown_s3"] = {
+	name:"blueCrown_s3",
+	usedFor:"blueDragon",
+	maxStar:3,
+	category:"crown",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"runes_3:3,blueCrystal_3:3",
+	coin:180000,
+	makeTime:9600
+}
+equipments["greenCrown_s3"] = {
+	name:"greenCrown_s3",
+	usedFor:"greenDragon",
+	maxStar:3,
+	category:"crown",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"runes_3:3,greenCrystal_3:3",
+	coin:180000,
+	makeTime:9600
+}
+equipments["redCrown_s4"] = {
+	name:"redCrown_s4",
+	usedFor:"redDragon",
+	maxStar:4,
+	category:"crown",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"runes_4:3,redCrystal_4:3",
+	coin:540000,
+	makeTime:19200
+}
+equipments["blueCrown_s4"] = {
+	name:"blueCrown_s4",
+	usedFor:"blueDragon",
+	maxStar:4,
+	category:"crown",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"runes_4:3,blueCrystal_4:3",
+	coin:540000,
+	makeTime:19200
+}
+equipments["greenCrown_s4"] = {
+	name:"greenCrown_s4",
+	usedFor:"greenDragon",
+	maxStar:4,
+	category:"crown",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"runes_4:3,greenCrystal_4:3",
+	coin:540000,
+	makeTime:19200
+}
+equipments["redCrown_s5"] = {
+	name:"redCrown_s5",
+	usedFor:"redDragon",
+	maxStar:5,
+	category:"crown",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"runes_5:3,redCrystal_5:3",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["blueCrown_s5"] = {
+	name:"blueCrown_s5",
+	usedFor:"blueDragon",
+	maxStar:5,
+	category:"crown",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"runes_5:3,blueCrystal_5:3",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["greenCrown_s5"] = {
+	name:"greenCrown_s5",
+	usedFor:"greenDragon",
+	maxStar:5,
+	category:"crown",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"runes_5:3,greenCrystal_5:3",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["redChest_s2"] = {
+	name:"redChest_s2",
+	usedFor:"redDragon",
+	maxStar:2,
+	category:"chest",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:2,redSoul_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["blueChest_s2"] = {
+	name:"blueChest_s2",
+	usedFor:"blueDragon",
+	maxStar:2,
+	category:"chest",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:2,blueSoul_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["greenChest_s2"] = {
+	name:"greenChest_s2",
+	usedFor:"greenDragon",
+	maxStar:2,
+	category:"chest",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:2,greenSoul_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["redChest_s3"] = {
+	name:"redChest_s3",
+	usedFor:"redDragon",
+	maxStar:3,
+	category:"chest",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:2,redSoul_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["blueChest_s3"] = {
+	name:"blueChest_s3",
+	usedFor:"blueDragon",
+	maxStar:3,
+	category:"chest",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:2,blueSoul_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["greenChest_s3"] = {
+	name:"greenChest_s3",
+	usedFor:"greenDragon",
+	maxStar:3,
+	category:"chest",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:2,greenSoul_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["redChest_s4"] = {
+	name:"redChest_s4",
+	usedFor:"redDragon",
+	maxStar:4,
+	category:"chest",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:2,redSoul_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["blueChest_s4"] = {
+	name:"blueChest_s4",
+	usedFor:"blueDragon",
+	maxStar:4,
+	category:"chest",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:2,blueSoul_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["greenChest_s4"] = {
+	name:"greenChest_s4",
+	usedFor:"greenDragon",
+	maxStar:4,
+	category:"chest",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:2,greenSoul_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["redChest_s5"] = {
+	name:"redChest_s5",
+	usedFor:"redDragon",
+	maxStar:5,
+	category:"chest",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:2,redSoul_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["blueChest_s5"] = {
+	name:"blueChest_s5",
+	usedFor:"blueDragon",
+	maxStar:5,
+	category:"chest",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:2,blueSoul_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["greenChest_s5"] = {
+	name:"greenChest_s5",
+	usedFor:"greenDragon",
+	maxStar:5,
+	category:"chest",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:2,greenSoul_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["redSting_s2"] = {
+	name:"redSting_s2",
+	usedFor:"redDragon",
+	maxStar:2,
+	category:"sting",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:2,redCrystal_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["blueSting_s2"] = {
+	name:"blueSting_s2",
+	usedFor:"blueDragon",
+	maxStar:2,
+	category:"sting",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:2,blueCrystal_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["greenSting_s2"] = {
+	name:"greenSting_s2",
+	usedFor:"greenDragon",
+	maxStar:2,
+	category:"sting",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:2,greenCrystal_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["redSting_s3"] = {
+	name:"redSting_s3",
+	usedFor:"redDragon",
+	maxStar:3,
+	category:"sting",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:2,redCrystal_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["blueSting_s3"] = {
+	name:"blueSting_s3",
+	usedFor:"blueDragon",
+	maxStar:3,
+	category:"sting",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:2,blueCrystal_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["greenSting_s3"] = {
+	name:"greenSting_s3",
+	usedFor:"greenDragon",
+	maxStar:3,
+	category:"sting",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:2,greenCrystal_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["redSting_s4"] = {
+	name:"redSting_s4",
+	usedFor:"redDragon",
+	maxStar:4,
+	category:"sting",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:2,redCrystal_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["blueSting_s4"] = {
+	name:"blueSting_s4",
+	usedFor:"blueDragon",
+	maxStar:4,
+	category:"sting",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:2,blueCrystal_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["greenSting_s4"] = {
+	name:"greenSting_s4",
+	usedFor:"greenDragon",
+	maxStar:4,
+	category:"sting",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:2,greenCrystal_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["redSting_s5"] = {
+	name:"redSting_s5",
+	usedFor:"redDragon",
+	maxStar:5,
+	category:"sting",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:2,redCrystal_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["blueSting_s5"] = {
+	name:"blueSting_s5",
+	usedFor:"blueDragon",
+	maxStar:5,
+	category:"sting",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:2,blueCrystal_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["greenSting_s5"] = {
+	name:"greenSting_s5",
+	usedFor:"greenDragon",
+	maxStar:5,
+	category:"sting",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:2,greenCrystal_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["redOrd_s2"] = {
+	name:"redOrd_s2",
+	usedFor:"redDragon",
+	maxStar:2,
+	category:"orb",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"redSoul_2:2,redCrystal_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["blueOrd_s2"] = {
+	name:"blueOrd_s2",
+	usedFor:"blueDragon",
+	maxStar:2,
+	category:"orb",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"blueSoul_2:2,blueCrystal_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["greenOrd_s2"] = {
+	name:"greenOrd_s2",
+	usedFor:"greenDragon",
+	maxStar:2,
+	category:"orb",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"greenSoul_2:2,greenCrystal_2:2,runes_2:2",
+	coin:60000,
+	makeTime:4800
+}
+equipments["redOrd_s3"] = {
+	name:"redOrd_s3",
+	usedFor:"redDragon",
+	maxStar:3,
+	category:"orb",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"redSoul_3:2,redCrystal_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["blueOrd_s3"] = {
+	name:"blueOrd_s3",
+	usedFor:"blueDragon",
+	maxStar:3,
+	category:"orb",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"blueSoul_3:2,blueCrystal_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["greenOrd_s3"] = {
+	name:"greenOrd_s3",
+	usedFor:"greenDragon",
+	maxStar:3,
+	category:"orb",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"greenSoul_3:2,greenCrystal_3:2,runes_3:2",
+	coin:180000,
+	makeTime:9600
+}
+equipments["redOrd_s4"] = {
+	name:"redOrd_s4",
+	usedFor:"redDragon",
+	maxStar:4,
+	category:"orb",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"redSoul_4:2,redCrystal_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["blueOrd_s4"] = {
+	name:"blueOrd_s4",
+	usedFor:"blueDragon",
+	maxStar:4,
+	category:"orb",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"blueSoul_4:2,blueCrystal_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["greenOrd_s4"] = {
+	name:"greenOrd_s4",
+	usedFor:"greenDragon",
+	maxStar:4,
+	category:"orb",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"greenSoul_4:2,greenCrystal_4:2,runes_4:2",
+	coin:540000,
+	makeTime:19200
+}
+equipments["redOrd_s5"] = {
+	name:"redOrd_s5",
+	usedFor:"redDragon",
+	maxStar:5,
+	category:"orb",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"redSoul_5:2,redCrystal_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["blueOrd_s5"] = {
+	name:"blueOrd_s5",
+	usedFor:"blueDragon",
+	maxStar:5,
+	category:"orb",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"blueSoul_5:2,blueCrystal_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["greenOrd_s5"] = {
+	name:"greenOrd_s5",
+	usedFor:"greenDragon",
+	maxStar:5,
+	category:"orb",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"greenSoul_5:2,greenCrystal_5:2,runes_5:2",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["redArmguard_s1"] = {
+	name:"redArmguard_s1",
+	usedFor:"redDragon",
+	maxStar:1,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:100,
+	resolveMExp:75,
+	resolveSExp:50,
+	materials:"ingo_1:3,redCrystal_1:3",
+	coin:5000,
+	makeTime:2400
+}
+equipments["blueArmguard_s1"] = {
+	name:"blueArmguard_s1",
+	usedFor:"blueDragon",
+	maxStar:1,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:100,
+	resolveMExp:75,
+	resolveSExp:50,
+	materials:"ingo_1:3,blueCrystal_1:3",
+	coin:5000,
+	makeTime:2400
+}
+equipments["greenArmguard_s1"] = {
+	name:"greenArmguard_s1",
+	usedFor:"greenDragon",
+	maxStar:1,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:100,
+	resolveMExp:75,
+	resolveSExp:50,
+	materials:"ingo_1:3,greenCrystal_1:3",
+	coin:5000,
+	makeTime:2400
+}
+equipments["redArmguard_s2"] = {
+	name:"redArmguard_s2",
+	usedFor:"redDragon",
+	maxStar:2,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:3,redCrystal_2:3",
+	coin:60000,
+	makeTime:4800
+}
+equipments["blueArmguard_s2"] = {
+	name:"blueArmguard_s2",
+	usedFor:"blueDragon",
+	maxStar:2,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:3,blueCrystal_2:3",
+	coin:60000,
+	makeTime:4800
+}
+equipments["greenArmguard_s2"] = {
+	name:"greenArmguard_s2",
+	usedFor:"greenDragon",
+	maxStar:2,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:400,
+	resolveMExp:300,
+	resolveSExp:200,
+	materials:"ingo_2:3,greenCrystal_2:3",
+	coin:60000,
+	makeTime:4800
+}
+equipments["redArmguard_s3"] = {
+	name:"redArmguard_s3",
+	usedFor:"redDragon",
+	maxStar:3,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:3,redCrystal_3:3",
+	coin:180000,
+	makeTime:9600
+}
+equipments["blueArmguard_s3"] = {
+	name:"blueArmguard_s3",
+	usedFor:"blueDragon",
+	maxStar:3,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:3,blueCrystal_3:3",
+	coin:180000,
+	makeTime:9600
+}
+equipments["greenArmguard_s3"] = {
+	name:"greenArmguard_s3",
+	usedFor:"greenDragon",
+	maxStar:3,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:1600,
+	resolveMExp:1200,
+	resolveSExp:800,
+	materials:"ingo_3:3,greenCrystal_3:3",
+	coin:180000,
+	makeTime:9600
+}
+equipments["redArmguard_s4"] = {
+	name:"redArmguard_s4",
+	usedFor:"redDragon",
+	maxStar:4,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:3,redCrystal_4:3",
+	coin:540000,
+	makeTime:19200
+}
+equipments["blueArmguard_s4"] = {
+	name:"blueArmguard_s4",
+	usedFor:"blueDragon",
+	maxStar:4,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:3,blueCrystal_4:3",
+	coin:540000,
+	makeTime:19200
+}
+equipments["greenArmguard_s4"] = {
+	name:"greenArmguard_s4",
+	usedFor:"greenDragon",
+	maxStar:4,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:5600,
+	resolveMExp:4200,
+	resolveSExp:2800,
+	materials:"ingo_4:3,greenCrystal_4:3",
+	coin:540000,
+	makeTime:19200
+}
+equipments["redArmguard_s5"] = {
+	name:"redArmguard_s5",
+	usedFor:"redDragon",
+	maxStar:5,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:3,redCrystal_5:3",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["blueArmguard_s5"] = {
+	name:"blueArmguard_s5",
+	usedFor:"blueDragon",
+	maxStar:5,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:3,blueCrystal_5:3",
+	coin:1620000,
+	makeTime:38400
+}
+equipments["greenArmguard_s5"] = {
+	name:"greenArmguard_s5",
+	usedFor:"greenDragon",
+	maxStar:5,
+	category:"armguardLeft,armguardRight",
+	resolveLExp:22400,
+	resolveMExp:16800,
+	resolveSExp:11200,
+	materials:"ingo_5:3,greenCrystal_5:3",
+	coin:1620000,
+	makeTime:38400
+}
