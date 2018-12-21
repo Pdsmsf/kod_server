@@ -1,0 +1,34 @@
+[
+  {
+    "type": "gate",
+    "token": "yYqsQd3CTXEJCPmZ43AB"
+  },
+  {
+    "type": "chat",
+    "token": "kJnvIGR9hbLkhkkaAeNs"
+  },
+  {
+    "type": "logic",
+    "token": "mI1wyD2tXzZLgWqmgH0w"
+  },
+  {
+    "type": "cache",
+    "token": "dz67TZ7pydEvyKE1GH2l"
+  },
+  {
+    "type": "rank",
+    "token": "rGuzZy1KvkaU1tPIPuS5"
+  },
+  {
+    "type": "http",
+    "token": "5MJbmvUiiqYstbYRyEsH"
+  },
+  {
+    "type": "logic",
+    "token": "mI1wyD2tXzZLgWqmgH0w"
+  },
+  {
+    "type": "cache",
+    "token": "dz67TZ7pydEvyKE1GH2l"
+  }
+]

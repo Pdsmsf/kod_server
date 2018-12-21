@@ -1,0 +1,54 @@
+{
+  "gate": [
+    {
+      "id": "gate-server-1",
+      "host": "127.0.0.1",
+      "port": 3100,
+      "clientPort": 13100,
+      "frontend": true
+    }
+  ],
+  "chat": [
+    {
+      "id": "chat-server-1",
+      "host": "127.0.0.1",
+      "port": 3200
+    }
+  ],
+  "rank": [
+    {
+      "id": "rank-server-1",
+      "host": "127.0.0.1",
+      "port": 3300
+    }
+  ],
+  "http": [
+    {
+      "id": "http-server-1",
+      "host": "127.0.0.1",
+      "port": 3400
+    }
+  ],
+  "logic": [
+    {
+      "id": "logic-server-1",
+      "host": "127.0.0.1",
+      "port": 4000,
+      "clientHost": "df.dev.ios.front.batcatstudio.com",
+      "clientPort": 14000,
+      "frontend": true
+    }
+  ],
+  "cache": [
+    {
+      "id": "cache-server-1",
+      "host": "127.0.0.1",
+      "port": 5000
+    },
+    {
+      "id": "cache-server-2",
+      "host": "127.0.0.1",
+      "port": 5001
+    }
+  ]
+}

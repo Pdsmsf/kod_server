@@ -1,0 +1,19 @@
+{
+  "env": "development",
+  "mongoHost": "mongodb://modun:Zxm75504109@10.24.233.192:27017",
+  "dbName":"dragonfall-develop-android?authSource=admin",
+  "platform": "android",
+  "android": {
+    "apiKey":"AIzaSyDLIZhTJy9UIwBp78jfqIoWnb1DtmYMINw",
+    "pubkey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlLMlf6yNW9v3cGX2254c4a9tstjmzZncXFofP+Jh6s2Vz9z1ITn9WQn4mKvwZNSY+bVRVERplFApQlqLKedy33rCly2WxEhMhS6TAfvRUF1gEeLFYFM0t+LV+EkcHiva9jwhKL7dsBLJnM95Qr2/924g9BdoQRKmG5iB0cIHEzU4D5ualisp4GDJpxdHpTQWE+tkPhH8M6vQ6bKOUZAAqU3pINJq4HK9VEh45wPuIwGOXxADEl9OAvkcj2lfgU+crd029jsGIVxFEorMOgUqWPDf2X9N0bwZWP6JT/qteWsvuUQmqVsZrQ8/PeJSCxS86PuWz670xTWnDnUeTh+k0wIDAQAB"
+  },
+  "clientTagValidateUrl": "http://gate.batcatstudio.com/update/dragonfall/android/development/res/version.json",
+  "cheatEnabled": true,
+  "http": {
+    "host": "114.55.85.67",
+    "port": 3011
+  },
+  "mongoBackup": {
+    "isEnable": false
+  }
+}

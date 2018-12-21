@@ -1,0 +1,33 @@
+{
+  "env": "production",
+  "mongoHost": "mongodb://modun:Zxm75504109@10.24.138.234:27017",
+  "dbName":"dragonfall-scmobile-wp2?authSource=admin",
+  "platform": "wp",
+  "wp": {
+    "officialIapValidateCertUrl": "https://lic.apps.microsoft.com/licensing/certificateserver/?cid=$certificateId",
+    "officialIapCertificateId": "A656B9B1B3AA509EEA30222E6D5E7DBDA9822DCD",
+    "officialIapValidateCert": "local-wp-iap.pem",
+    "clientId": "ms-app://s-1-15-2-1660332833-921522504-1106393704-573897398-3715077025-4286219832-184998983",
+    "clientSecret": "WDNnecImUGbLJp0KIexNPyhmfTI7czfn",
+    "remotePushAccesstokenUrl": "https://login.live.com/accesstoken.srf",
+    "adeasygoAppId": "ea9d6d3a7d050b8b",
+    "adeasygoIapValidateUrl": "http://www.adeasygo.com/payment/sync_server",
+    "adeasygoIapStatusUpdateUrl": "http://www.adeasygo.com/payment/update_server"
+  },
+  "clientTagValidateUrl": "http://gate-scmobile.batcatstudio.com/update/dragonfall/wp/production/res/version.json",
+  "cheatEnabled": false,
+  "http": {
+    "host": "47.88.76.245",
+    "port": 3001
+  },
+  "mongoBackup": {
+    "isEnable": false,
+    "ossConfig":{
+      "accessKeyId": "pstjdNbhdm8nI2m2",
+      "secretAccessKey": "4FwgvAGWc2bsMgPNlPLv4aWZicvOqd",
+      "endpoint": "http://oss-us-west-1.aliyuncs.com",
+      "apiVersion": "2013-10-15"
+    },
+    "bucket":"dragonfall-db"
+  }
+}

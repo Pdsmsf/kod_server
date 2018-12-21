@@ -1,0 +1,19 @@
+{
+  "env": "development",
+  "mongoHost": "mongodb://127.0.0.1:27017",
+  "dbName":"dragonfall-local-ios",
+  "platform": "ios",
+  "ios": {
+    "iapValidateUrl": "https://sandbox.itunes.apple.com/verifyReceipt",
+    "apnProductionMode": true,
+    "apnPushCert": "aps_final.p12"
+  },
+  "cheatEnabled": true,
+  "http": {
+    "host": "127.0.0.1",
+    "port": 3001
+  },
+  "mongoBackup": {
+    "isEnable": false
+  }
+}

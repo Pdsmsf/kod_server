@@ -1,0 +1,18 @@
+{
+  "env": "development",
+  "mongoHost": "mongodb://127.0.0.1:27017",
+  "dbName":"dragonfall-local-android",
+  "platform": "android",
+  "android": {
+    "apiKey":"AIzaSyBgWSvfovLyEsJT1Al-vG-24reZOa6I5Jc",
+    "pubkey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkmL61X0ltsdgO+r4UgmgdmceWYMV2Fbm+JYMBJoVQfWB4NUuyMCeScddycmIrrdvO3L7K7CPAkO9lZD3dC9ePC9iFDOhN4d2A3t8hlHHq0KodN0hGUqHPvB09Y8Zon1pmcbQTJDnSvX+s9nQTiff2auf5N2mRyBae5xYv83T228udHSUyb2E6n2g6CFoUhK8rR8eryY8QUyLxX4ylaEYlHlhjmakNfrFwNRaiLHUVs+2Qc7oLlvHnQpvo9/RldAxgJ7i7QhytSytP3x4Z26qy7V66fyV2jAYLh+28Lj7otWPS95RKIZeLtdGa2HgHCDC1HEpkKea0Gh/f/Jfk/zL0QIDAQAB"
+  },
+  "cheatEnabled": true,
+  "http": {
+    "host": "127.0.0.1",
+    "port": 3001
+  },
+  "mongoBackup": {
+    "isEnable": false
+  }
+}

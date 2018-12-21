@@ -1,0 +1,21 @@
+{
+  "env": "production",
+  "mongoHost": "mongodb://modun:Zxm75504109@10.24.233.192:27017",
+  "dbName":"dragonfall-hotfix-ios?authSource=admin",
+  "platform": "ios",
+  "ios": {
+    "iapValidateUrl": "https://sandbox.itunes.apple.com/verifyReceipt",
+    "apnProductionMode": true,
+    "apnPushCert": "aps_final.p12",
+    "apnPassword":""
+  },
+  "clientTagValidateUrl": "http://gate.batcatstudio.com/update/dragonfall/ios/hotfix/res/version.json",
+  "cheatEnabled": false,
+  "http": {
+    "host": "114.55.85.67",
+    "port": 3013
+  },
+  "mongoBackup": {
+    "isEnable": false
+  }
+}

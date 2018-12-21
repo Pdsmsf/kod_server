@@ -1,0 +1,21 @@
+{
+  "env": "development",
+  "mongoHost": "mongodb://modun:Zxm75504109@10.24.233.192:27017",
+  "dbName":"dragonfall-develop-ios?authSource=admin",
+  "platform": "ios",
+  "ios": {
+    "iapValidateUrl": "https://sandbox.itunes.apple.com/verifyReceipt",
+    "apnProductionMode": false,
+    "apnPushCert": "aps_development_final.p12",
+    "apnPassword":""
+  },
+  "clientTagValidateUrl": "http://gate.batcatstudio.com/update/dragonfall/ios/development/res/version.json",
+  "cheatEnabled": true,
+  "http": {
+    "host": "114.55.85.67",
+    "port": 3010
+  },
+  "mongoBackup": {
+    "isEnable": false
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "gate",
+    "token": "YY5pu56ou6wRXalPtwit"
+  },
+  {
+    "type": "chat",
+    "token": "ZRiaMkFUKXagx12inVzf"
+  },
+  {
+    "type": "rank",
+    "token": "Hzotj9hveEi9y5Qb07sc"
+  },
+  {
+    "type": "http",
+    "token": "tq46Z2UczlYpFnlMhIl1"
+  },
+  {
+    "type": "logic",
+    "token": "J4NqYISAoC8LotydZbpo"
+  },
+  {
+    "type": "cache",
+    "token": "QYTaIwyizgyP5aFiG0V5"
+  }
+]

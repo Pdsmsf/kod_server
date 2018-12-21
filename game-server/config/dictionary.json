@@ -1,0 +1,10 @@
+[
+  "onPlayerDataChanged",
+  "onJoinAllianceSuccess",
+  "onAllianceDataChanged",
+  "onEnemyAllianceDataChanged",
+  "onAllianceFight",
+  "onChat",
+  "onAllChat",
+  "onNotice"
+]
